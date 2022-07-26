@@ -23,7 +23,7 @@ def render_chord(txt):
                 if len(j) == 1:
                     d += j[0]
                 else:
-                    c += " " * len(j[0]) + j[1]
+                    c += " " * (len(j[0])) + j[1]
                     d += j[0]
         ftxt += c
         if c != "":
@@ -41,6 +41,8 @@ def render_chord(txt):
 #reading Data
 with open("songs.json", 'r') as f:
   data = json.load(f)
-lol = [data[0]["txt"]["s1"], data[0]["txt"]["s2"]]
-for i in lol:
-    print(render_chord(i))
+#'''
+
+for i in data[0]["sceme"]:
+    print(render_chord(data[0]["txt"][i]))
+#'''

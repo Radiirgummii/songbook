@@ -2,10 +2,22 @@
     {
     "ID": 0,
     "Name": "Abends treten Elche",
+    "sceme": ["s1", "s2", "s3"],
     "txt": 
         {
         "s1": "{a}Abends treten El{d}che aus den Dü{a}nen%ziehen von der P{E}ave an den Stra{a}nd.%//: w{d}enn die N{a}acht, wie {d}eine gut {a}Mutter,%leise deckt ihr T{E}uch auf Haff und L{a}and ://",
-        "s2": "Ruhig trinken sie vom großen Wasser,%darin Sterne wie am Himmel stehn.%//: Und sie heben ihre starken Köpfe%lautlos in des Sommerwindes Weh'n"
+        "s2": "Ruhig trinken sie vom großen Wasser,%darin Sterne wie am Himmel stehn.%//: Und sie heben ihre starken Köpfe%lautlos in des Sommerwindes Weh'n://",
+        "s3": "Langsam schreiten wieder sie von dannen,%Tiere einer längst vergang'nen Zeit.%//: Und sie schwinden in der Ferne Nebel%wie ins hohen Tor der Ewigkeit. ://"
+        }
+    },
+    {
+    "ID": 1,
+    "Name": "Am Westermanns Lönstief",
+    "txt": 
+        {
+        "s1": "Am W{a}estermanns Lönstief pfeift e{g}isiger W{d}ind,%uns {e} schaukelt die S{d}ee wie die {A7}Mutter ihr {d}Kind.%{C}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,%Wir {g}fangen den {d}Hering, den {A7}Kabel{d}jau",
+        "s2": "Ruhig trinken sie vom großen Wasser,%darin Sterne wie am Himmel stehn.%//: Und sie heben ihre starken Köpfe%lautlos in des Sommerwindes Weh'n://",
+        "s3": "Langsam schreiten wieder sie von dannen,%Tiere einer längst vergang'nen Zeit.%//: Und sie schwinden in der Ferne Nebel%wie ins hohen Tor der Ewigkeit. ://"
         }
     }
 ]

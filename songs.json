@@ -2,7 +2,7 @@
     {
         "ID": 0,
         "Title": "Abends treten Elche",
-        "sceme": [
+        "scheme": [
             "s1",
             "s2",
             "s3"
@@ -16,7 +16,7 @@
     {
         "ID": 1,
         "Title": "Am Westermanns Lönstief",
-        "sceme": [
+        "scheme": [
             "s1"
         ],
         "txt": {
@@ -26,7 +26,7 @@
     {
         "ID": 2,
         "Title": "Hauch mich mal an",
-        "sceme": [
+        "scheme": [
             "s1",
             "pc1",
             "r1",

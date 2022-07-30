@@ -67,7 +67,7 @@ def add_song(song):
     pdf.ln(fontsize)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
-    for i in song["sceme"]:
+    for i in song["scheme"]:
         l += render_chord(song["txt"][i])
         if l < 350:
             pdf.ln(fontsize*0.6)

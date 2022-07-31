@@ -49,28 +49,28 @@ def render_chord(txt):
         pdf.cell(40, fontsize, chords)
         k += fontsize
         if chords != "":
-            pdf.ln(fontsize*0.45)
+            pdf.ln(fontsize*0.3)
         else:
             pdf.ln(0)
         pdf.cell(40, fontsize, txt)
         k += fontsize
-        pdf.ln(fontsize*0.45)
+        pdf.ln(fontsize*0.35)
         k += fontsize/2
     return k
 
 
-def add_song(song):
+def add_song(data,title):
 
     pdf.add_page()
     pdf.set_font("times", "b", fontsize * 1.2)
-    pdf.cell(40, fontsize, song["Title"])
-    pdf.ln(fontsize)
+    pdf.cell(40, fontsize, title)
+    pdf.ln(fontsize*0.9)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
-    for i in song["scheme"]:
-        l += render_chord(song["txt"][i])
-        if l < 350:
-            pdf.ln(fontsize*0.6)
+    for i in data[title]["scheme"]:
+        l += render_chord(data[title]["txt"][i])
+        if l < 450:
+            pdf.ln(fontsize*0.55)
         else:
             pdf.add_page()
             l = 0
@@ -89,7 +89,7 @@ def create_index(index, data):
 
 
 # init vars
-fontsize = 7
+fontsize = 9
 pdf = PDF('P', 'mm', 'A5')
 pdf.add_font(
     family="str", fname='/usr/share/fonts/TTF/DejaVuSansMono.ttf', uni=True)
@@ -99,9 +99,8 @@ pdf.set_font("Courier", "", fontsize)
 # reading Data
 with open("songs.json", 'r') as f:
     data = json.load(f)
-with open("index.json", 'r') as f:
-    index = list(json.load(f).values())
+index = data["index"]
 
 for i in index:
-    add_song(data[i])
+    add_song(data,i)
 pdf.output('songbook.pdf', 'F')

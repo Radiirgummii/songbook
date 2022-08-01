@@ -18,7 +18,7 @@ def render_chord(txt):
     b = []
     ftxt = ""
     k = 0
-    print(a)
+
     # split lines seperated by %
     for z, i in zip(a, range(len(a))):
         b.append([])
@@ -60,20 +60,31 @@ def render_chord(txt):
 
 
 def add_song(data,title):
+    #add page if song has 2 pages so you would have to scroll
+    h = fontsize * 0.9
+    for i in data[title]["scheme"]:
+        h += data[title]["txt"][i].count("%") * fontsize * 0.6
+        h += fontsize * 0.55
+    if h >= 150 and pdf.page_no() % 2 == 1:
+        pdf.add_page() 
+    
 
+    #add Title
     pdf.add_page()
     pdf.set_font("times", "b", fontsize * 1.2)
     pdf.cell(40, fontsize, title)
     pdf.ln(fontsize*0.9)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
+
+    h = fontsize * 0.9
     for i in data[title]["scheme"]:
-        l += render_chord(data[title]["txt"][i])
-        if l < 450:
-            pdf.ln(fontsize*0.55)
-        else:
+        h += data[title]["txt"][i].count("%") * fontsize * 0.6 + fontsize * 0.55
+        if h >= 140:
             pdf.add_page()
-            l = 0
+            h = data[title]["txt"][i].count("%") * fontsize * 0.6 + fontsize * 0.55
+        render_chord(data[title]["txt"][i])
+        pdf.ln(fontsize*0.55)
 
 
 def create_index(index, data):

@@ -60,6 +60,7 @@ def render_chord(txt):
 
 
 def add_song(data,title):
+    global pagenumbers
     #add page if song has 2 pages so you would have to scroll
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
@@ -76,6 +77,8 @@ def add_song(data,title):
     pdf.ln(fontsize*0.9)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
+    a = {title : pdf.page_no()}
+    pagenumbers.update(a)
 
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
@@ -87,25 +90,25 @@ def add_song(data,title):
         pdf.ln(fontsize*0.55)
 
 
-def create_index(index, data):
-    j = 0
+def create_index(index):
     pdf.add_page()
-    for i in index:
-        if j > 30:
-            pdf.add_page()
-        a = 1  # data[i]['Title']
-        pdf.cell(40, fontsize, f"{data[i]['Title']}")
-        pdf.ln(fontsize/2)
-        j += 1
+    pdf.add_page()
+    pdf.set_font("times", "b", fontsize * 1.2)
+    pdf.cell(40, fontsize, "Index")
+    pdf.ln(fontsize*0.9)
+    l = fontsize * 2
+    pdf.set_font("Courier", "", fontsize)
+    print(index)
+    for i in index.items():
+        
+        pdf.cell(40, fontsize, f"{i[0]+' ' * (40-len(i[0]))}{i[1]}")
+        pdf.ln(fontsize * 0.3)
 
 
 # init vars
 fontsize = 9
 pdf = PDF('P', 'mm', 'A5')
-pdf.add_font(
-    family="str", fname='/usr/share/fonts/TTF/DejaVuSansMono.ttf', uni=True)
-pdf.set_font("Courier", "", fontsize)
-
+pagenumbers = {}
 
 # reading Data
 with open("songs.json", 'r') as f:
@@ -114,4 +117,5 @@ index = data["index"]
 
 for i in index:
     add_song(data,i)
+create_index(pagenumbers)
 pdf.output('songbook.pdf', 'F')

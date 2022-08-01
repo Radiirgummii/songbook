@@ -62,6 +62,10 @@ def render_chord(txt):
 
 def add_song(data,title):
     global pagenumbers, pictures , picnb
+
+    if input(f'do you want to add "{title}"?: ') != "y":
+        return
+
     #add page if song has 2 pages so you would have to scroll
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
@@ -123,3 +127,4 @@ for i in index:
     add_song(data,i)
 create_index(pagenumbers)
 pdf.output('songbook.pdf', 'F')
+print('sucsessfully outputted songbook as "songbook.pdf"')

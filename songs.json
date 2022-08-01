@@ -3,7 +3,8 @@
         "Abends treten Elche",
         "Am Westermanns Lönstief",
         "Country Roads",
-        "Hauch mich mal an" 
+        "Hauch mich mal an",
+        "Luka"
     ],
     "Abends treten Elche":{
         "scheme": [
@@ -19,10 +20,15 @@
     },
     "Am Westermanns Lönstief":{
         "scheme": [
-            "s1"
+            "s1",
+            "r"
         ],
         "txt": {
-            "s1": "Am W{a}estermanns Lönstief pfeift e{g}isiger W{d}ind,%uns sch{e}aukelt die S{d}ee wie die M{A7}utter ihr K{d}ind.%{C}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,%Wir {g}fangen den {d}Hering, den {A7}Kabel{d}jau"
+            "s1": "Am W{a}estermanns Lönstief pfeift e{g}isiger W{d}ind,%uns sch{e}aukelt die S{d}ee wie die M{A7}utter ihr K{d}ind.%{C}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,%Wir {g}fangen den {d}Hering, den {A7}Kabel{d}jau",
+            "r": "//:Tschir{g}ee macht die S{d}ee. Tschir{A}a, Tschir{d}ee://%Tschirahahaha Tschiree",
+            "s2": "",
+            "s3": "",
+            "s4": ""
         }
     },
     "Country Roads":{
@@ -64,6 +70,26 @@
             "b": "Die Welt dreht sich um m{F}ich nur der Schl{E}üssel nicht im Schl{a}oss%Ich wundere mich k{F}urz, da brennt noch L{E}icht im Erdgesch{a}oss%Da ist dann schon ein Sch{F}atten und schon {E}öffnet sich die T{a}ür%Nachts halb drei in D{F}eutschland und M{E}ama steht vor m{a}ir",
             "s3": "In dieser Situati{d}on greif meine S{E}uperfähigk{a}eit%die Gute-Nacht-zu-M{d}ama-sagen-M{E}ini-Nüchternh{a}eit%Gut artikul{d}iert und ohne St{E}ottern vorgebr{a}acht%Sie fragt: Wo kommst du h{d}er? Und {E}ich sag: Gute N{a}acht.%Trotzdem riecht sie L{d}unte in ihren {E}Augen blitzt der Z{a}orn%Mir bleibt kein anderer {d}Ausweg: n{E}ur die Flucht nach f{a}orn",
             "r3": "H{a}auch m{E}ich mal {a}an%das kann doch nicht dein {F}Ernst sein das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an%Du denkst wohl das m{F}acht nix, dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
+        }
+    },
+    "Luka": {
+        "scheme":[
+            "s1",
+            "r1",
+            "s2",
+            "r2",
+            "s3",
+            "s1",
+            "r1",
+            "r2"
+        ],
+        "txt":{
+            "s1": "{G} My name is L{D}uka,{C} I live on the s{D}econd floor,%{G} I live upst{D}airs from you,{C} Yes, I think you've s{D}een me before",
+            "r1": "{E} If you hear s{D}omething late at night,%{E} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
+            "s2": "{G} I think it's 'c{D}ause I'm clumsy,{C} I try not to t{D}alk too loud,%{G} Maybe it's bec{D}ause I'm crazy,{C} I try not to {D}act too proud,",
+            "r2": "{E} They only h{D}it until you cry,%{E} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
+            "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,{C} And it's not your b{D}usiness anyway",
+            "r3": "{E} I guess I'd l{D}ike to be alone,%{E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     }
 

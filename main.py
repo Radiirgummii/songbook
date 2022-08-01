@@ -1,5 +1,6 @@
 import json as json
 from fpdf import FPDF
+import os
 # Functions
 
 
@@ -60,14 +61,16 @@ def render_chord(txt):
 
 
 def add_song(data,title):
-    global pagenumbers
+    global pagenumbers, pictures , picnb
     #add page if song has 2 pages so you would have to scroll
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
         h += data[title]["txt"][i].count("%") * fontsize * 0.6
         h += fontsize * 0.55
     if h >= 150 and pdf.page_no() % 2 == 1:
-        pdf.add_page() 
+        pdf.add_page()
+        pdf.image(f"../pictures/{pictures[picnb]}" ,10,10,128,180) 
+        picnb += 1
     
 
     #add Title
@@ -88,7 +91,7 @@ def add_song(data,title):
             h = data[title]["txt"][i].count("%") * fontsize * 0.6 + fontsize * 0.55
         render_chord(data[title]["txt"][i])
         pdf.ln(fontsize*0.55)
-
+    print(f'sucsessfully added song "{title}"')
 
 def create_index(index):
     pdf.add_page()
@@ -98,17 +101,18 @@ def create_index(index):
     pdf.ln(fontsize*0.9)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
-    print(index)
     for i in index.items():
         
         pdf.cell(40, fontsize, f"{i[0]+' ' * (40-len(i[0]))}{i[1]}")
         pdf.ln(fontsize * 0.3)
-
+    print("sucsessfully added index")
 
 # init vars
 fontsize = 9
 pdf = PDF('P', 'mm', 'A5')
 pagenumbers = {}
+pictures = os.listdir("../pictures")
+picnb = 0
 
 # reading Data
 with open("songs.json", 'r') as f:

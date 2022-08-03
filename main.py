@@ -48,16 +48,12 @@ def render_chord(txt):
                         txt += j[0]
                         l = len(j[1])
         pdf.cell(40, fontsize, chords)
-        k += fontsize
         if chords != "":
             pdf.ln(fontsize*0.3)
         else:
             pdf.ln(0)
         pdf.cell(40, fontsize, txt)
-        k += fontsize
         pdf.ln(fontsize*0.35)
-        k += fontsize/2
-    return k
 
 
 def add_song(data,title):
@@ -84,12 +80,14 @@ def add_song(data,title):
     pdf.set_font("Courier", "", fontsize)
     a = {title : pdf.page_no()}
     pagenumbers.update(a)
-    print(pdf.get_y())
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
-        h += data[title]["txt"][i].count("%") * fontsize * 0.65 + fontsize * 0.55
-        if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65)*0.35 >= 161:
+        print(i)
+        print(pdf.get_y())
+        print(pdf.get_y() +(data[title]["txt"][i].count("%") * fontsize * 0.65) + 10)
+        if pdf.get_y() +(data[title]["txt"][i].count("%") * fontsize * 0.65) + 10 >= 190:
             pdf.add_page()
+            print("pagebreak")
             h = data[title]["txt"][i].count("%") * fontsize * 0.6 + fontsize * 0.55
         render_chord(data[title]["txt"][i])
         pdf.ln(fontsize*0.55)

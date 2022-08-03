@@ -4,6 +4,7 @@
         "Am Westermanns Lönstief",
         "Country Roads",
         "Hauch mich mal an",
+        "Lemon Tree",
         "Luka"
     ],
     "Abends treten Elche":{
@@ -76,6 +77,27 @@
             "b": "Die Welt dreht sich um m{F}ich nur der Schl{E}üssel nicht im Schl{a}oss%Ich wundere mich k{F}urz, da brennt noch L{E}icht im Erdgesch{a}oss%Da ist dann schon ein Sch{F}atten und schon {E}öffnet sich die T{a}ür%Nachts halb drei in D{F}eutschland und M{E}ama steht vor m{a}ir",
             "s3": "In dieser Situati{d}on greif meine S{E}uperfähigk{a}eit%die Gute-Nacht-zu-M{d}ama-sagen-M{E}ini-Nüchternh{a}eit%Gut artikul{d}iert und ohne St{E}ottern vorgebr{a}acht%Sie fragt: Wo kommst du h{d}er? Und {E}ich sag: Gute N{a}acht.%Trotzdem riecht sie L{d}unte in ihren {E}Augen blitzt der Z{a}orn%Mir bleibt kein anderer {d}Ausweg: n{E}ur die Flucht nach f{a}orn",
             "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
+        }
+    },
+    "Lemon Tree":{
+        "scheme":[
+            "s1",
+            "s2",
+            "r",
+            "s3",
+            "b",
+            "s4",
+            "r",
+            "o"
+        ],
+        "txt":{
+            "s1":"I'm s{a}itting here in a b{e}oring room,%It's j{a}ust another rainy Sunday {e}afternoon.%I'm w{a}asting my time, I got n{e}othing to do.%I'm h{a}anging around, I'm w{e}aiting for you,%But n{d}othing ever happens {e}- and I w{a}onder.",
+            "s2":"I'm dr{a}iving around - {e}in my car,%I'm dr{a}iving too fast, I'm dr{e}iving too far.%I'd l{a}ike to change my p{e}oint of view%I f{a}eel so lonely, I'm w{e}aiting for you%But n{d}othing ever happens {e}- and I w{a}onder.",
+            "s3":"I'm s{a}itting here, I m{e}iss the power.%I'd l{a}ike to go out, t{e}ake in a shower,%But th{a}ere's a heavy cloud ins{e}ide my head.%I f{a}eel so tired, put mys{e}elf into bed,%Where n{d}othing ever happens {e}- and I w{a}onder.",
+            "s4":"I'm st{a}epping around in a d{e}esert of joy%B{a}aby anyhow I'll get an{e}other toy%And {d}everything will happen {e}- and you w{a}onder.",
+            "b":"{E} Isolation - {a}Is not good for me,%{G} Isolation - {C}I don't want to{E} sit on a lemon tree.",
+            "r":"I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%And {F}all that I can s{G}ee is just a yellow l{C}emon tree.{G7}%I'm t{C}urning my head - {G}up and down,%I'm t{a}urning turning turning turning t{e}urning around%And {F}all that I can s{G}ee is just another l{C}emon tree.{G7}",
+            "o":"I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%3x //: And {F}all that I can s{G}ee :// is just a yellow l{C}emon tree."
         }
     },
     "Luka": {

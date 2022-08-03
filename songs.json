@@ -21,14 +21,20 @@
     "Am Westermanns Lönstief":{
         "scheme": [
             "s1",
+            "r",
+            "s2",
+            "r",
+            "s3",
+            "r",
+            "s4",
             "r"
         ],
         "txt": {
             "s1": "Am W{a}estermanns Lönstief pfeift e{g}isiger W{d}ind,%uns sch{e}aukelt die S{d}ee wie die M{A7}utter ihr K{d}ind.%{C}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,%Wir {g}fangen den {d}Hering, den {A7}Kabel{d}jau",
             "r": "//:Tschir{g}ee macht die S{d}ee. Tschir{A}a, Tschir{d}ee://%Tschirahahaha Tschiree",
-            "s2": "",
-            "s3": "",
-            "s4": ""
+            "s2": "Durch T{a}age und Nächte wir k{g}urven im N{d}ord%und h{e}ieven die z{d}appelnde B{A7}eute an B{d}ord.%W{C}ir k{F}ehlen den H{C}ering und s{F}alzen ihn {C}ein.%Sind v{g}oll unsere K{d}antjes, wir f{A7}ahren H{d}eim.",
+            "s3": "Südw{a}ester, das Ölzeug und {g}Isländer W{d}ams,%was n{e}ützen die Pl{d}ünnen im Schn{A7}eeflockent{d}anz.%{C}Ein d{F}aumenbreit Schl{C}uck aus der B{F}uddel mit R{C}um,%das kr{g}empelt uns w{d}ider 'ne W{A7}eile {d}um.",
+            "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
         }
     },
     "Country Roads":{

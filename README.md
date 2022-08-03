@@ -95,9 +95,10 @@ run the script with the command "python main.py"
 - Ye Jacobites
 - Zu Hause
 ### wip:
-- am Westermanns Lönstief (@Radiirgummii)
+
 ### Done:
 - Abends treten Elche
+- Am Westermanns Lönstief
 - Country Roads
 - Hauch mich mal an
 - Luka

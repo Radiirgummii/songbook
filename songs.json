@@ -5,7 +5,8 @@
         "Country Roads",
         "Hauch mich mal an",
         "Lemon Tree",
-        "Luka"
+        "Luka",
+        "Zu Hause"
     ],
     "Abends treten Elche":{
         "scheme": [
@@ -119,6 +120,22 @@
             "r2": "{E} They only h{D}it until you cry, {E} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
             "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
             "r3": "{E} I guess I'd l{D}ike to be alone, {E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+        }
+    },
+    "Zu Hause":{
+        "scheme":[
+            "s1",
+            "r",
+            "s2",
+            "r",
+            "s3",
+            "r"
+        ],
+        "txt":{
+            "s1": "Wir t{e}anzen mit Tarnkappen%{C}und wir geh'n trinken mit{G} falschen B{D}ärten.%Bis der H{e}immel brennt, auf dem Nachh{C}auseweg,%stehlen {G}Obst us verbotenen G{D}ärten.%Mein H{e}erz ist ein Campmobil%{C}und ich will segeln geh'n {G}und jeden Tag {D}ist alles neu.%Und {e}alles ist gut, n{C}ichts macht mir Angst%und {G}ich bin dir immer noch tr{D}eu.",
+            "s2": "Daf{e}ür bleib' ich hier und daf{C}ür komm' ich wieder%und d{G}afür könnt hr mir {D}alle gestohlen sein.%{e} Ich hab verl{C}orenes Gep{G}äck,%es ist irgendwo, aber {D}immer noch mein - und",
+            "s3": "Ein R{e}undfunkmast funkt rund%und {C}ich hab' meinen Rak{G}etenrucksack {D}auf.%Ich m{e}uss wieder fort,%ich muss g{C}anz hoch hinauf.%Ich g{G}eb' mir viel Mühe%all{D}ein zufrieden zu s{e}ein und vielleicht sieht es so {C}aus.%Dann b{G}in ich am Ende zufr{D}ieden,%aber{e} eben nicht zuh{C}aus' - denn",
+            "r": "//: N{e}ur dein l{C}iebes Gesicht, macht mich zuh{G}ause auf der W{D}elt. ://"
         }
     }
 

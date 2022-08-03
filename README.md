@@ -95,7 +95,7 @@ run the script with the command "python main.py"
 - Ye Jacobites
 
 ### wip:
-- Zu Hause(@Radiirgummii)
+
 ### Done:
 - Abends treten Elche
 - Am Westermanns Lönstief
@@ -103,4 +103,5 @@ run the script with the command "python main.py"
 - Hauch mich mal an
 - Lemon Tree
 - Luka
+- Zu Hause
 

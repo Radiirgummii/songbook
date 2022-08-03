@@ -63,13 +63,13 @@
         "txt": {
             "s1": "Der Wind treibt Bl{a}ätter vor sich h{d}er und seine W{E}orte an mein {a}Ohr%und er steht schon länger h{d}ier und trägt Vorb{E}eieilenden v{a}or%Was die da oben sich erl{d}auben! Was sich {E}im Verborgenen t{a}ut%Man lässt den Steuerzahler gl{d}auben der F{E}ortschritt tut uns g{a}ut%Deutschland ist ne F{d}irma und {E}Impfen ist tab{a}u%Merkel ist kein M{d}ensch weiß er von X{E}avier Naid{a}oo",
             "pc1": "Ich stand zw{F}ischen all den anderen und l{a}auschte%Er war g{F}ut darin, Passanten anzuz{a}iehen%nach z{F}ehn Minuten Predigt eine P{a}ause%da st{E}ellte ich mich sehr dicht vor ihn hin Und sagte:",
-            "r1": "H{a}auch m{E}ich mal {a}an%das kann doch nicht dein {F}Ernst sein das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an%ich wäre wirklich überr{F}ascht hättest du nicht vom Schnaps gen{C}ascht%Ich r{G}iech es bis hierh{F}e{E}r:%Du stinkst nach Haschisch und Lik{a}ör",
+            "r1": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, ich wäre wirklich überr{F}ascht;%hättest du nicht vom Schnaps gen{C}ascht%Ich r{G}iech es bis hierh{F}e{E}r:%Du stinkst nach Haschisch und Lik{a}ör",
             "s2": "Der R{a}egen schlägt ans F{d}enster und s{E}ie mir ins Ges{a}icht%Sie saß hier wohl schon l{d}änger und sie w{E}artete auf m{a}ich%Doch ich kam ja zu sp{d}ät und sie d{E}eshalb zum Entschl{a}uss%Dass wenn ich heute g{d}eh es für {E}immer sein m{a}uss%Die Sachen schon gep{d}ackt, da v{E}orne ist die T{a}ür%bevor du sie gleich z{d}uziehst lass d{E}eine Schlüssel h{a}ier",
             "pc2": "Ich stand {F}aufgelöst im Hausflur und ich l{a}auschte%sie h{F}atte sich schon immer gut gestr{a}itten%Nach z{F}ehn Minuten Heulkrampf eine P{a}ause%da l{E}egt' ich ihr den Finger auf die Lippen Und sagte:",
-            "r2": "H{a}auch m{E}ich mal {a}an%das kann doch nicht dein {F}Ernst sein das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an%So wie du hier grade z{F}eterst Merkt man, dass du einen im T{C}ee hast {G}%Ich riech es wie noch n{F}ie:  {E}//:Du stinkst nach Gras und Mon Chér{F}i{a}i{E}i{a}i://",
+            "r2": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, So wie du hier grade z{F}eterst,%Merkt man, dass du einen im T{C}ee hast {G}%Ich riech es wie noch n{F}ie:%{E}//:Du stinkst nach Gras und Mon Chér{F}i{a}i{E}i{a}i://",
             "b": "Die Welt dreht sich um m{F}ich nur der Schl{E}üssel nicht im Schl{a}oss%Ich wundere mich k{F}urz, da brennt noch L{E}icht im Erdgesch{a}oss%Da ist dann schon ein Sch{F}atten und schon {E}öffnet sich die T{a}ür%Nachts halb drei in D{F}eutschland und M{E}ama steht vor m{a}ir",
             "s3": "In dieser Situati{d}on greif meine S{E}uperfähigk{a}eit%die Gute-Nacht-zu-M{d}ama-sagen-M{E}ini-Nüchternh{a}eit%Gut artikul{d}iert und ohne St{E}ottern vorgebr{a}acht%Sie fragt: Wo kommst du h{d}er? Und {E}ich sag: Gute N{a}acht.%Trotzdem riecht sie L{d}unte in ihren {E}Augen blitzt der Z{a}orn%Mir bleibt kein anderer {d}Ausweg: n{E}ur die Flucht nach f{a}orn",
-            "r3": "H{a}auch m{E}ich mal {a}an%das kann doch nicht dein {F}Ernst sein das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an%Du denkst wohl das m{F}acht nix, dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
+            "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
         }
     },
     "Luka": {
@@ -79,6 +79,7 @@
             "s2",
             "r2",
             "s3",
+            "r3",
             "s1",
             "r1",
             "r2"
@@ -87,9 +88,9 @@
             "s1": "{G} My name is L{D}uka,{C} I live on the s{D}econd floor,%{G} I live upst{D}airs from you,{C} Yes, I think you've s{D}een me before",
             "r1": "{E} If you hear s{D}omething late at night,%{E} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
             "s2": "{G} I think it's 'c{D}ause I'm clumsy,{C} I try not to t{D}alk too loud,%{G} Maybe it's bec{D}ause I'm crazy,{C} I try not to {D}act too proud,",
-            "r2": "{E} They only h{D}it until you cry,%{E} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
-            "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,{C} And it's not your b{D}usiness anyway",
-            "r3": "{E} I guess I'd l{D}ike to be alone,%{E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+            "r2": "{E} They only h{D}it until you cry, {E} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
+            "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
+            "r3": "{E} I guess I'd l{D}ike to be alone, {E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     }
 

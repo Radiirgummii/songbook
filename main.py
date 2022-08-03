@@ -63,15 +63,13 @@ def render_chord(txt):
 def add_song(data,title):
     global pagenumbers, pictures , picnb
 
-    if input(f'do you want to add "{title}"?: ') != "y":
-        return
 
     #add page if song has 2 pages so you would have to scroll
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
         h += data[title]["txt"][i].count("%") * fontsize * 0.6
         h += fontsize * 0.55
-    if h >= 150 and pdf.page_no() % 2 == 1:
+    if h >= 150 and pdf.page_no() % 2 == 0:
         pdf.add_page()
         pdf.image(f"../pictures/{pictures[picnb]}" ,10,10,128,180) 
         picnb += 1
@@ -86,11 +84,11 @@ def add_song(data,title):
     pdf.set_font("Courier", "", fontsize)
     a = {title : pdf.page_no()}
     pagenumbers.update(a)
-
+    print(pdf.get_y())
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
-        h += data[title]["txt"][i].count("%") * fontsize * 0.6 + fontsize * 0.55
-        if h >= 140:
+        h += data[title]["txt"][i].count("%") * fontsize * 0.65 + fontsize * 0.55
+        if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65)*0.35 >= 161:
             pdf.add_page()
             h = data[title]["txt"][i].count("%") * fontsize * 0.6 + fontsize * 0.55
         render_chord(data[title]["txt"][i])
@@ -118,13 +116,23 @@ pagenumbers = {}
 pictures = os.listdir("../pictures")
 picnb = 0
 
-# reading Data
+#reading Data
 with open("songs.json", 'r') as f:
     data = json.load(f)
 index = data["index"]
 
+#Add title page
+pdf.add_page()
+pdf.set_xy(0, 100)
+pdf.set_font("times", "", 80)
+pdf.cell(148, 10, "Liederbuch",0,0,"C")
+
+#Add songs
 for i in index:
     add_song(data,i)
+
 create_index(pagenumbers)
+
+#Output pdf
 pdf.output('songbook.pdf', 'F')
 print('sucsessfully outputted songbook as "songbook.pdf"')

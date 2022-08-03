@@ -7,3 +7,14 @@ to install fpdf use the command "pip install fpdf" or if you are on linux most p
 the package "python-fpdf"
 ## use
 run the script with the command "python main.py"
+## Songs
+### tbd:
+
+### wip:
+- am Westermanns Lönstief
+### Done:
+- Abends treten Elche
+- Country Roads
+- Hauch mich mal an
+- Luka
+

@@ -93,9 +93,9 @@ run the script with the command "python main.py"
 - Wir wählten den Sommer 
 - Wo du liegst
 - Ye Jacobites
-- Zu Hause
-### wip:
 
+### wip:
+- Zu Hause(@Radiirgummii)
 ### Done:
 - Abends treten Elche
 - Am Westermanns Lönstief

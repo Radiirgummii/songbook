@@ -95,7 +95,7 @@ run the script with the command "python main.py"
 - Ye Jacobites
 - Zu Hause
 ### wip:
-- Lemon Tree (@Radiirgummii)
+
 ### Done:
 - Abends treten Elche
 - Am Westermanns Lönstief

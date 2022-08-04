@@ -9,7 +9,7 @@ class PDF(FPDF):
         # Go to 1.5 cm from bottom
         self.set_y(-15)
         # Select Arial italic 8
-        self.set_font('Arial', 'I', fontsize)
+        self.set_font('Arial', '', fontsize)
         # Print current and total page numbers
         self.cell(130, 10, str(pdf.page_no()), 0, 0, "C")
 
@@ -28,7 +28,6 @@ def render_chord(txt):
         for j in a:
             x.append(j.split("{"))
         b[i].extend(x)
-        a = []
         for i in b:
 
             chords = ""
@@ -115,9 +114,8 @@ picnb = 0
 with open("songs.json", 'r') as f:
     data = json.load(f)
 print("please choose your index:")
-for i , name in zip(range(len(data["index"])),data["index"].keys()):
+for i, name in zip(range(len(data["index"])), data["index"].keys()):
     print(f"{i+1} : {name}")
-print(list(data["index"].keys()))
 index = data["index"][list(data["index"].keys())[int(input())-1]]
 
 # Add title page

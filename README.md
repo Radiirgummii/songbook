@@ -21,6 +21,7 @@ run the script with the command "python main.py"
 - Black is the color
 - Dämmert von fern
 - Das Leben seid ihr
+- Behind blue eyes
 - Der kleine Troll
 - Der Pfahl
 - Der Rabe
@@ -57,6 +58,7 @@ run the script with the command "python main.py"
 - Keine Zeit
 - Komm, komm, komm
 - Leise weht der Wind
+- Let it be
 - Lied, aus dem fahrenden Zug
 - Lila Tilla
 - Mädchen, Männer, Meister wert

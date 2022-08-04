@@ -1,26 +1,36 @@
 {
-    "index":[
-        "Abends treten Elche",
-        "Am Westermanns Lönstief",
-        "Country Roads",
-        "Hauch mich mal an",
-        "Lemon Tree",
-        "Luka",
-        "Zu Hause"
-    ],
-    "Abends treten Elche":{
+    "index": {
+        "Alle": [
+            "Abends treten Elche",
+            "Am Westermanns Lönstief",
+            "Country Roads",
+            "Hauch mich mal an",
+            "Lemon Tree",
+            "Luka",
+            "Zu Hause"
+        ],
+        "Pfadfinder": [
+            "Abends treten Elche",
+            "Am Westermanns Lönstief",
+            "Country Roads",
+            "Lemon Tree",
+            "Luka",
+            "Zu Hause"
+        ]
+    },
+    "Abends treten Elche": {
         "scheme": [
             "s1",
             "s2",
             "s3"
         ],
         "txt": {
-            "s1": "{G} Almost Heaven;{e} West Virginia,%{D} Blue Ridge Mountains, Sh{C}enandoah R{G}iver.%Life is old there,{e} older than the trees,%y{D}ounger than the mountains, bl{C}owin' like a br{G}eeze.",
+            "s1": "{a}Abends treten El{d}che aus den Dü{a}nen%ziehen von der P{E}ave an den Stra{a}nd.%//: w{d}enn die N{a}acht, wie {d}eine gut {a}Mutter,%leise deckt ihr T{E}uch auf Haff und L{a}and ://",
             "s2": "R{a}uhig trinken s{d}ie vom großen W{a}asser,%darin Sterne w{E}ie am Himmel st{a}ehn.%//: {d}Und sie h{a}eben {d}ihre starken K{a}öpfe%lautlos in des S{E}ommerwindes W{a}eh'n://",
             "s3": "L{a}angsam schreiten s{d}ie wieder von d{a}annen,%Tiere einer l{E}ängst vergang'nen Z{a}eit.%//: {d}Und sie schw{a}inden {d}in der Ferne N{a}ebel%wie ins hohen T{E}or der Ewigk{a}eit. ://"
         }
     },
-    "Am Westermanns Lönstief":{
+    "Am Westermanns Lönstief": {
         "scheme": [
             "s1",
             "r",
@@ -39,8 +49,8 @@
             "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
         }
     },
-    "Country Roads":{
-        "scheme":[
+    "Country Roads": {
+        "scheme": [
             "s1",
             "r",
             "s2",
@@ -48,7 +58,7 @@
             "b",
             "o"
         ],
-        "txt":{
+        "txt": {
             "s1": "{G} Almost Heaven;{e} West Virginia,%{D} Blue Ridge Mountains, Sh{C}enandoah R{G}iver.%Life is old there,{e} older than the trees,%y{D}ounger than the mountains, bl{C}owin' like a br{G}eeze.",
             "r": "Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.",
             "s2": "{G} All my memories{e} gather round her,{D}%miner's lady, str{C}anger to blue w{G}ater.%Dark and dusty, p{e}ainted on the sky,%m{D}isty taste of moonshine, T{C}eardrop in my {G}eye.",
@@ -56,7 +66,7 @@
             "o": "//:Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.://%//:take me h{D}ome, down country r{G}oads. ://"
         }
     },
-    "Hauch mich mal an":{
+    "Hauch mich mal an": {
         "scheme": [
             "s1",
             "pc1",
@@ -80,8 +90,8 @@
             "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
         }
     },
-    "Lemon Tree":{
-        "scheme":[
+    "Lemon Tree": {
+        "scheme": [
             "s1",
             "s2",
             "r",
@@ -91,18 +101,18 @@
             "r",
             "o"
         ],
-        "txt":{
-            "s1":"I'm s{a}itting here in a b{e}oring room,%It's j{a}ust another rainy Sunday {e}afternoon.%I'm w{a}asting my time, I got n{e}othing to do.%I'm h{a}anging around, I'm w{e}aiting for you,%But n{d}othing ever happens {e}- and I w{a}onder.",
-            "s2":"I'm dr{a}iving around - {e}in my car,%I'm dr{a}iving too fast, I'm dr{e}iving too far.%I'd l{a}ike to change my p{e}oint of view%I f{a}eel so lonely, I'm w{e}aiting for you%But n{d}othing ever happens {e}- and I w{a}onder.",
-            "s3":"I'm s{a}itting here, I m{e}iss the power.%I'd l{a}ike to go out, t{e}ake in a shower,%But th{a}ere's a heavy cloud ins{e}ide my head.%I f{a}eel so tired, put mys{e}elf into bed,%Where n{d}othing ever happens {e}- and I w{a}onder.",
-            "s4":"I'm st{a}epping around in a d{e}esert of joy%B{a}aby anyhow I'll get an{e}other toy%And {d}everything will happen {e}- and you w{a}onder.",
-            "b":"{E} Isolation - {a}Is not good for me,%{G} Isolation - {C}I don't want to{E} sit on a lemon tree.",
-            "r":"I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%And {F}all that I can s{G}ee is just a yellow l{C}emon tree.{G7}%I'm t{C}urning my head - {G}up and down,%I'm t{a}urning turning turning turning t{e}urning around%And {F}all that I can s{G}ee is just another l{C}emon tree.{G7}",
-            "o":"I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%3x //: And {F}all that I can s{G}ee :// is just a yellow l{C}emon tree."
+        "txt": {
+            "s1": "I'm s{a}itting here in a b{e}oring room,%It's j{a}ust another rainy Sunday {e}afternoon.%I'm w{a}asting my time, I got n{e}othing to do.%I'm h{a}anging around, I'm w{e}aiting for you,%But n{d}othing ever happens {e}- and I w{a}onder.",
+            "s2": "I'm dr{a}iving around - {e}in my car,%I'm dr{a}iving too fast, I'm dr{e}iving too far.%I'd l{a}ike to change my p{e}oint of view%I f{a}eel so lonely, I'm w{e}aiting for you%But n{d}othing ever happens {e}- and I w{a}onder.",
+            "s3": "I'm s{a}itting here, I m{e}iss the power.%I'd l{a}ike to go out, t{e}ake in a shower,%But th{a}ere's a heavy cloud ins{e}ide my head.%I f{a}eel so tired, put mys{e}elf into bed,%Where n{d}othing ever happens {e}- and I w{a}onder.",
+            "s4": "I'm st{a}epping around in a d{e}esert of joy%B{a}aby anyhow I'll get an{e}other toy%And {d}everything will happen {e}- and you w{a}onder.",
+            "b": "{E} Isolation - {a}Is not good for me,%{G} Isolation - {C}I don't want to{E} sit on a lemon tree.",
+            "r": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%And {F}all that I can s{G}ee is just a yellow l{C}emon tree.{G7}%I'm t{C}urning my head - {G}up and down,%I'm t{a}urning turning turning turning t{e}urning around%And {F}all that I can s{G}ee is just another l{C}emon tree.{G7}",
+            "o": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%3x //: And {F}all that I can s{G}ee :// is just a yellow l{C}emon tree."
         }
     },
     "Luka": {
-        "scheme":[
+        "scheme": [
             "s1",
             "r1",
             "s2",
@@ -113,7 +123,7 @@
             "r1",
             "r2"
         ],
-        "txt":{
+        "txt": {
             "s1": "{G} My name is L{D}uka,{C} I live on the s{D}econd floor,%{G} I live upst{D}airs from you,{C} Yes, I think you've s{D}een me before",
             "r1": "{E} If you hear s{D}omething late at night,%{E} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
             "s2": "{G} I think it's 'c{D}ause I'm clumsy,{C} I try not to t{D}alk too loud,%{G} Maybe it's bec{D}ause I'm crazy,{C} I try not to {D}act too proud,",
@@ -122,8 +132,8 @@
             "r3": "{E} I guess I'd l{D}ike to be alone, {E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     },
-    "Zu Hause":{
-        "scheme":[
+    "Zu Hause": {
+        "scheme": [
             "s1",
             "r",
             "s2",
@@ -131,12 +141,11 @@
             "s3",
             "r"
         ],
-        "txt":{
+        "txt": {
             "s1": "Wir t{e}anzen mit Tarnkappen%{C}und wir geh'n trinken mit{G} falschen B{D}ärten.%Bis der H{e}immel brennt, auf dem Nachh{C}auseweg,%stehlen {G}Obst us verbotenen G{D}ärten.%Mein H{e}erz ist ein Campmobil%{C}und ich will segeln geh'n {G}und jeden Tag {D}ist alles neu.%Und {e}alles ist gut, n{C}ichts macht mir Angst%und {G}ich bin dir immer noch tr{D}eu.",
             "s2": "Daf{e}ür bleib' ich hier und daf{C}ür komm' ich wieder%und d{G}afür könnt hr mir {D}alle gestohlen sein.%{e} Ich hab verl{C}orenes Gep{G}äck,%es ist irgendwo, aber {D}immer noch mein - und",
             "s3": "Ein R{e}undfunkmast funkt rund%und {C}ich hab' meinen Rak{G}etenrucksack {D}auf.%Ich m{e}uss wieder fort,%ich muss g{C}anz hoch hinauf.%Ich g{G}eb' mir viel Mühe%all{D}ein zufrieden zu s{e}ein und vielleicht sieht es so {C}aus.%Dann b{G}in ich am Ende zufr{D}ieden,%aber{e} eben nicht zuh{C}aus' - denn",
             "r": "//: N{e}ur dein l{C}iebes Gesicht, macht mich zuh{G}ause auf der W{D}elt. ://"
         }
     }
-
 }

@@ -3,6 +3,7 @@
         "Alle": [
             "Abends treten Elche",
             "Am Westermanns Lönstief",
+            "An den sechs vergangnen Tagen",
             "Coming Home",
             "Country Roads",
             "Hauch mich mal an",
@@ -10,9 +11,10 @@
             "Luka",
             "Zu Hause"
         ],
-        "Pfadfinder": [
+        "Chawrusen": [
             "Abends treten Elche",
             "Am Westermanns Lönstief",
+            "An den sechs vergangnen Tagen",
             "Country Roads",
             "Lemon Tree",
             "Luka",
@@ -48,6 +50,20 @@
             "s2": "Durch T{a}age und Nächte wir k{g}urven im N{d}ord%und h{e}ieven die z{d}appelnde B{A7}eute an B{d}ord.%W{C}ir k{F}ehlen den H{C}ering und s{F}alzen ihn {C}ein.%Sind v{g}oll unsere K{d}antjes, wir f{A7}ahren H{d}eim.",
             "s3": "Südw{a}ester, das Ölzeug und {g}Isländer W{d}ams,%was n{e}ützen die Pl{d}ünnen im Schn{A7}eeflockent{d}anz.%{C}Ein d{F}aumenbreit Schl{C}uck aus der B{F}uddel mit R{C}um,%das kr{g}empelt uns w{d}ider 'ne W{A7}eile {d}um.",
             "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
+        }
+    },
+    "An den sechs vergangnen Tagen":{
+        "scheme":[
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+        ],
+        "txt":{
+            "s1":"{a}An den s{d}echs verg{a}ang'n{E}en T{a}agen%mussten w{d}ir uns l{a}aus{E}ig pl{a}agen:%//: W{C}enig Fr{F}eude, L{G}uft und L{C}icht,%Dr{a}eck an H{d}änden {E}und Ges{a}icht. ://",
+            "s2":"H{a}eute h{d}at die W{a}elt {E}uns w{a}ieder,%Klampfensp{d}iel und h{a}und{E}ert L{a}ieder%//: w{C}andern d{F}urch die W{G}älder m{C}it,%z{a}u dem S{d}iebenm{E}eilenschr{a}itt. ://",
+            "s3":"{a}Und so g{d}eht es {a}imm{E}er m{a}unter%Berg r{d}auf und w{a}ied{E}er r{a}unter,%//: {C}alle {F}uns're M{G}üdigk{C}eit,%st{a}eckt zu H{d}aus im {E}Arbeitskl{a}eid. ://",
+            "s4":"S{a}ieben T{d}age h{a}at d{E}ie W{a}oche,%sechse s{d}ind wir r{a}umg{E}ekr{a}ochen,%//: d{C}och am s{F}iebten l{G}ebt sich's fl{C}ott.%{a}Also w{d}ill's der l{E}iebe G{a}ott. ://"
         }
     },
     "Coming Home": {

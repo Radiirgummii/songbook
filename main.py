@@ -86,7 +86,7 @@ def add_song(data, title):
                 "%") * fontsize * 0.6 + fontsize * 0.55
         render_chord(data[title]["txt"][i])
         pdf.ln(fontsize*0.55)
-    print(f'sucsessfully added song "{title}"')
+    print(f'sucsessfully added song "{title}" in page {pdf.page_no()}')
 
 
 def create_index(index):

@@ -3,6 +3,7 @@
         "Alle": [
             "Abends treten Elche",
             "Am Westermanns Lönstief",
+            "Coming Home",
             "Country Roads",
             "Hauch mich mal an",
             "Lemon Tree",
@@ -47,6 +48,25 @@
             "s2": "Durch T{a}age und Nächte wir k{g}urven im N{d}ord%und h{e}ieven die z{d}appelnde B{A7}eute an B{d}ord.%W{C}ir k{F}ehlen den H{C}ering und s{F}alzen ihn {C}ein.%Sind v{g}oll unsere K{d}antjes, wir f{A7}ahren H{d}eim.",
             "s3": "Südw{a}ester, das Ölzeug und {g}Isländer W{d}ams,%was n{e}ützen die Pl{d}ünnen im Schn{A7}eeflockent{d}anz.%{C}Ein d{F}aumenbreit Schl{C}uck aus der B{F}uddel mit R{C}um,%das kr{g}empelt uns w{d}ider 'ne W{A7}eile {d}um.",
             "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
+        }
+    },
+    "Coming Home": {
+        "scheme": [
+            "s1",
+            "pc",
+            "r",
+            "s2",
+            "pc",
+            "r",
+            "b",
+            "r"
+        ],
+        "txt": {
+            "s1": "{C} Tell me who you {e}are%Your father has fors{C}aken you%Left you with those sc{e}ars%My hope is that you'll m{C}ake it through%Hate must never w{e}in%Even when we're w{C}orlds apart%Your love is not a s{e}in%Even if it's h{F}ard",
+            "s2": "{C}  Transmission from the st{e}ars%A message from the {C}atmosphere%Etched into my h{e}eart%Your purpose there is st{C}ill unclear%The ghost of you lives {e}on%Through everything I s{C}ee and touch%Even when you're g{e}one%Even if it's h{F}ard",
+            "pc": "Even when I'm f{G}ar%I will always be there  {C}",
+            "r": "Hold {a}on my d{e}ear, I'm c{G}oming h{C}ome%Don't l{a}et your f{e}ears%T{G}ake c{C}ontrol%I can f{a}inally h{e}ear%Her m{G}essage loud and cl{C}ear%Hold {a}on my d{e}ear%I'm c{G}oming h{C}ome",
+            "b": "A fallen angel is what you {e}are%Your father has fors{C}aken you%Left you with those sc{G}ars%My hope is that you m{C}ake it through%Hate must never w{e}in%Even when we're w{C}orlds apart%Your love is not a s{G}in%Even if it's h{C}ard"
         }
     },
     "Country Roads": {

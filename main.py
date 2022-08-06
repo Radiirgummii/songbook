@@ -11,7 +11,8 @@ class PDF(FPDF):
         # Select Arial italic 8
         self.set_font('Arial', '', fontsize)
         # Print current and total page numbers
-        self.cell(130, 10, str(pdf.page_no()), 0, 0, "C")
+        if pdf.page_no() > 1:
+            self.cell(130, 10, str(pdf.page_no()-1), 0, 0, "C")
 
 
 def render_chord(txt):
@@ -75,7 +76,7 @@ def add_song(data, title):
     pdf.ln(fontsize*0.9)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
-    a = {title: pdf.page_no()}
+    a = {title: pdf.page_no()-1}
     pagenumbers.update(a)
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
@@ -89,7 +90,6 @@ def add_song(data, title):
 
 
 def create_index(index):
-    pdf.add_page()
     pdf.add_page()
     pdf.set_font("times", "b", fontsize * 1.2)
     pdf.cell(40, fontsize, "Index")

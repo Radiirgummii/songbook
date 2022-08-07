@@ -52,18 +52,33 @@
             "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
         }
     },
-    "An den sechs vergangnen Tagen":{
-        "scheme":[
+    "An den sechs vergangnen Tagen": {
+        "scheme": [
             "s1",
             "s2",
             "s3",
             "s4"
         ],
-        "txt":{
-            "s1":"{a}An den s{d}echs verg{a}ang'n{E}en T{a}agen%mussten w{d}ir uns l{a}aus{E}ig pl{a}agen:%//: W{C}enig Fr{F}eude, L{G}uft und L{C}icht,%Dr{a}eck an H{d}änden {E}und Ges{a}icht. ://",
-            "s2":"H{a}eute h{d}at die W{a}elt {E}uns w{a}ieder,%Klampfensp{d}iel und h{a}und{E}ert L{a}ieder%//: w{C}andern d{F}urch die W{G}älder m{C}it,%z{a}u dem S{d}iebenm{E}eilenschr{a}itt. ://",
-            "s3":"{a}Und so g{d}eht es {a}imm{E}er m{a}unter%Berg r{d}auf und w{a}ied{E}er r{a}unter,%//: {C}alle {F}uns're M{G}üdigk{C}eit,%st{a}eckt zu H{d}aus im {E}Arbeitskl{a}eid. ://",
-            "s4":"S{a}ieben T{d}age h{a}at d{E}ie W{a}oche,%sechse s{d}ind wir r{a}umg{E}ekr{a}ochen,%//: d{C}och am s{F}iebten l{G}ebt sich's fl{C}ott.%{a}Also w{d}ill's der l{E}iebe G{a}ott. ://"
+        "txt": {
+            "s1": "{a}An den s{d}echs verg{a}ang'n{E}en T{a}agen%mussten w{d}ir uns l{a}aus{E}ig pl{a}agen:%//: W{C}enig Fr{F}eude, L{G}uft und L{C}icht,%Dr{a}eck an H{d}änden {E}und Ges{a}icht. ://",
+            "s2": "H{a}eute h{d}at die W{a}elt {E}uns w{a}ieder,%Klampfensp{d}iel und h{a}und{E}ert L{a}ieder%//: w{C}andern d{F}urch die W{G}älder m{C}it,%z{a}u dem S{d}iebenm{E}eilenschr{a}itt. ://",
+            "s3": "{a}Und so g{d}eht es {a}imm{E}er m{a}unter%Berg r{d}auf und w{a}ied{E}er r{a}unter,%//: {C}alle {F}uns're M{G}üdigk{C}eit,%st{a}eckt zu H{d}aus im {E}Arbeitskl{a}eid. ://",
+            "s4": "S{a}ieben T{d}age h{a}at d{E}ie W{a}oche,%sechse s{d}ind wir r{a}umg{E}ekr{a}ochen,%//: d{C}och am s{F}iebten l{G}ebt sich's fl{C}ott.%{a}Also w{d}ill's der l{E}iebe G{a}ott. ://"
+        }
+    },
+    "And're, die das Land": {
+        "scheme": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s1"
+        ],
+        "txt": {
+            "s1": "And're, die das Land so sehr nicht liebten,%war'n von Anfang an gewillt zu gehn;%Ihnen - manche sind schon fort - ist besser,%ich doch müsste mit dem eigenen Messer%meine Wurzeln aus der Erde dreh'n.",
+            "s2": "Keine Nacht hab' ich seither geschlafen,%und es ist mir mehr als weh zumut;%Vile Wochen sind seither verstrichen,%alle Kraft ist längst aus mir gewichen%und ich fühl', dass ich daran verblut'",
+            "s3": "Und doch müsst' ich mich von innen heben,%sei's auch nur, zu bleiben, was ich war.%Nimmer kann ich, wo ich bin, gedeihen;%Draußen braucht' ich wahrlich nicht zu schreien,%denn mein leises Wort war immer wahr.",
+            "s4": "Seiner wär' ich, wie in alten Tagen,%sicher; schluchzend wider mich gewandt,%hätt' ich Tag und Nacht mich nur zu heißen,%mich samt meiner Wurzeln auszureißen%und zu setzen in ein and'res Land."
         }
     },
     "Coming Home": {

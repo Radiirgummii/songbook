@@ -80,11 +80,7 @@ def add_song(data, title):
     pagenumbers.update(a)
     h = fontsize * 0.9
     for i in data[title]["scheme"]:
-        print(f"r{pdf.get_y()}")
-        print(f"g{pdf.get_y() + (data[title]['txt'][i].count('%') * fontsize * 0.65) + 10}")
-        
         if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65) + 10 >= 188:
-            print(f"{i} pagebreak")
             pdf.add_page()
             h = data[title]["txt"][i].count(
                 "%") * fontsize * 0.6 + fontsize * 0.55

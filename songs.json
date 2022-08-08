@@ -5,6 +5,7 @@
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
             "And're, die das Land",
+            "Auf vielen Straßen dieser Welt",
             "Coming Home",
             "Country Roads",
             "Hauch mich mal an",
@@ -17,6 +18,7 @@
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
             "And're, die das Land",
+            "Auf vielen Straßen dieser Welt",
             "Country Roads",
             "Lemon Tree",
             "Luka",
@@ -81,6 +83,18 @@
             "s2": "K{G}eine Nacht hab' ich seither geschl{D}afen,%{e}und es ist mir m{C}ehr als weh zum{G}ut;{D}%V{e}iele Wochen s{C}ind seither verstr{G}ichen,%alle Kraft ist längst aus mir gew{D}ichen%{e}und ich fühl', dass {C}ich dar{D}an verbl{G}ut'",
             "s3": "{G}Und doch müsst' ich mich von innen h{D}eben,%s{e}ei's auch nur, zu bl{C}eiben, was ich w{G}ar.{D}%N{e}immer kann ich, w{C}o ich bin, ged{G}eihen;%Draußen braucht' ich wahrlich nicht zu schr{D}eien,%d{e}enn mein leises W{C}ort war {D}immer w{G}ahr.",
             "s4": "S{G}einer wär' ich, wie in alten T{D}agen,%s{e}icher; schluchzend w{C}ider mich gew{G}andt,{D}%h{e}ätt' ich Tag und N{C}acht mich nur zu h{G}eißen,%mich samt meiner Wurzeln auszur{D}eißen%{e}und zu setzen {C}in ein {D}and'res L{G}and."
+        }
+    },
+    "Auf vielen Straßen dieser Welt": {
+        "scheme": [
+            "s1",
+            "s2",
+            "s3"
+        ],
+        "txt": {
+            "s1": "Auf vielen Str{a}aßen dieser W{E}elt%habt ihr euch sorglos 'rumgetr{a}ieben,%//: so ohne Z{d}elt und ohne G{a}eld%der Tippel{E}ei verschr{a}ieben. ://",
+            "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
+            "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
         }
     },
     "Coming Home": {

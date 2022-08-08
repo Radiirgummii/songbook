@@ -4,6 +4,7 @@
             "Abends treten Elche",
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
+            "And're, die das Land",
             "Coming Home",
             "Country Roads",
             "Hauch mich mal an",
@@ -15,6 +16,7 @@
             "Abends treten Elche",
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
+            "And're, die das Land",
             "Country Roads",
             "Lemon Tree",
             "Luka",
@@ -75,10 +77,10 @@
             "s1"
         ],
         "txt": {
-            "s1": "And're, die das Land so sehr nicht liebten,%war'n von Anfang an gewillt zu gehn;%Ihnen - manche sind schon fort - ist besser,%ich doch müsste mit dem eigenen Messer%meine Wurzeln aus der Erde dreh'n.",
-            "s2": "Keine Nacht hab' ich seither geschlafen,%und es ist mir mehr als weh zumut;%Vile Wochen sind seither verstrichen,%alle Kraft ist längst aus mir gewichen%und ich fühl', dass ich daran verblut'",
-            "s3": "Und doch müsst' ich mich von innen heben,%sei's auch nur, zu bleiben, was ich war.%Nimmer kann ich, wo ich bin, gedeihen;%Draußen braucht' ich wahrlich nicht zu schreien,%denn mein leises Wort war immer wahr.",
-            "s4": "Seiner wär' ich, wie in alten Tagen,%sicher; schluchzend wider mich gewandt,%hätt' ich Tag und Nacht mich nur zu heißen,%mich samt meiner Wurzeln auszureißen%und zu setzen in ein and'res Land."
+            "s1": "{G}And're, die das Land so sehr nicht l{D}iebten,%{e}war'n von Anfang {C}an gewillt zu g{G}ehn;{D}%{e}Ihnen - manche {C}sind schon fort - ist b{G}esser,%ich doch müsste mit dem eigenen M{D}esser%m{e}eine Wurzeln {C}aus der {D}Erde dr{G}eh'n.",
+            "s2": "K{G}eine Nacht hab' ich seither geschl{D}afen,%{e}und es ist mir m{C}ehr als weh zum{G}ut;{D}%V{e}iele Wochen s{C}ind seither verstr{G}ichen,%alle Kraft ist längst aus mir gew{D}ichen%{e}und ich fühl', dass {C}ich dar{D}an verbl{G}ut'",
+            "s3": "{G}Und doch müsst' ich mich von innen h{D}eben,%s{e}ei's auch nur, zu bl{C}eiben, was ich w{G}ar.{D}%N{e}immer kann ich, w{C}o ich bin, ged{G}eihen;%Draußen braucht' ich wahrlich nicht zu schr{D}eien,%d{e}enn mein leises W{C}ort war {D}immer w{G}ahr.",
+            "s4": "S{G}einer wär' ich, wie in alten T{D}agen,%s{e}icher; schluchzend w{C}ider mich gew{G}andt,{D}%h{e}ätt' ich Tag und N{C}acht mich nur zu h{G}eißen,%mich samt meiner Wurzeln auszur{D}eißen%{e}und zu setzen {C}in ein {D}and'res L{G}and."
         }
     },
     "Coming Home": {

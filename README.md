@@ -12,7 +12,6 @@ run the script with the command "python main.py"
 - An den sechs vergangnen Tagen
 - An Land
 - An Rosalinde
-- Andre die das Land
 - Anne Kaffeekanne
 - Auf vielen Straßen dieser Welt
 - Avalon
@@ -99,11 +98,14 @@ run the script with the command "python main.py"
 ### wip:
 
 ### Done:
-- Abends treten Elche
-- Am Westermanns Lönstief
-- Country Roads
-- Hauch mich mal an
-- Lemon Tree
-- Luka
-- Zu Hause
+Abends treten Elche
+Am Westermanns Lönstief
+An den sechs vergangnen Tagen
+And're, die das Land
+Coming Home
+Country Roads
+Hauch mich mal an
+Lemon Tree
+Luka
+Zu Hause
 

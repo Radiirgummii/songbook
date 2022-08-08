@@ -13,6 +13,7 @@
             "Hyazinten",
             "Lemon Tree",
             "Luka",
+            "Vive la feria",
             "Zu Hause"
         ],
         "Chawrusen": [
@@ -26,6 +27,7 @@
             "Hyazinten",
             "Lemon Tree",
             "Luka",
+            "Vive la feria",
             "Zu Hause"
         ]
     },
@@ -114,7 +116,7 @@
             "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
             "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
         }
-    },
+        },
     "Coming Home": {
         "scheme": [
             "s1",
@@ -191,13 +193,13 @@
         ],
         "txt": {
             "s1": "F{a}ern hallt Musik, doch hier ist stille Nacht,%mit Schl{e}ummerduft anhauchen mich die Pflanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber du musst tanzen.",
-            "s2":"Es hört nicht {a}auf, es rast ohn' Unterlass.%Die Kerzen br{e}ennen und die Geigen schreien,%es teilen {d}und es schließen sich die Reihen,%und alle gl{E}ühen, aber du bist blass,",
-            "s3":"Und du must t{a}anzen; fremde Arme schmiegen%sich an dein H{e}erz, oh leide nicht Gewalt.%Ich seh dein w{d}eißes Kleid vorüber fliegen%und deine l{E}eichte, zärtliche Gestalt!",
-            "s4":"Und süßer str{a}ömend quillt der Duft der Nacht%und träumerisch{e}er aus dem Kelch der Pfanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber Du musst tanzen!",
-            "pc1":"aber du musst t{a}anzen, aber du musst t{F}anzen,%aber du musst t{E}anzen, aber du musst t{a}anzen",
-            "pc2":"aber du bist bl{a}ass, aber du bist bl{F}ass,%aber du bist bl{E}ass, aber du bist bl{a}ass",
-            "pc3":"und du musst t{a}anzen, und du musst t{F}anzen,%und du musst t{E}anzen, und du musst t{a}anzen",
-            "r":"//: Le-la-la-lei le-la-la-la-l{F}ei le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
+            "s2": "Es hört nicht {a}auf, es rast ohn' Unterlass.%Die Kerzen br{e}ennen und die Geigen schreien,%es teilen {d}und es schließen sich die Reihen,%und alle gl{E}ühen, aber du bist blass,",
+            "s3": "Und du must t{a}anzen; fremde Arme schmiegen%sich an dein H{e}erz, oh leide nicht Gewalt.%Ich seh dein w{d}eißes Kleid vorüber fliegen%und deine l{E}eichte, zärtliche Gestalt!",
+            "s4": "Und süßer str{a}ömend quillt der Duft der Nacht%und träumerisch{e}er aus dem Kelch der Pfanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber Du musst tanzen!",
+            "pc1": "aber du musst t{a}anzen, aber du musst t{F}anzen,%aber du musst t{E}anzen, aber du musst t{a}anzen",
+            "pc2": "aber du bist bl{a}ass, aber du bist bl{F}ass,%aber du bist bl{E}ass, aber du bist bl{a}ass",
+            "pc3": "und du musst t{a}anzen, und du musst t{F}anzen,%und du musst t{E}anzen, und du musst t{a}anzen",
+            "r": "//: Le-la-la-lei le-la-la-la-l{F}ei le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
         }
     },
     "Lemon Tree": {
@@ -240,6 +242,14 @@
             "r2": "{E} They only h{D}it until you cry, {E} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
             "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
             "r3": "{E} I guess I'd l{D}ike to be alone, {E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+        }
+    },
+    "Vive la feria": {
+        "scheme": [
+            "r"
+        ],
+        "txt": {
+            "r": "V{a}iva la feria, viva la plaza, v{F}iva la ilusi{a}on!%V{F}iva los ceros p{a}intarrajeardos d{E}e mi comarc{a}a.%//: Vi{F}ene la canci{a}on. V{F}iva la ilusi{a}on.%V{F}iva la vida {a}y los amores d{E}e mi comarc{a}a. ://%//:{GCEaEa}      ://"
         }
     },
     "Zu Hause": {

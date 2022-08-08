@@ -79,7 +79,6 @@ run the script with the command "python main.py"
 - Unter dem Pflaster
 - Unter den Toren
 - Verliebt in Du
-- Vive la feria
 - Was gehn euch meine Lumpen an
 - Weberlied
 - Welle wogte
@@ -95,6 +94,7 @@ run the script with the command "python main.py"
 
 ### wip:
 
+
 ### Done:
 - Abends treten Elche
 - Am Westermanns Lönstief
@@ -108,5 +108,6 @@ run the script with the command "python main.py"
 - Hyazinten
 - Lemon Tree
 - Luka
+- Vive la feria
 - Zu Hause
 

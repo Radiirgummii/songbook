@@ -10,6 +10,7 @@
             "Coming Home",
             "Country Roads",
             "Hauch mich mal an",
+            "Hyazinten",
             "Lemon Tree",
             "Luka",
             "Zu Hause"
@@ -22,6 +23,7 @@
             "An Land",
             "Auf vielen Straßen dieser Welt",
             "Country Roads",
+            "Hyazinten",
             "Lemon Tree",
             "Luka",
             "Zu Hause"
@@ -171,6 +173,31 @@
             "b": "Die Welt dreht sich um m{F}ich nur der Schl{E}üssel nicht im Schl{a}oss%Ich wundere mich k{F}urz, da brennt noch L{E}icht im Erdgesch{a}oss%Da ist dann schon ein Sch{F}atten und schon {E}öffnet sich die T{a}ür%Nachts halb drei in D{F}eutschland und M{E}ama steht vor m{a}ir",
             "s3": "In dieser Situati{d}on greif meine S{E}uperfähigk{a}eit%die Gute-Nacht-zu-M{d}ama-sagen-M{E}ini-Nüchternh{a}eit%Gut artikul{d}iert und ohne St{E}ottern vorgebr{a}acht%Sie fragt: Wo kommst du h{d}er? Und {E}ich sag: Gute N{a}acht.%Trotzdem riecht sie L{d}unte in ihren {E}Augen blitzt der Z{a}orn%Mir bleibt kein anderer {d}Ausweg: n{E}ur die Flucht nach f{a}orn",
             "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
+        }
+    },
+    "Hyazinten": {
+        "scheme": [
+            "s1",
+            "pc1",
+            "r",
+            "s2",
+            "pc2",
+            "s3",
+            "pc3",
+            "r",
+            "s4",
+            "pc1",
+            "r"
+        ],
+        "txt": {
+            "s1": "F{a}ern hallt Musik, doch hier ist stille Nacht,%mit Schl{e}ummerduft anhauchen mich die Pflanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber du musst tanzen.",
+            "s2":"Es hört nicht {a}auf, es rast ohn' Unterlass.%Die Kerzen br{e}ennen und die Geigen schreien,%es teilen {d}und es schließen sich die Reihen,%und alle gl{E}ühen, aber du bist blass,",
+            "s3":"Und du must t{a}anzen; fremde Arme schmiegen%sich an dein H{e}erz, oh leide nicht Gewalt.%Ich seh dein w{d}eißes Kleid vorüber fliegen%und deine l{E}eichte, zärtliche Gestalt!",
+            "s4":"Und süßer str{a}ömend quillt der Duft der Nacht%und träumerisch{e}er aus dem Kelch der Pfanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber Du musst tanzen!",
+            "pc1":"aber du musst t{a}anzen, aber du musst t{F}anzen,%aber du musst t{E}anzen, aber du musst t{a}anzen",
+            "pc2":"aber du bist bl{a}ass, aber du bist bl{F}ass,%aber du bist bl{E}ass, aber du bist bl{a}ass",
+            "pc3":"und du musst t{a}anzen, und du musst t{F}anzen,%und du musst t{E}anzen, und du musst t{a}anzen",
+            "r":"//: Le-la-la-lei le-la-la-la-l{F}ei le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
         }
     },
     "Lemon Tree": {

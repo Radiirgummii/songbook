@@ -44,7 +44,6 @@ run the script with the command "python main.py"
 - Geburtstagslied
 - Gestern Brüder
 - Heute hier, morgen dort
-- Hyazinten
 - In 1803
 - In allen Dingen schläft ein Lied 
 - In dem duklen Wald von Paganowo
@@ -106,6 +105,7 @@ run the script with the command "python main.py"
 - Coming Home
 - Country Roads
 - Hauch mich mal an
+- Hyazinten
 - Lemon Tree
 - Luka
 - Zu Hause

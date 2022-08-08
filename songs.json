@@ -5,6 +5,7 @@
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
             "And're, die das Land",
+            "An Land",
             "Auf vielen Straßen dieser Welt",
             "Coming Home",
             "Country Roads",
@@ -18,6 +19,7 @@
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
             "And're, die das Land",
+            "An Land",
             "Auf vielen Straßen dieser Welt",
             "Country Roads",
             "Lemon Tree",
@@ -83,6 +85,20 @@
             "s2": "K{G}eine Nacht hab' ich seither geschl{D}afen,%{e}und es ist mir m{C}ehr als weh zum{G}ut;{D}%V{e}iele Wochen s{C}ind seither verstr{G}ichen,%alle Kraft ist längst aus mir gew{D}ichen%{e}und ich fühl', dass {C}ich dar{D}an verbl{G}ut'",
             "s3": "{G}Und doch müsst' ich mich von innen h{D}eben,%s{e}ei's auch nur, zu bl{C}eiben, was ich w{G}ar.{D}%N{e}immer kann ich, w{C}o ich bin, ged{G}eihen;%Draußen braucht' ich wahrlich nicht zu schr{D}eien,%d{e}enn mein leises W{C}ort war {D}immer w{G}ahr.",
             "s4": "S{G}einer wär' ich, wie in alten T{D}agen,%s{e}icher; schluchzend w{C}ider mich gew{G}andt,{D}%h{e}ätt' ich Tag und N{C}acht mich nur zu h{G}eißen,%mich samt meiner Wurzeln auszur{D}eißen%{e}und zu setzen {C}in ein {D}and'res L{G}and."
+        }
+    },
+    "An Land": {
+        "scheme": [
+            "s1",
+            "s2",
+            "s3",
+            "s4"
+        ],
+        "txt": {
+            "s1": "H{C}eute wird wohl kein Sch{a}iff mehr geh'n und k{d}einer geht vor die T{G}ür.%{C}Alle sind heute versch{a}üchtert,%nur {d}ich bin es nicht und d{G}as liegt an dir.%Am F{E}ester fliegt eine K{a}uh vorbei, da kommt j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf die K{G}uh und eins auf die S{C}ee.%{adG}",
+            "s2": "Ich l{C}iebe die See und die S{a}ee liebt mich auch,%h{d}örst du, wie sie nach mir br{G}üllt?%Ich h{C}ätte sie niemals verl{a}assen soll'n,%d{d}as ist's, was sie mir kl{a}armachen%Wenn h{E}inter uns nicht der D{a}eich wär', käm' j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf den D{G}eich und eins auf die S{C}ee.%{adG}",
+            "s3": "Hi{C}er wurd' ich an L{a}and gespült, h{d}ier setz' ich mich f{G}est.%Von d{C}ir weht mich kein St{a}urm mehr fort,%Sbei d{d}ir will ich bleiben, sol{G}ang du mich lässt.%D{E}eine Hand kommt in m{a}eine und j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}uns und eins auf die S{C}ee.%{adG}",
+            "s4": "Vor'm F{C}enster da wütet der St{a}urm so wild, macht {d}einsame Herzen b{G}ang.%Hier dr{C}in' mit euch Freunden am F{a}euer,%bei Gesch{d}ichten, Wein und Ges{G}ang.%Ein L{E}eben ohne euch Fr{a}eunde, da käm j{F}ede Hilfe zu sp{C}ä{G}t.%//:{C}Ein Glas auf {G}euch und eins auf die S{C}ee.{(adG)}    ://"
         }
     },
     "Auf vielen Straßen dieser Welt": {

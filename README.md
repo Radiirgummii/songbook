@@ -95,19 +95,20 @@ run the script with the command "python main.py"
 ### wip:
 
 
-### Done:
+### testing:
+- An Land
+- Die freie Republik
+- Hyazinten
+- Luka
+- Zu Hause
+### Done
 - Abends treten Elche
 - Am Westermanns Lönstief
 - An den sechs vergangnen Tagen
-- An Land
 - And're, die das Land
 - Auf vielen Straßen dieser Welt
 - Coming Home
 - Country Roads
 - Hauch mich mal an
-- Hyazinten
 - Lemon Tree
-- Luka
 - Vive la feria
-- Zu Hause
-

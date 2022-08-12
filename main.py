@@ -1,4 +1,4 @@
-import json as json
+import json
 from fpdf import FPDF
 import os
 # Functions
@@ -60,11 +60,12 @@ def add_song(data, title):
     global pagenumbers, pictures, picnb
 
     # add page if song has 2 pages so you would have to scroll
-    h = fontsize * 0.9
+    h = 18
     for i in data[title]["scheme"]:
-        h += data[title]["txt"][i].count("%") * fontsize * 0.6
-        h += fontsize * 0.55
-    if h >= 150 and pdf.page_no() % 2 == 0:
+        h += (data[title]["txt"][i].count("%")+1)*5.75+4
+    print(f"p {h}")
+    if h > 188 and pdf.page_no() % 2 == 0:
+        print("ap")
         pdf.add_page()
         pdf.image(f"../pictures/{pictures[picnb]}", 10, 10, 128, 180)
         picnb += 1
@@ -79,13 +80,18 @@ def add_song(data, title):
     a = {title: pdf.page_no()-1}
     pagenumbers.update(a)
     h = fontsize * 0.9
+    l = 0
+    print(pdf.get_y())
     for i in data[title]["scheme"]:
         if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65) + 10 >= 188:
+            l = pdf.get_y()-10.00125
             pdf.add_page()
+            print(pdf.get_y())
             h = data[title]["txt"][i].count(
                 "%") * fontsize * 0.6 + fontsize * 0.55
         render_chord(data[title]["txt"][i])
-        pdf.ln(fontsize*0.55)
+        pdf.ln(4)
+    print(f"a {pdf.get_y()+l}")
     print(f'sucsessfully added song "{title}" on page {pdf.page_no()}')
 
 

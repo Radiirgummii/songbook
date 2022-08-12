@@ -1,6 +1,25 @@
 {
     "index": {
-        "Alle": [
+        "all": [
+            "Abends treten Elche",
+            "Am Westermanns Lönstief",
+            "An den sechs vergangnen Tagen",
+            "And're, die das Land",
+            "Auf vielen Straßen dieser Welt",
+            "Coming Home",
+            "Country Roads",
+            "Hauch mich mal an",
+            "Lemon Tree",
+            "Vive la feria"
+        ],
+        "testing": [
+            "An Land",
+            "Die freie Republik",
+            "Hyazinten",
+            "Luka",
+            "Zu Hause"
+        ],
+        "all with testing": [
             "Abends treten Elche",
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
@@ -9,6 +28,7 @@
             "Auf vielen Straßen dieser Welt",
             "Coming Home",
             "Country Roads",
+            "Die freie Republik",
             "Hauch mich mal an",
             "Hyazinten",
             "Lemon Tree",
@@ -99,10 +119,10 @@
             "s4"
         ],
         "txt": {
-            "s1": "H{C}eute wird wohl kein Sch{a}iff mehr geh'n und k{d}einer geht vor die T{G}ür.%{C}Alle sind heute versch{a}üchtert,%nur {d}ich bin es nicht und d{G}as liegt an dir.%Am F{E}ester fliegt eine K{a}uh vorbei, da kommt j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf die K{G}uh und eins auf die S{C}ee.%{adG}",
-            "s2": "Ich l{C}iebe die See und die S{a}ee liebt mich auch,%h{d}örst du, wie sie nach mir br{G}üllt?%Ich h{C}ätte sie niemals verl{a}assen soll'n,%d{d}as ist's, was sie mir kl{a}armachen%Wenn h{E}inter uns nicht der D{a}eich wär', käm' j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf den D{G}eich und eins auf die S{C}ee.%{adG}",
-            "s3": "Hi{C}er wurd' ich an L{a}and gespült, h{d}ier setz' ich mich f{G}est.%Von d{C}ir weht mich kein St{a}urm mehr fort,%Sbei d{d}ir will ich bleiben, sol{G}ang du mich lässt.%D{E}eine Hand kommt in m{a}eine und j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}uns und eins auf die S{C}ee.%{adG}",
-            "s4": "Vor'm F{C}enster da wütet der St{a}urm so wild, macht {d}einsame Herzen b{G}ang.%Hier dr{C}in' mit euch Freunden am F{a}euer,%bei Gesch{d}ichten, Wein und Ges{G}ang.%Ein L{E}eben ohne euch Fr{a}eunde, da käm j{F}ede Hilfe zu sp{C}ä{G}t.%//:{C}Ein Glas auf {G}euch und eins auf die S{C}ee.{(adG)}    ://"
+            "s1": "H{C}eute wird wohl kein Sch{a}iff mehr geh'n und k{d}einer geht vor die T{G}ür.%{C}Alle sind heute versch{a}üchtert,%nur {d}ich bin es nicht und d{G}as liegt an dir.%Am F{E}ester fliegt eine K{a}uh vorbei, da kommt j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf die K{G}uh und eins auf die S{C}ee.{adG}",
+            "s2": "Ich l{C}iebe die See und die S{a}ee liebt mich auch,%h{d}örst du, wie sie nach mir br{G}üllt?%Ich h{C}ätte sie niemals verl{a}assen soll'n,%d{d}as ist's, was sie mir kl{a}armachen%Wenn h{E}inter uns nicht der D{a}eich wär', käm' j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf den D{G}eich und eins auf die S{C}ee.{adG}",
+            "s3": "Hi{C}er wurd' ich an L{a}and gespült, h{d}ier setz' ich mich f{G}est.%Von d{C}ir weht mich kein St{a}urm mehr fort,%Sbei d{d}ir will ich bleiben, sol{G}ang du mich lässt.%D{E}eine Hand kommt in m{a}eine und j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}uns und eins auf die S{C}ee.{adG}",
+            "s4": "Vor'm F{C}enster da wütet der St{a}urm so wild, macht {d}einsame Herzen b{G}ang.%Hier dr{C}in' mit euch Freunden am F{a}euer,%bei Gesch{d}ichten, Wein und Ges{G}ang.%Ein L{E}eben ohne euch Fr{a}eunde, da käm j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}euch und eins auf die S{C}ee.{adG}%{C}Ein Glas auf {G}uns und eins auf die S{C}ee."
         }
     },
     "Auf vielen Straßen dieser Welt": {
@@ -116,7 +136,7 @@
             "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
             "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
         }
-        },
+    },
     "Coming Home": {
         "scheme": [
             "s1",
@@ -153,6 +173,22 @@
             "o": "//:Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.://%//:take me h{D}ome, down country r{G}oads. ://"
         }
     },
+    "Die freie Republik": {
+        "scheme": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ],
+        "txt": {
+            "s1": "{D}In dem Kerker saßen zu Fr{A7}ankfurt an dem M{D}ain%schon seit vielen Jaren s{A7}echs Studenten {D}ein,%die f{G}ür die Freiheit fochten und für das Bürgergl{D}ück%und für die Menschenrechte der fr{A7}eien Republ{D}ik. ",
+            "s2": "Und der Kerkermeister spr{A7}ach es täglich {D}aus:%Sie Herr Bürgermeister, es r{A7}eißt mir keiner {D}aus!%Aber d{G}och sind sie verschwunden abends aus dem T{D}urm,%um die zwölfte Stunde, b{A7}ei dem großen St{D}urm.",
+            "s3": "Und am nächsten Morgen h{A7}ört man den Al{D}arm.%Oh, es war entsetzlich, d{A7}er Soldatenschw{D}arm!%Sie s{G}uchten auf und nieder, sie suchten hin und h{D}er,%sie suchten sechs Studenten und f{A7}anden sie nicht m{D}ehr.",
+            "s4": "Doch sie kamen wider mit Schw{A7}ertern in der H{D}and.%Auf auf ihr deutschen Brüder, jetzt g{A7}eht's fürs Vaterl{D}and!%Jetzt g{G}eht's für Menschenrechte und für das Bürgergl{D}ück,%wir sind doch keine Knechte der fr{A7}eien Republ{D}ik!",
+            "s5": "Wenn euch die Leute fragen: W{A7}o ist Absal{D}om?%So dürft ihr wohl sagen: {A7}Oh, der hänget sch{D}on%Er h{G}ängt an keinem Baume, er hängt an keinem Str{D}ick,%sondern an dem Glauben der fr{A7}eien Republ{D}ik."
+        }
+    },
     "Hauch mich mal an": {
         "scheme": [
             "s1",
@@ -184,6 +220,7 @@
             "r",
             "s2",
             "pc2",
+            "r",
             "s3",
             "pc3",
             "r",
@@ -199,7 +236,7 @@
             "pc1": "aber du musst t{a}anzen, aber du musst t{F}anzen,%aber du musst t{E}anzen, aber du musst t{a}anzen",
             "pc2": "aber du bist bl{a}ass, aber du bist bl{F}ass,%aber du bist bl{E}ass, aber du bist bl{a}ass",
             "pc3": "und du musst t{a}anzen, und du musst t{F}anzen,%und du musst t{E}anzen, und du musst t{a}anzen",
-            "r": "//: Le-la-la-lei le-la-la-la-l{F}ei le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
+            "r": "//: Le-la-la-lei le-la-la-la-l{F}ei%le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
         }
     },
     "Lemon Tree": {
@@ -237,11 +274,11 @@
         ],
         "txt": {
             "s1": "{G} My name is L{D}uka,{C} I live on the s{D}econd floor,%{G} I live upst{D}airs from you,{C} Yes, I think you've s{D}een me before",
-            "r1": "{E} If you hear s{D}omething late at night,%{E} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
+            "r1": "{e} If you hear s{D}omething late at night,%{e} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
             "s2": "{G} I think it's 'c{D}ause I'm clumsy,{C} I try not to t{D}alk too loud,%{G} Maybe it's bec{D}ause I'm crazy,{C} I try not to {D}act too proud,",
-            "r2": "{E} They only h{D}it until you cry, {E} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
+            "r2": "{e} They only h{D}it until you cry, {e} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
             "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
-            "r3": "{E} I guess I'd l{D}ike to be alone, {E} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+            "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     },
     "Vive la feria": {

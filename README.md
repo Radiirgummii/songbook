@@ -86,6 +86,7 @@ run the script with the command "python main.py"
 - Wenn der Frühling kommt
 - Wenn die Bürger schlafen gehn
 - Wenn hell die goldne Sonne lacht
+- Wenn ich des morgens früh aufsteh
 - Wind in den Augen
 - Wir sin eine kleine verlorene Schar
 - Wir wählten den Sommer 

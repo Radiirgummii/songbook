@@ -1,6 +1,6 @@
 import json
 from fpdf import FPDF
-import os
+
 # Functions
 
 
@@ -18,8 +18,6 @@ class PDF(FPDF):
 def render_chord(txt):
     a = txt.split("%")
     b = []
-    ftxt = ""
-    k = 0
 
     # split lines seperated by %
     for z, i in zip(a, range(len(a))):
@@ -57,19 +55,20 @@ def render_chord(txt):
 
 
 def add_song(data, title):
-    global pagenumbers, pictures, picnb
+    global pagenumbers, img, noimg, rimg
 
     # add page if song has 2 pages so you would have to scroll
     h = 18
     for i in data[title]["scheme"]:
         h += (data[title]["txt"][i].count("%")+1)*5.75+4
-    print(f"p {h}")
     if h > 188 and pdf.page_no() % 2 == 0:
-        print("ap")
         pdf.add_page()
-        pdf.image(f"../pictures/{pictures[picnb]}", 10, 10, 128, 180)
-        picnb += 1
-
+        if rimg:
+            try:
+                pdf.image(f"./pictures/{img}.jpg", 10, 10, 128, 180)
+                img += 1
+            except:
+                noimg = True
     # add Title
     pdf.add_page()
     pdf.set_font("times", "b", fontsize * 1.2)
@@ -81,17 +80,14 @@ def add_song(data, title):
     pagenumbers.update(a)
     h = fontsize * 0.9
     l = 0
-    print(pdf.get_y())
     for i in data[title]["scheme"]:
         if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65) + 10 >= 188:
             l = pdf.get_y()-10.00125
             pdf.add_page()
-            print(pdf.get_y())
             h = data[title]["txt"][i].count(
                 "%") * fontsize * 0.6 + fontsize * 0.55
         render_chord(data[title]["txt"][i])
         pdf.ln(4)
-    print(f"a {pdf.get_y()+l}")
     print(f'sucsessfully added song "{title}" on page {pdf.page_no()}')
 
 
@@ -100,10 +96,8 @@ def create_index(index):
     pdf.set_font("times", "b", fontsize * 1.2)
     pdf.cell(40, fontsize, "Index")
     pdf.ln(fontsize*0.9)
-    l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
     for i in index.items():
-
         pdf.cell(40, fontsize, f"{i[0]+' ' * (40-len(i[0]))}{i[1]}")
         pdf.ln(fontsize * 0.3)
     print("sucsessfully added index")
@@ -113,16 +107,23 @@ def create_index(index):
 fontsize = 9
 pdf = PDF('P', 'mm', 'A5')
 pagenumbers = {}
-pictures = os.listdir("../pictures")
-picnb = 0
+img = 1
+noimg = False
 
 # reading Data
 with open("songs.json", 'r') as f:
     data = json.load(f)
+
+# Config
 print("please choose your index:")
 for i, name in zip(range(len(data["index"])), data["index"].keys()):
     print(f"{i+1} : {name}")
 index = data["index"][list(data["index"].keys())[int(input())-1]]
+
+a = input("do you want to add images?")
+if a == "y" or a == "Y" or a == "yes" or a == "Yes" or a == "true" or a == "True":
+    rimg = True
+
 
 # Add title page
 pdf.add_page()
@@ -138,4 +139,7 @@ create_index(pagenumbers)
 
 # Output pdf
 pdf.output('songbook.pdf', 'F')
+if noimg:
+    print(
+        f"you dont have enouth correctly named images in the pictures folder you need {img}.")
 print('sucsessfully outputted songbook as "songbook.pdf"')

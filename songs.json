@@ -18,6 +18,7 @@
             "Hyazinten",
             "Luka",
             "The Road",
+            "Youre Somebody Else",
             "Zu Hause"
         ],
         "all with testing": [
@@ -36,6 +37,7 @@
             "Luka",
             "The Road",
             "Vive la feria",
+            "Youre Somebody Else",
             "Zu Hause"
         ],
         "Chawrusen": [
@@ -306,6 +308,21 @@
         ],
         "txt": {
             "r": "V{a}iva la feria, viva la plaza, v{F}iva la ilusi{a}on!%V{F}iva los ceros p{a}intarrajeardos d{E}e mi comarc{a}a.%//: Vi{F}ene la canci{a}on. V{F}iva la ilusi{a}on.%V{F}iva la vida {a}y los amores d{E}e mi comarc{a}a. ://%//:{GCEaEa}      ://"
+        }
+    },
+    "Youre Somebody Else": {
+        "scheme": [
+            "s1",
+            "r",
+            "s2",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "{a}I saw the part of you%That {F}only when you're older you will s{C}ee too%You will s{G}ee too%{a}I held the better cards%But {F}every stroke of luck has got a bl{C}eed through%It's got a bl{G}eed through%{a}You held the balance of the t{F}ime%That only blindly I could r{C}ead you%But I could r{G}ead you%{a}It's like you told me{F}%Go forward slowly{C}%It's not a race to the {G}end",
+            "s2": "{a}You were the better part%Of {F}every bit of beating heart that {C}I had%Whatever {G}I had%{a}I finally sat alone%{F}Pitch black flesh and bone%Couldn't bel{C}ieve that you were gone{G}",
+            "r": "{a}Well you look like yourself{F}%But you're somebody {C}else%Only it ain't on the s{G}urface%{a}Well you talk like yourself{F}%No, I hear someone {C}else though%Now you're m{G}aking me nervous",
+            "o": "{a}I saw the part of you that {F}only when you're older%You will s{C}ee too, you will s{G}ee too"
         }
     },
     "Zu Hause": {

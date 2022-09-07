@@ -19,7 +19,6 @@ run the script with the command "python main.py"
 - Black is the color
 - Dämmert von fern
 - Das Leben seid ihr
-- Behind blue eyes
 - Der kleine Troll
 - Der Pfahl
 - Der Rabe
@@ -73,7 +72,6 @@ run the script with the command "python main.py"
 - Santiano
 - Schilf
 - Schön scheint die Sonne
-- the Road (Road 96)
 - This is a life
 - Über meiner Heimat Frühling
 - Unabhängig, frei und gleich
@@ -96,13 +94,14 @@ run the script with the command "python main.py"
 - Youre Somebody Else
 
 ### wip:
-
+- Behind blue eyes
 
 ### testing:
 - An Land
 - Die freie Republik
 - Hyazinten
 - Luka
+- the Road (Road 96)
 - Zu Hause
 ### Done
 - Abends treten Elche

@@ -17,6 +17,7 @@
             "Die freie Republik",
             "Hyazinten",
             "Luka",
+            "The Road",
             "Zu Hause"
         ],
         "all with testing": [
@@ -33,6 +34,7 @@
             "Hyazinten",
             "Lemon Tree",
             "Luka",
+            "The Road",
             "Vive la feria",
             "Zu Hause"
         ],
@@ -135,6 +137,23 @@
             "s1": "Auf vielen Str{a}aßen dieser W{E}elt%habt ihr euch sorglos 'rumgetr{a}ieben,%//: so ohne Z{d}elt und ohne G{a}eld%der Tippel{E}ei verschr{a}ieben. ://",
             "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
             "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
+        }
+    },
+    "The Road": {
+        "scheme": [
+            "s1",
+            "s2",
+            "r",
+            "s3",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "{C}I've been kept inside s{F}o long{f}%{C}I've lost sight of right and wr{F}ong{f}%{e}When you left an open d{a}oor%I couldn't h{F}elp but expl{f}ore",
+            "s2": "{C}So I took off with no pl{F}an{f}%{C}Thinking I could find a fri{F}end{f}%{e}Saying hi and shaking h{a}ands%I hope this m{F}oment never {f}ends",
+            "s3": "{C}That's what it feels like to be fr{F}ee{f}%{C}Chasing butterflies and fl{F}oating on the br{f}eeze%{e}I got no doors, I need no k{a}eys%Another w{F}orld to be s{f}een",
+            "r": "It f{C}eels so good out {F}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}",
+            "o": "It f{C}eels so good out {F}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}%The r{F}oad {f}is my h{C}ome"
         }
     },
     "Coming Home": {
@@ -302,7 +321,7 @@
             "s1": "Wir t{e}anzen mit Tarnkappen%{C}und wir geh'n trinken mit{G} falschen B{D}ärten.%Bis der H{e}immel brennt, auf dem Nachh{C}auseweg,%stehlen {G}Obst us verbotenen G{D}ärten.%Mein H{e}erz ist ein Campmobil%{C}und ich will segeln geh'n {G}und jeden Tag {D}ist alles neu.%Und {e}alles ist gut, n{C}ichts macht mir Angst%und {G}ich bin dir immer noch tr{D}eu.",
             "s2": "Daf{e}ür bleib' ich hier und daf{C}ür komm' ich wieder%und d{G}afür könnt hr mir {D}alle gestohlen sein.%{e} Ich hab verl{C}orenes Gep{G}äck,%es ist irgendwo, aber {D}immer noch mein - und",
             "s3": "Ein R{e}undfunkmast funkt rund%und {C}ich hab' meinen Rak{G}etenrucksack {D}auf.%Ich m{e}uss wieder fort,%ich muss g{C}anz hoch hinauf.%Ich g{G}eb' mir viel Mühe%all{D}ein zufrieden zu s{e}ein und vielleicht sieht es so {C}aus.%Dann b{G}in ich am Ende zufr{D}ieden,%aber{e} eben nicht zuh{C}aus' - denn",
-            "r": "//: N{e}ur dein l{C}iebes Gesicht, macht mich zuh{G}ause auf der W{D}elt. ://"
+            "r": "//: N{e}ur dein l{C}iebes Ges{G}icht, macht mich zuh{D}ause auf der W{e}elt. ://"
         }
     }
 }

@@ -17,6 +17,7 @@
             "Die freie Republik",
             "Hyazinten",
             "Luka",
+            "Let It Be",
             "The Road",
             "Youre Somebody Else",
             "Zu Hause"
@@ -34,6 +35,7 @@
             "Hauch mich mal an",
             "Hyazinten",
             "Lemon Tree",
+            "Let It Be",
             "Luka",
             "The Road",
             "Vive la feria",
@@ -279,6 +281,25 @@
             "b": "{E} Isolation - {a}Is not good for me,%{G} Isolation - {C}I don't want to{E} sit on a lemon tree.",
             "r": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%And {F}all that I can s{G}ee is just a yellow l{C}emon tree.{G7}%I'm t{C}urning my head - {G}up and down,%I'm t{a}urning turning turning turning t{e}urning around%And {F}all that I can s{G}ee is just another l{C}emon tree.{G7}",
             "o": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%3x //: And {F}all that I can s{G}ee :// is just a yellow l{C}emon tree."
+        }
+    },
+    "Let It Be": {
+        "scheme": [
+            "s1",
+            "r",
+            "s2",
+            "r",
+            "r",
+            "s3",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "When I f{C}ind myself in t{G}imes of trouble, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e%And {C}in my hour of d{G}arkness, She is st{a}anding right in fr{F}ont of me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
+            "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e%But th{C}ough they may be p{G}arted, Th{a}ere is still a ch{F}ance that they will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
+            "s3": "And wh{C}en the night is cl{G}oudy, there is st{a}ill a light that shines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
+            "r": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}",
+            "o": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e"
         }
     },
     "Luka": {

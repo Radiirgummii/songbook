@@ -14,6 +14,7 @@ run the script with the command "python main.py"
 - Anne Kaffeekanne
 - Auf vielen Straßen dieser Welt
 - Avalon
+- Behind blue eyes
 - Bella Ciao
 - Birkenring
 - Black is the color
@@ -91,10 +92,10 @@ run the script with the command "python main.py"
 - Wir wählten den Sommer 
 - Wo du liegst
 - Ye Jacobites
-- Youre Somebody Else
+
 
 ### wip:
-- Behind blue eyes
+
 
 ### testing:
 - An Land
@@ -102,6 +103,7 @@ run the script with the command "python main.py"
 - Hyazinten
 - Luka
 - the Road (Road 96)
+- Youre Somebody Else
 - Zu Hause
 ### Done
 - Abends treten Elche

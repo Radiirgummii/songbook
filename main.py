@@ -123,6 +123,8 @@ index = data["index"][list(data["index"].keys())[int(input())-1]]
 a = input("do you want to add images?")
 if a == "y" or a == "Y" or a == "yes" or a == "Yes" or a == "true" or a == "True":
     rimg = True
+else:
+    rimg = False
 
 
 # Add title page

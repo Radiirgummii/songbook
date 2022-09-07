@@ -139,6 +139,7 @@ for i in index:
 
 create_index(pagenumbers)
 
+
 # Output pdf
 pdf.output('songbook.pdf', 'F')
 if noimg:

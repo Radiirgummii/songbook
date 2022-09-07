@@ -143,23 +143,6 @@
             "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
         }
     },
-    "The Road": {
-        "scheme": [
-            "s1",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "{C}I've been kept inside s{F}o long{f}%{C}I've lost sight of right and wr{F}ong{f}%{e}When you left an open d{a}oor%I couldn't h{F}elp but expl{f}ore",
-            "s2": "{C}So I took off with no pl{F}an{f}%{C}Thinking I could find a fri{F}end{f}%{e}Saying hi and shaking h{a}ands%I hope this m{F}oment never {f}ends",
-            "s3": "{C}That's what it feels like to be fr{F}ee{f}%{C}Chasing butterflies and fl{F}oating on the br{f}eeze%{e}I got no doors, I need no k{a}eys%Another w{F}orld to be s{f}een",
-            "r": "It f{C}eels so good out {F}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}",
-            "o": "It f{C}eels so good out {F}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}%The r{F}oad {f}is my h{C}ome"
-        }
-    },
     "Coming Home": {
         "scheme": [
             "s1",
@@ -295,9 +278,9 @@
             "o"
         ],
         "txt": {
-            "s1": "When I f{C}ind myself in t{G}imes of trouble, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e%And {C}in my hour of d{G}arkness, She is st{a}anding right in fr{F}ont of me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
-            "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e%But th{C}ough they may be p{G}arted, Th{a}ere is still a ch{F}ance that they will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
-            "s3": "And wh{C}en the night is cl{G}oudy, there is st{a}ill a light that shines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
+            "s1": "When I f{C}ind myself in t{G}imes of trouble, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}%And {C}in my hour of d{G}arkness, She is st{a}anding right in fr{F}ont of me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
+            "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e {C}%But th{C}ough they may be p{G}arted, There is st{a}ill a chance that th{F}ey will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
+            "s3": "And wh{C}en the night is cl{G}oudy, there is st{a}ill a light that sh{F}ines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e {C}%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
             "r": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}",
             "o": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e"
         }
@@ -321,6 +304,23 @@
             "r2": "{e} They only h{D}it until you cry, {e} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
             "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
             "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+        }
+    },
+    "The Road": {
+        "scheme": [
+            "s1",
+            "s2",
+            "r",
+            "s3",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "{C}I've been kept inside s{F}o long{f}%{C}I've lost sight of right and wr{F}ong{f}%{e}When you left an open d{a}oor%I couldn't h{F}elp but expl{f}ore",
+            "s2": "{C}So I took off with no pl{F}an{f}%{C}Thinking I could find a fri{F}end{f}%{e}Saying hi and shaking h{a}ands%I hope this m{F}oment never {f}ends",
+            "s3": "{C}That's what it feels like to be fr{F}ee{f}%{C}Chasing butterflies and fl{F}oating on the br{f}eeze%{e}I got no doors, I need no k{a}eys%Another w{F}orld to be s{f}een",
+            "r": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}",
+            "o": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{C}ow the r{G}oad is my h{a}ome%The r{F}oad {f}is my h{C}ome"
         }
     },
     "Vive la feria": {

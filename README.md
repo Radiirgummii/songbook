@@ -8,4 +8,4 @@ the package "python-fpdf"
 ## use
 run the script with the command "python main.py"
 ## Songs
-there is a kanban board where you can see the progress: https://github.com/users/Radiirgummii/projects/1/views/1
+there is a kanban board where you can see the progress: [Songs](https://github.com/users/Radiirgummii/projects/1/views/1)

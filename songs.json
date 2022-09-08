@@ -323,6 +323,21 @@
             "o": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{C}ow the r{G}oad is my h{a}ome%The r{F}oad {f}is my h{C}ome"
         }
     },
+
+„Über meiner Heimat Frühling“:{„scheme“:[„s1“,“s2“,“s3“,“s4“],“txt“:
+
+„s1“:„{C}Über meiner H{G}eimat Frühling s{C}eh ich Schwäne n{G}ordwärts fliegen.%{a}Ach, mein Herz möcht' s{E}ich auf grauen {a}Eismeerw{E}ogen w{a}ieg{G}en.“,
+
+
+
+„s2“:“Schw{C}an, im Singsang d{G}einer Lieder, gr{C}üß' die grünen B{G}irkenhaine.%{a}Alle Rosen g{E}äb ich gerne, g{a}egen N{E}ordlands St{a}ein{G}e.“,
+
+
+„s3“:“Gr{C}üß mir Schweden, w{G}eißer Vogel, s{C}etz an meiner St{G}att die Füße%{a}an den kalten St{E}ein der Ostsee, s{a}ag ihr m{E}eine Gr{a}üß{G}e.“,
+
+
+„s4“:“Gr{C}üß das Eismeer, gr{G}üß das Nordkap, r{C}uf den Schären z{G}u, den Fjorden,%w{a}ie ein Schwan, sei m{E}eine Seele {a}auf dem W{E}eg nach N{a}orden.“}},
+
     "Vive la feria": {
         "scheme": [
             "r"

@@ -22,6 +22,7 @@
             "The Road",
             "Über meiner Heimat Frühling",
             "Youre Somebody Else",
+            "Zombie",
             "Zu Hause"
         ],
         "all with testing": [
@@ -44,6 +45,7 @@
             "Über meiner Heimat Frühling",
             "Viva la feria",
             "Youre Somebody Else",
+            "Zombie",
             "Zu Hause"
         ],
         "Ameisen-Liederbuch": [
@@ -54,7 +56,8 @@
             "Let It Be",
             "Luka",
             "The Road",
-            "Youre Somebody Else"
+            "Youre Somebody Else",
+            "Zombie"
         ]
     },
     "Abends treten Elche": {
@@ -292,15 +295,14 @@
             "r",
             "r",
             "s3",
-            "r",
             "o"
         ],
         "txt": {
             "s1": "When I f{C}ind myself in t{G}imes of trouble, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}%And {C}in my hour of d{G}arkness, She is st{a}anding right in fr{F}ont of me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
-            "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e {C}%But th{C}ough they may be p{G}arted, There is st{a}ill a chance that th{F}ey will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
-            "s3": "And wh{C}en the night is cl{G}oudy, there is st{a}ill a light that sh{F}ines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e {C}%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
+            "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e {C}%But th{C}ough they may be p{G}arted,%There is st{a}ill a chance that th{F}ey will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
+            "s3": "And wh{C}en the night is cl{G}oudy,%there is st{a}ill a light that sh{F}ines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e {C}%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
             "r": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}",
-            "o": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e"
+            "o": "//:Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {(C)}://"
         }
     },
     "Luka": {
@@ -376,6 +378,19 @@
             "s2": "{a}You were the better part%Of {F}every bit of beating heart that {C}I had%Whatever {G}I had%{a}I finally sat alone%{F}Pitch black flesh and bone%Couldn't bel{C}ieve that you were gone{G}",
             "r": "{a}Well you look like yourself{F}%But you're somebody {C}else%Only it ain't on the s{G}urface%{a}Well you talk like yourself{F}%No, I hear someone {C}else though%Now you're m{G}aking me nervous",
             "o": "{a}I saw the part of you that {F}only when you're older%You will s{C}ee too, you will s{G}ee too"
+        }
+    },
+    "Zombie": {
+        "scheme": [
+            "s1",
+            "r",
+            "s2",
+            "r"
+        ],
+        "txt": {
+            "s1": "{e}Another h{C}ead hangs lowly, ch{G}ild is slowly t{D}aken%{e}And the violence c{C}aused such silence, wh{G}o are we mist{D}aken %But you s{e}ee it's not me, it's not m{C}y family%In your h{G}ead, in your head, they are fight{D}ing %With their t{e}anks and their bombs and their b{C}ombs and their guns %in your h{G}ead, in your head, they are cry{D}ing",
+            "s2": "{e}Another m{C}other's breaking h{G}eart is taking {D}over%{e}When the violence c{C}auses silence, w{G}e must be mist{D}aken%It's the s{e}ame old theme since {C}1916%In your h{G}ead, in your head, they're still fight{D}ing%With their t{e}anks and their bombs and their b{C}ombs and their guns%In your h{G}ead, in your head, they're dy{D}ing",
+            "r": "In your h{e}ead, in your h{C}ead, zombie,{G} zombi{D}e, zombie%What's in your h{e}ead, in your h{C}ead, zombie,{G} zombie, zombi{D}e"
         }
     },
     "Zu Hause": {

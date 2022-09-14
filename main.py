@@ -59,7 +59,7 @@ def render_verse(txt, rchords=False):
         for i in txt:
             pdf.cell(0, 0, i)
             pdf.ln(fontsize*0.35)
-        pdf.ln(fontsize*0.3)
+    pdf.ln(sbv)
 
 
 def add_song(data, title):
@@ -96,11 +96,8 @@ def add_song(data, title):
                 "%") * fontsize * 0.6 + fontsize * 0.55
         elif pdf.get_y() + (len(pdf.multi_cell(0, 10, data[title]['txt'][i], 0, 'J', 0, True)) * fontsize * 0.35) > 130 and not rchords:
             pdf.add_page()
-        print(
-            f"a{pdf.get_y() + (len(pdf.multi_cell(0, 10,data[title]['txt'][i], 0, 'J', 0, True)) * fontsize * 0.35)}")
 
         render_verse(data[title]["txt"][i], rchords)
-        print(f"b{pdf.get_y()}")
     print(f'sucsessfully added song "{title}" on page {pdf.page_no()}')
 
 
@@ -122,12 +119,14 @@ form = input("wich format do you want to use? ")
 print(form)
 if form == "A6":
     pdf = PDF('P', 'mm', (105, 148))
-    pagesize = 148
-    rchords = False
+    pagesize = 148  # pageheight
+    rchords = False  # render Chords
+    sbv = fontsize*0.3  # space between verses
 else:
     pdf = PDF('P', 'mm', "A5")
-    pagesize = 210
-    rchords = True
+    pagesize = 210  # pageheight
+    rchords = True  # render Chords
+    sbv = fontsize * 0.5  # space between verses
 pagenumbers = {}
 img = 1
 noimg = False

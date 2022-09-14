@@ -10,7 +10,7 @@
             "Country Roads",
             "Hauch mich mal an",
             "Lemon Tree",
-            "Vive la feria"
+            "Viva la feria"
         ],
         "testing": [
             "An Land",
@@ -42,23 +42,19 @@
             "Luka",
             "The Road",
             "Über meiner Heimat Frühling",
-            "Vive la feria",
+            "Viva la feria",
             "Youre Somebody Else",
             "Zu Hause"
         ],
-        "Chawrusen": [
-            "Abends treten Elche",
-            "Am Westermanns Lönstief",
-            "An den sechs vergangnen Tagen",
-            "And're, die das Land",
-            "An Land",
-            "Auf vielen Straßen dieser Welt",
+        "Ameisen-Liederbuch": [
+            "Coming Home",
             "Country Roads",
-            "Hyazinten",
+            "Hauch mich mal an",
             "Lemon Tree",
+            "Let It Be",
             "Luka",
-            "Vive la feria",
-            "Zu Hause"
+            "The Road",
+            "Youre Somebody Else"
         ]
     },
     "Abends treten Elche": {
@@ -359,12 +355,12 @@
             "s4": "Gr{C}üß das Eismeer, gr{G}üß das Nordkap, r{C}uf den Schären z{G}u, den Fjorden,%w{a}ie ein Schwan, sei m{E}eine Seele {a}auf dem W{E}eg nach N{a}orden."
         }
     },
-    "Vive la feria": {
+    "Viva la feria": {
         "scheme": [
             "r"
         ],
         "txt": {
-            "r": "V{a}iva la feria, viva la plaza, v{F}iva la ilusi{a}on!%V{F}iva los ceros p{a}intarrajeardos d{E}e mi comarc{a}a.%//: Vi{F}ene la canci{a}on. V{F}iva la ilusi{a}on.%V{F}iva la vida {a}y los amores d{E}e mi comarc{a}a. ://%//:{GCEaEa}      ://"
+            "r": "V{a}iva la feria, viva la plaza, v{F}iva la ilusi{a}on!%V{F}iva los ceros p{a}intarrajeardos d{E}e mi comarc{a}a.%//: Vi{F}ene la canci{a}on. V{F}iva la ilusi{a}on.%V{F}iva la vida {a}y los amores d{E}e mi comarc{a}a. ://%{//:GCEaEa      ://}"
         }
     },
     "Youre Somebody Else": {

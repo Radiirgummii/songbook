@@ -12,14 +12,13 @@ class PDF(FPDF):
         self.set_font('Arial', '', fontsize)
         # Print current and total page numbers
         if pdf.page_no() > 1:
-            self.cell(130, 10, str(pdf.page_no()-1), 0, 0, "C")
+            self.cell(0, 10, str(pdf.page_no()-1), 0, 0, "C")
 
 
-def render_chord(txt):
+def render_verse(txt, rchords=False):
     a = txt.split("%")
     b = []
-
-    # split lines seperated by %
+    utxt = ""
     for z, i in zip(a, range(len(a))):
         b.append([])
         x = []
@@ -28,40 +27,49 @@ def render_chord(txt):
             x.append(j.split("{"))
         b[i].extend(x)
         for i in b:
-
             chords = ""
             txt = ""
             l = 0
             for j in i:
-
                 if len(j) == 1:
                     txt += j[0]
                 else:
                     if l > 0:
                         chords += " " * (len(j[0])-l) + j[1]
-                        txt += j[0]
+                        if j[0] != " ":
+                            txt += j[0]
                         l = len(j[1])
                     else:
                         chords += " " * (len(j[0])) + j[1]
                         txt += j[0]
                         l = len(j[1])
-        pdf.cell(40, fontsize, chords)
-        if chords != "":
-            pdf.ln(fontsize*0.3)
+        if rchords:
+            if chords != "":
+                pdf.cell(0, fontsize, chords)
+                pdf.ln(fontsize*0.3)
+            else:
+                pdf.ln(0)
+            pdf.cell(0, fontsize, txt)
+            pdf.ln(fontsize*0.35)
         else:
-            pdf.ln(0)
-        pdf.cell(40, fontsize, txt)
-        pdf.ln(fontsize*0.35)
+            utxt += txt + " "
+    if not rchords:
+
+        txt = pdf.multi_cell(0, fontsize*0.35, utxt, 0, "J", 0, True)
+        for i in txt:
+            pdf.cell(0, 0, i)
+            pdf.ln(fontsize*0.35)
+        pdf.ln(fontsize*0.3)
 
 
 def add_song(data, title):
-    global pagenumbers, img, noimg, rimg
+    global pagenumbers, img, noimg, rimg, form
 
     # add page if song has 2 pages so you would have to scroll
     h = 18
     for i in data[title]["scheme"]:
         h += (data[title]["txt"][i].count("%")+1)*5.75+4
-    if h > 188 and pdf.page_no() % 2 == 0:
+    if h > 188 and pdf.page_no() % 2 == 0 and form != "A6":
         pdf.add_page()
         if rimg:
             try:
@@ -72,8 +80,8 @@ def add_song(data, title):
     # add Title
     pdf.add_page()
     pdf.set_font("times", "b", fontsize * 1.2)
-    pdf.cell(40, fontsize, title)
-    pdf.ln(fontsize*0.9)
+    pdf.cell(0, fontsize, title)
+    pdf.ln(fontsize*1.5)
     l = fontsize * 2
     pdf.set_font("Courier", "", fontsize)
     a = {title: pdf.page_no()-1}
@@ -81,13 +89,18 @@ def add_song(data, title):
     h = fontsize * 0.9
     l = 0
     for i in data[title]["scheme"]:
-        if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65) + 10 >= 188:
+        if pdf.get_y() + (data[title]["txt"][i].count("%") * fontsize * 0.65) + 10 >= 188 and rchords:
             l = pdf.get_y()-10.00125
             pdf.add_page()
             h = data[title]["txt"][i].count(
                 "%") * fontsize * 0.6 + fontsize * 0.55
-        render_chord(data[title]["txt"][i])
-        pdf.ln(4)
+        elif pdf.get_y() + (len(pdf.multi_cell(0, 10, data[title]['txt'][i], 0, 'J', 0, True)) * fontsize * 0.35) > 130 and not rchords:
+            pdf.add_page()
+        print(
+            f"a{pdf.get_y() + (len(pdf.multi_cell(0, 10,data[title]['txt'][i], 0, 'J', 0, True)) * fontsize * 0.35)}")
+
+        render_verse(data[title]["txt"][i], rchords)
+        print(f"b{pdf.get_y()}")
     print(f'sucsessfully added song "{title}" on page {pdf.page_no()}')
 
 
@@ -99,13 +112,22 @@ def create_index(index):
     pdf.set_font("Courier", "", fontsize)
     for i in index.items():
         pdf.cell(40, fontsize, f"{i[0]+' ' * (40-len(i[0]))}{i[1]}")
-        pdf.ln(fontsize * 0.3)
+        pdf.ln(fontsize * 0.4)
     print("sucsessfully added index")
 
 
 # init vars
 fontsize = 9
-pdf = PDF('P', 'mm', 'A5')
+form = input("wich format do you want to use? ")
+print(form)
+if form == "A6":
+    pdf = PDF('P', 'mm', (105, 148))
+    pagesize = 148
+    rchords = False
+else:
+    pdf = PDF('P', 'mm', "A5")
+    pagesize = 210
+    rchords = True
 pagenumbers = {}
 img = 1
 noimg = False
@@ -129,9 +151,9 @@ else:
 
 # Add title page
 pdf.add_page()
-pdf.set_xy(0, 100)
-pdf.set_font("times", "", 80)
-pdf.cell(148, 10, "Liederbuch", 0, 0, "C")
+pdf.set_xy(10, pagesize*0.5)
+pdf.set_font("times", "", 60)
+pdf.cell(0, 10, "Liederbuch", 0, 0, "C")
 
 # Add songs
 for i in index:

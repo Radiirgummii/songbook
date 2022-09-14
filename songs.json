@@ -14,11 +14,13 @@
         ],
         "testing": [
             "An Land",
+            "Behind Blue Eyes",
             "Die freie Republik",
             "Ein Hotdog unten am Hafen",
             "Hyazinten",
             "Luka",
             "Let It Be",
+            "Streets of London",
             "The Road",
             "Über meiner Heimat Frühling",
             "Youre Somebody Else",
@@ -32,6 +34,7 @@
             "And're, die das Land",
             "An Land",
             "Auf vielen Straßen dieser Welt",
+            "Behind Blue Eyes",
             "Coming Home",
             "Country Roads",
             "Die freie Republik",
@@ -41,6 +44,7 @@
             "Lemon Tree",
             "Let It Be",
             "Luka",
+            "Streets of London",
             "The Road",
             "Über meiner Heimat Frühling",
             "Viva la feria",
@@ -49,12 +53,14 @@
             "Zu Hause"
         ],
         "Ameisen-Liederbuch": [
+            "Behind Blue Eyes",
             "Coming Home",
             "Country Roads",
             "Hauch mich mal an",
             "Lemon Tree",
             "Let It Be",
             "Luka",
+            "Streets of London",
             "The Road",
             "Youre Somebody Else",
             "Zombie"
@@ -144,6 +150,24 @@
             "s1": "Auf vielen Str{a}aßen dieser W{E}elt%habt ihr euch sorglos 'rumgetr{a}ieben,%//: so ohne Z{d}elt und ohne G{a}eld%der Tippel{E}ei verschr{a}ieben. ://",
             "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
             "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
+        }
+    },
+    "Behind Blue Eyes": {
+        "scheme": [
+            "s1",
+            "r",
+            "s2",
+            "r",
+            "s3",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes%N{E}o one knows what it's l{G}ike to be h{D}ated,%To be fa{C}ted, to telling {A}only lies",
+            "s2": "N{e}o one knows what it's l{G}ike to feel these f{D}eelings%Like I d{C}o, and I blame y{A}ou%N{e}o one bites back as h{G}ard on their {D}anger%None of my p{C}ain and woe, can show thr{A}ough",
+            "s3": "N{e}o one knows what its l{G}ike%To be mistr{D}eated, to be def{C}eated%Beh{A}ind blue eyes%N{e}o one knows how to s{G}ay%That they're s{D}orry and don't w{C}orry%I'm not t{A}elling lies",
+            "r": "But my dr{C}e{D}ams, they aren't as {G}empty,%As my c{C}onscience s{D}eems to b{E}e%I have h{h7}ours, only l{C}onely%My love is v{D}engeance that's never fr{A}ee",
+            "o": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes"
         }
     },
     "Coming Home": {
@@ -324,6 +348,25 @@
             "r2": "{e} They only h{D}it until you cry, {e} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
             "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
             "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+        }
+    },
+    "Streets of London": {
+        "scheme": [
+            "s1",
+            "r",
+            "s2",
+            "r",
+            "s3",
+            "r",
+            "s4",
+            "r"
+        ],
+        "txt": {
+            "s1": "H{C}ave you seen the {G}old man in the cl{a}osed-down m{e}arket%K{F}icking up the p{C}aper with his w{d}orn-out sh{G}oes?%{C}In his eyes you s{G}ee no pride, {a}and held loosely {e}at his side%{F}Yesterday's p{C}aper telling y{G7}esterday's n{C}ews",
+            "s2": "H{C}ave you seen the {G}old girl who w{a}alks the str{e}eets of London%D{F}irt in her h{C}air and her cl{d}othes in r{G}ags?%Sh{C}e's no time for t{G}alking, she j{a}ust keeps right on w{e}alking%C{F}arrying her h{C}ome in tw{G7}o carrier b{C}ags",
+            "s3": "{C}In the all-night c{G}afe at a qu{a}arter past el{e}even%S{F}ame old m{C}an sitting th{d}ere on his {G}own%L{C}ooking at the w{G}orld over the r{a}im of his t{e}ea-cup%{F}Each tea lasts an h{C}our, and he w{G7}anders home al{C}one",
+            "s4": "H{C}ave you seen the {G}old man outs{a}ide the seaman's m{e}ission?%M{F}emory fading w{C}ith the medal r{d}ibbons that he w{G}ears%{C}In our winter c{G}ity the rain cr{a}ies a little p{e}ity%For one m{F}ore forgotten h{C}ero and a w{G7}orld that doesn't c{C}are",
+            "r": "So h{F}ow can you t{e}ell me you're l{CG}ooonel{a}y%{D7}and say for you that the sun don't sh{G}ine?{G7}%L{C}et me take you b{G}y the hand%and l{a}ead you through the str{e}eets of London,%{F}I'll show you s{C}omething to m{G7}ake you change your m{C}ind"
         }
     },
     "The Road": {

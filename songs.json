@@ -18,6 +18,7 @@
             "Die freie Republik",
             "Ein Hotdog unten am Hafen",
             "Hyazinten",
+            "Küstenkind",
             "Luka",
             "Let It Be",
             "Streets of London",
@@ -41,6 +42,7 @@
             "Ein Hotdog unten am Hafen",
             "Hauch mich mal an",
             "Hyazinten",
+            "Küstenkind",
             "Lemon Tree",
             "Let It Be",
             "Luka",
@@ -60,6 +62,7 @@
             "Lemon Tree",
             "Let It Be",
             "Luka",
+            "Küstenkind",
             "Streets of London",
             "The Road",
             "Youre Somebody Else",
@@ -290,6 +293,12 @@
             "r": "//: Le-la-la-lei le-la-la-la-l{F}ei%le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
         }
     },
+    "Küstenkind":{"scheme":["s1","r","s2","r","r"],"txt":{
+        "s1":"D{C}as Wasser reicht zum Horiz{e}ont,%die Sonne glitzert schwach dar{a}auf.%Blick auf's wunderschöne M{F}eer,%Und ich weiß, ich bin Z{C}uhaus'.%Ich spür' den kalten, nassen S{e}and,%und ich spür' meine Nat{a}ur.%Stehe barfuß hier am Str{F}and,%und sehe meine Sp{G}ur."
+        ,"s2":"D{C}ie Wellen singen mir ihr L{e}ied,%mit dem Wind zur Melod{a}ie.%Und die Möwen stimmen {F}ein,%zu meiner Symphon{C}ie.%Das ist mein Moment am M{e}eer,%den ich tief in mir gen{a}ieß'.%Den ich in mir seh' und f{F}ühl',%Wenn ich die Augen schl{G}ieß'."
+        ,"r":"{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt,%wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir,%ich bin ein Küstenk{C}ind."
+        
+        }},
     "Lemon Tree": {
         "scheme": [
             "s1",

@@ -15,12 +15,15 @@
         "testing": [
             "An Land",
             "Behind Blue Eyes",
+            "Braune Pfeifen",
             "Die freie Republik",
             "Ein Hotdog unten am Hafen",
+            "Ein Lied Das Nicht Vergisst",
             "Hyazinten",
             "Küstenkind",
             "Luka",
             "Let It Be",
+            "Schlaflied",
             "Streets of London",
             "The Road",
             "Über meiner Heimat Frühling",
@@ -36,16 +39,19 @@
             "An Land",
             "Auf vielen Straßen dieser Welt",
             "Behind Blue Eyes",
+            "Braune Pfeifen",
             "Coming Home",
             "Country Roads",
             "Die freie Republik",
             "Ein Hotdog unten am Hafen",
+            "Ein Lied Das Nicht Vergisst",
             "Hauch mich mal an",
             "Hyazinten",
             "Küstenkind",
             "Lemon Tree",
             "Let It Be",
             "Luka",
+            "Schlaflied",
             "Streets of London",
             "The Road",
             "Über meiner Heimat Frühling",
@@ -56,13 +62,16 @@
         ],
         "Ameisen-Liederbuch": [
             "Behind Blue Eyes",
+            "Braune Pfeifen",
             "Coming Home",
             "Country Roads",
+            "Ein Lied Das Nicht Vergisst",
             "Hauch mich mal an",
             "Lemon Tree",
             "Let It Be",
             "Luka",
             "Küstenkind",
+            "Schlaflied",
             "Streets of London",
             "The Road",
             "Youre Somebody Else",
@@ -173,6 +182,25 @@
             "o": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes"
         }
     },
+    "Braune Pfeifen": {
+        "scheme": [
+            "s1",
+            "pc",
+            "r",
+            "s2",
+            "pc",
+            "r",
+            "b",
+            "r"
+        ],
+        "txt": {
+            "s1": "T{e}anzt zusammen, tanzt allein{c}%Im Reigen {D}oder im Du{e}ett%T{e}obt herum, macht euch fein{c}%{c}Und dreht 'ne R{D}unde beim Ball{e}ett%W{e}eg das Hirn, aus dem Kopf{c}%Holt euren b{D}esten Standard r{e}aus%B{e}ildet einen wilden Mob{c}%Und rastet {D}aus",
+            "s2": "T{e}anz aus dir raus, tanz in dich rein{c}%Von mir aus t{D}anz deinen Namen%T{e}anz auch mal aus den Reihen{c}%Und falle {D}aus dem Rahmen",
+            "b": "D{e}ie Köpfe leer, die Hosen voll%{e}Immer dieselbe Leier%{e}Ein Rückgratloses Pauken%{e}Und Trompeten rumgeeier%D{e}ie reinste H{D}ass-Kackophonie{G}%Und zwar in {A}Endlosschleife{e}%Doch wir tanzen, t{D}anzen, tanzen nie{G}%Nach {D}euren braunen Pf{e}eifen!{DcDe}",
+            "pc": "{C}Ist uns ganz egal, viel Spaß beim {D}Eskal{e}ier'n%Doch eine Sache sollten wir nie aus den Ohren verlier'n{h}%Nie aus den Ohren verl{D}ier'n",
+            "r": "Auch wenn die Schr{e}eihälse auf d{G}ieser Welt%Das Orch{D}ester dirig{a}ieren%Auch wenn sie sch{e}ief und taktlos, w{G}ie sie sind%In eure K{D}öpfe einmarsch{C}ieren%Lasst sie {A}i{m}hre f{h}alschen L{C}ieder schr{G}eien und k{D}eifen%Wir tanzen nicht nach braunen Pfeifen!{e}"
+        }
+    },
     "Coming Home": {
         "scheme": [
             "s1",
@@ -243,6 +271,27 @@
             "o": "{C}Ohne dich will ich nicht, m{G}it dir kann ich nicht s{C}ein."
         }
     },
+    "Ein Lied Das Nicht Vergisst": {
+        "scheme": [
+            "s1",
+            "pc",
+            "r",
+            "s2",
+            "pc",
+            "r",
+            "b",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "B{G}ilder, die ich in mir tr{D}age, V{e}erlier'n ihre Kraft{C}%{G}Alle Sicherheit verschw{D}indet, W{e}orauf ist noch Verlass?{C}%L{G}angsam spür' ich mich zerfl{D}ießen, {e}Unter deinem Blick{C}%S{G}elten kann man noch gen{D}ießen, Uns're {C}Inseln voller Gl{G}ück",
+            "s2": "L{G}achend seh' ich mich und w{D}einend, L{e}ebensfroh und -müd'{C}%G{G}efühle werden langsam schw{D}ächer, Die B{e}ilder werden trüb{C}%Ich sp{G}ür noch, wie du k{D}ämpfst um mich, Und n{e}och tut es weh{C}%Bew{G}ahren will ich meine R{D}ührung, W{C}enn ich dich so s{G}eh'",
+            "pc": "Und so tr{h}eib' ich auf den {e}Abgrund zu, Auf {C}einem trägen Fl{G}oß%Und ich s{h}inge dir im {e}Untergehen, Ein L{C}ied zu deinem Tr{D}ost",
+            "r": "Damit du m{C}ich nicht so verm{G}isst%Schreib' ich ein L{D}ied, das nicht verg{e}isst%Und wenn die Z{C}eit mein Leben n{G}immt, Erinner' d{D}ich, wenn es erkl{C}ingt%Damit du m{C}ich nicht so verm{G}isst%Schreib' ich ein L{H}ied, das nicht verg{e}isst%Wenn mich das d{C}unkle M{D}eer verschl{e}ingt%Erinner' d{D}ich, wenn es erkl{C}ingt, Erinner' dich{D} an m{G}ich",
+            "b": "Ich w{G}eiß, du wirst mich in dir f{D}inden, Auch w{e}enn ich mich verlier'{C}%{G}Und wohin mein Geist auch w{D}andert, Mein H{C}erz bleibt hier bei d{G}ir",
+            "o": "Er{C}inner' dich {D}an m{G}ich"
+        }
+    },
     "Hauch mich mal an": {
         "scheme": [
             "s1",
@@ -293,12 +342,20 @@
             "r": "//: Le-la-la-lei le-la-la-la-l{F}ei%le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
         }
     },
-    "Küstenkind":{"scheme":["s1","r","s2","r","r"],"txt":{
-        "s1":"D{C}as Wasser reicht zum Horiz{e}ont,%die Sonne glitzert schwach dar{a}auf.%Blick auf's wunderschöne M{F}eer,%Und ich weiß, ich bin Z{C}uhaus'.%Ich spür' den kalten, nassen S{e}and,%und ich spür' meine Nat{a}ur.%Stehe barfuß hier am Str{F}and,%und sehe meine Sp{G}ur."
-        ,"s2":"D{C}ie Wellen singen mir ihr L{e}ied,%mit dem Wind zur Melod{a}ie.%Und die Möwen stimmen {F}ein,%zu meiner Symphon{C}ie.%Das ist mein Moment am M{e}eer,%den ich tief in mir gen{a}ieß'.%Den ich in mir seh' und f{F}ühl',%Wenn ich die Augen schl{G}ieß'."
-        ,"r":"{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt,%wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir,%ich bin ein Küstenk{C}ind."
-        
-        }},
+    "Küstenkind": {
+        "scheme": [
+            "s1",
+            "r",
+            "s2",
+            "r",
+            "r"
+        ],
+        "txt": {
+            "s1": "D{C}as Wasser reicht zum Horiz{e}ont,%die Sonne glitzert schwach dar{a}auf.%Blick auf's wunderschöne M{F}eer,%Und ich weiß, ich bin Z{C}uhaus'.%Ich spür' den kalten, nassen S{e}and,%und ich spür' meine Nat{a}ur.%Stehe barfuß hier am Str{F}and,%und sehe meine Sp{G}ur.",
+            "s2": "D{C}ie Wellen singen mir ihr L{e}ied,%mit dem Wind zur Melod{a}ie.%Und die Möwen stimmen {F}ein,%zu meiner Symphon{C}ie.%Das ist mein Moment am M{e}eer,%den ich tief in mir gen{a}ieß'.%Den ich in mir seh' und f{F}ühl',%Wenn ich die Augen schl{G}ieß'.",
+            "r": "{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt,%wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir,%ich bin ein Küstenk{C}ind."
+        }
+    },
     "Lemon Tree": {
         "scheme": [
             "s1",
@@ -357,6 +414,22 @@
             "r2": "{e} They only h{D}it until you cry, {e} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
             "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
             "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
+        }
+    },
+    "Schlaflied": {
+        "scheme": [
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5"
+        ],
+        "txt": {
+            "s1": "Schl{C}af mein K{e}indchen, schl{a}afe {e}ein%Die N{a}acht, die sch{e}aut zum F{G}enster rein%Der r{C}unde M{e}ond der h{a}at dich g{e}erne%{a}Und es l{e}euchten d{G}ir die Sterne%schl{C}af mein kl{e}eines, tr{a}äume s{e}üss%b{a}ald bist d{e}u im P{G}aradies",
+            "s2": "D{C}enn gleich {e}öffnet s{a}ich die T{e}ür%{a}und ein M{e}onster k{G}ommt zu dir%mit s{C}einen elf {e}Augen sch{a}aut es dich {e}an%und schl{a}eicht sich {e}an dein B{G}ettchen ran%du l{C}iegst still d{e}a, bew{a}egst dich n{e}icht%das M{a}onster zerkr{e}atzt dir d{G}ein Gesicht",
+            "s3": "S{C}eine F{e}inger sind l{a}ang und d{e}ünn%w{a}ehr dich n{e}icht, 's hat k{G}einen Sinn%{C}und es k{e}ichert w{a}ie verr{e}ückt%{a}als es d{e}einen H{G}als zudrückt%du schr{C}eist, doch d{e}u bist all{a}ein zu H{e}aus%das M{a}onster st{e}icht dir die {G}Augen aus",
+            "s4": "D{C}ann bist du st{e}ill, und d{a}as ist g{e}ut%es b{a}eisst dir in d{e}en Hals und tr{G}inkt dein Blut%{C}ohne Blut b{e}ist du bl{a}eich wie Kr{e}eide%d{a}ann frisst es d{e}eine {G}Eingeweide%d{C}ein kleines B{e}ettchen vom Bl{a}ut ganz r{e}ot%die S{a}onne geht {e}auf und d{G}u bist tot...",
+            "s5": "Schl{C}af mein K{e}indchen, schl{a}af jetzt {e}ein%am H{a}immel st{e}ehn d{G}ie Sternelein%Schl{C}af mein K{e}indchen, schl{a}afe schn{e}ell%Dein B{a}ettchen {e}ist ein K{G}arussell%Schl{C}af mein K{e}indchen, schl{a}af jetzt {e}ein%Sonst k{a}ann das M{e}onster n{G}icht hinein!"
         }
     },
     "Streets of London": {

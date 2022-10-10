@@ -50,7 +50,7 @@ def render_verse(txt, rchords=False):
             else:
                 pdf.ln(0)
             pdf.cell(0, fontsize, txt)
-            pdf.ln(fontsize*0.35)
+            pdf.ln(fontsize*0.33)
         else:
             utxt += txt + " "
     if not rchords:
@@ -98,7 +98,7 @@ def add_song(data, title):
             pdf.add_page()
 
         render_verse(data[title]["txt"][i], rchords)
-    print(f'sucsessfully added song "{title}" on page {pdf.page_no()}')
+    print(f'sucsessfully added song "{title}" on page {pdf.page_no()-1}')
 
 
 def create_index(index):
@@ -126,7 +126,7 @@ else:
     pdf = PDF('P', 'mm', "A5")
     pagesize = 210  # pageheight
     rchords = True  # render Chords
-    sbv = fontsize * 0.5  # space between verses
+    sbv = fontsize * 0.3  # space between verses
 pagenumbers = {}
 img = 1
 noimg = False

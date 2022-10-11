@@ -23,6 +23,7 @@
             "Küstenkind",
             "Luka",
             "Let It Be",
+            "Riptide",
             "Schlaflied",
             "Streets of London",
             "The Road",
@@ -51,6 +52,7 @@
             "Lemon Tree",
             "Let It Be",
             "Luka",
+            "Riptide",
             "Schlaflied",
             "Streets of London",
             "The Road",
@@ -67,10 +69,11 @@
             "Country Roads",
             "Ein Lied Das Nicht Vergisst",
             "Hauch mich mal an",
+            "Küstenkind",
             "Lemon Tree",
             "Let It Be",
             "Luka",
-            "Küstenkind",
+            "Riptide",
             "Schlaflied",
             "Streets of London",
             "The Road",
@@ -416,6 +419,7 @@
             "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     },
+    "Riptide":{"scheme": ["s1", "pc", "r", "s1", "pc", "r", "b", "r", "r", "o"], "txt": {"s1": "{a}I was scared of{G} dentists and the{C} dark\n{a}I was scared of{G} pretty girls and{C} starting conversations\nOh, {a}all my fri{G}ends are turning{C} green\nYou're the {a}magician's {G}assistant in their{C} dreams\n", "s2": "{a}There's this movie{G} that I think you'll{C} like\nThis {a}guy decides to{G} quit his job and{C} heads to New York City\nThis {a}cowboy's{G} running from{C} himself\nAnd {a}she's been living{G} on the highest s{C}helf\n", "b": "{a}I just wanna, I just wanna{G} know\n{C}If you're gonna, if you're gonna st{F}a{m}y{a}{j}{7}\n{a}I just gotta, I just gotta kno{G}w\n{C}I can't have it, I can't have it {F}a{m}n{a}y{j} {7}other way\n", "pc": "I {a}swear she's{G} destined for the{C} screen\n{a}Closest thing to{G} Michelle Pfeiffer{C} that you've ever seen, oh\n", "r": "{a}Lady,{G} running down to the{C} riptide, taken away\nTo the {a}dark side,{G} I wanna be your{C} left hand man\nI {a}love you{G} when you're singing that{C} song, and I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the w{C}ords wrong\n", "o": "{a}Lady,{G} running down to the{C} riptide, taken away\nTo the {a}dark side,{G} I wanna be your{C} left hand man\nI {a}love you{G} when you're singing that{C} song, and I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the words{C} wrong yeah, I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the words{C} wrong\n"}},
     "Schlaflied": {
         "scheme": [
             "s1",

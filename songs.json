@@ -304,6 +304,24 @@
             "o": "Er{C}inner' dich {D}an m{G}ich"
         }
     },
+    "Funkenflug": {
+        "scheme": [
+            "s1",
+            "c",
+            "s2",
+            "c",
+            "b",
+            "c",
+            "o"
+        ],
+        "txt": {
+            "s1": "{G}Nur ein Funke sagen sie, im endlos weiten Sternen{C}zelt.\nEin Glimmen nur, doch irgendw{D}ie; ein kleines Zeichen auf der {G}Welt,\ndass irgendwo ein Feuer brennt hier im Licht- und Schatten{C}spiel,\ndas irgendwo und im {D}Moment ein Stern auf Erden viel.\n",
+            "s2": "{G}Nur ein Funke sagen sie;\neine Idee am Sternen{C}zelt;\nzuerst nur blo\u00dfe Fanta{D}sie\nvielleicht ver\u00e4ndert sie die {G}Welt.\nMit einem S{l}chimmer in der Nacht\nMit einer Glut am Horiz{C}ont,\ndie irgendwo ein Licht {D}entfacht,\n{D}indem sich jemand sonnt.\n",
+            "b": "{G}Das Feuer knistert, lacht und {C}singt,\n{D}bis hinauf zum Firmam{G}ent,\nbis der Funke \u00fcbers{C}pringt\n{D}und dein Herz f\u00fcr etwas brennt.\n",
+            "c": "{C}Macht die Feuer {D}an!\nLass' sie {G}lodern bis zum Himmel!\nMacht die {C}Nacht zum Tag und {D}dann,\n{D}ist es {e}vielleicht hell {D}genug\n{C}Macht die Feuer {D}an!\nDer Spa\u00df ist {G}lange nicht vorbei!\nWir drehen {C}auf; wir drehen {D}frei\n{D}und tanzen {e}durch den Funkenf{D}lug.\n",
+            "o": "{C}Macht die Feuer {D}an!{G}\nLass' sie {C}lodern bis zum {D}Himmel{e}!{D}\n{C}Macht die Feuer {D}an!{G}\nWir drehen {C}auf; Wir drehen {D}frei\nund tanzen {e}durch den Funken{D}flug.{G}\n"
+        }
+    },
     "Hauch mich mal an": {
         "scheme": [
             "s1",
@@ -328,8 +346,31 @@
             "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
         }
     },
-    "Hesta Jonas":{"scheme": ["s1", "pc", "r", "s1", "pc", "r", "b", "r", "r", "o"], "txt":{"s1": "{A}U{m}nten im Gnadental ge{G}schah eine Geschicht,\nDie {A}h{m}at sch\u00f6n angefangen und {G}ende{E}t{m}e so {A}n{m}icht.\nDie Hester Jonas war des {G}Peter Meurer Weib,\nSie {A}h{m}atte grobe H\u00e4nde und {G}einen {E}j{m}ungen {A}L{m}eib.\n", "s2": "Die {A}T{m}age waren Arbeit, die {G}N\u00e4chte waren leer\nUnd {A}H{m}ester hatte Tr\u00e4ume und {G}tr\u00e4umte {E}i{m}mmer {A}m{m}ehr.\nUnd {A}A{m}m morgens an der Erft, wenn {G}sie die W\u00e4sche rieb,\nEr{A}z{m}\u00e4hlte sie den Frauen, was {G}von den {E}T{m}r\u00e4umen {A}b{m}lieb.\n", "r1": "Da {C}war aus Wein der {G}G Fluss, die {F}B\u00e4ume trugen {E}B{m}rot.\nIm {C}Hamfeld bl\u00fchten {G}Kirschen, die {F}war'n im Winter {E}r{m}ot.\nKein {A}K{m}r{7}\u00e4mer fuhr den {D}K{m}arrn, kein {F}Geld brauchte ein {E}K{4}leid.\nKein {C}Mensch brauchte zu {G}darben, kein {F}Weg war mehr zu {E}E{4}4 weit{E}.\n", "s3": "Die {A}F{m}rauen h\u00f6rten sie mit {G}lachendem Gesicht\nSch\u00f6n {A}w{m}aren Hesters Tr\u00e4ume und {G}schade{E}t{m}en doch {A}n{m}icht.\nUnd {A}m{m}ittags auf dem Markt, wo {G}mancher H\u00e4ndler rief,\nGe{A}s{m}chah's, dass um die Jonas mehr {G}Volk zu{E}s{m}ammen{A}l{m}ief:\n", "r2": "Die {C}St\u00e4dte werden {G}fallen, wo {F}reich nur wenig {E}s{m}ind\nDie {C}armen Leute {G}steigen zum {F}Reichtum ohne {E}S{m}\u00fcnd\nUnd {A}g{m}i{7}bt nicht mehr den {D}F{m}\u00fcrst, nicht {F}Bischof und nich {E}Z{4}ar\nUnd {C}wird nicht sein am {G}Morgen, wie {F}es am Abend {E}w{4}ar{E}\n", "s4": "Die {A}M{m}\u00e4nner zeigten ihr oft {G}einen schiefen Mund,\nDie {A}b{m}essern sagten Hester, du {G}richtest {E}d{m}ich zu{A}g{m}rund.\nDes {A}N{m}achts zum k\u00fchlen Gras ka{G}men sie hungrig doch\nUnd {A}w{m}ollten Hesters Tr\u00e4ume und {G}baten: {E}h{m}eute {A}n{m}och!\n", "s5": "Da k{A}a{m}men in der Fr\u00fch zwei {G}M\u00e4nner aus der Stadt\nUnd {A}s{m}chleppten Hester Jonas vor {G}G einen {E}M{m}agis{A}t{m}rat.\nDa {A}w{m}ar die Red' von Gott, da {G}war die Red' von ihr\nDa {A}A{m}m war die Red' von Tr\u00e4umen, die {G}kr\u00e4nken {E}M{m}ensch und {A}T{m}ier.\n", "s6": "Und {A}q{m}uetschten ihr den Hals und {G}brachen ihr Gebein,\nDie {A}g{m}anze Stadt hat Tage voll {G}Hester {E}J{m}onas' {A}S{m}chrein.\nUnd {A}u{m}nterschrieb die Schuld mit {G}G der verkr\u00fcmmten Hand\nUnd {A}s{m}chrie noch lange Tr\u00e4ume, bis {G}sie das {E}F{m}euer {A}f{m}and.\n"}}
-    ,"Hotel California": {
+    "Hesta Jonas": {
+        "scheme": [
+            "s1",
+            "pc",
+            "r",
+            "s1",
+            "pc",
+            "r",
+            "b",
+            "r",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "{A}U{m}nten im Gnadental ge{G}schah eine Geschicht,\nDie {A}h{m}at sch\u00f6n angefangen und {G}ende{E}t{m}e so {A}n{m}icht.\nDie Hester Jonas war des {G}Peter Meurer Weib,\nSie {A}h{m}atte grobe H\u00e4nde und {G}einen {E}j{m}ungen {A}L{m}eib.\n",
+            "s2": "Die {A}T{m}age waren Arbeit, die {G}N\u00e4chte waren leer\nUnd {A}H{m}ester hatte Tr\u00e4ume und {G}tr\u00e4umte {E}i{m}mmer {A}m{m}ehr.\nUnd {A}A{m}m morgens an der Erft, wenn {G}sie die W\u00e4sche rieb,\nEr{A}z{m}\u00e4hlte sie den Frauen, was {G}von den {E}T{m}r\u00e4umen {A}b{m}lieb.\n",
+            "r1": "Da {C}war aus Wein der {G}G Fluss, die {F}B\u00e4ume trugen {E}B{m}rot.\nIm {C}Hamfeld bl\u00fchten {G}Kirschen, die {F}war'n im Winter {E}r{m}ot.\nKein {A}K{m}r{7}\u00e4mer fuhr den {D}K{m}arrn, kein {F}Geld brauchte ein {E}K{4}leid.\nKein {C}Mensch brauchte zu {G}darben, kein {F}Weg war mehr zu {E}E{4}4 weit{E}.\n",
+            "s3": "Die {A}F{m}rauen h\u00f6rten sie mit {G}lachendem Gesicht\nSch\u00f6n {A}w{m}aren Hesters Tr\u00e4ume und {G}schade{E}t{m}en doch {A}n{m}icht.\nUnd {A}m{m}ittags auf dem Markt, wo {G}mancher H\u00e4ndler rief,\nGe{A}s{m}chah's, dass um die Jonas mehr {G}Volk zu{E}s{m}ammen{A}l{m}ief:\n",
+            "r2": "Die {C}St\u00e4dte werden {G}fallen, wo {F}reich nur wenig {E}s{m}ind\nDie {C}armen Leute {G}steigen zum {F}Reichtum ohne {E}S{m}\u00fcnd\nUnd {A}g{m}i{7}bt nicht mehr den {D}F{m}\u00fcrst, nicht {F}Bischof und nich {E}Z{4}ar\nUnd {C}wird nicht sein am {G}Morgen, wie {F}es am Abend {E}w{4}ar{E}\n",
+            "s4": "Die {A}M{m}\u00e4nner zeigten ihr oft {G}einen schiefen Mund,\nDie {A}b{m}essern sagten Hester, du {G}richtest {E}d{m}ich zu{A}g{m}rund.\nDes {A}N{m}achts zum k\u00fchlen Gras ka{G}men sie hungrig doch\nUnd {A}w{m}ollten Hesters Tr\u00e4ume und {G}baten: {E}h{m}eute {A}n{m}och!\n",
+            "s5": "Da k{A}a{m}men in der Fr\u00fch zwei {G}M\u00e4nner aus der Stadt\nUnd {A}s{m}chleppten Hester Jonas vor {G}G einen {E}M{m}agis{A}t{m}rat.\nDa {A}w{m}ar die Red' von Gott, da {G}war die Red' von ihr\nDa {A}A{m}m war die Red' von Tr\u00e4umen, die {G}kr\u00e4nken {E}M{m}ensch und {A}T{m}ier.\n",
+            "s6": "Und {A}q{m}uetschten ihr den Hals und {G}brachen ihr Gebein,\nDie {A}g{m}anze Stadt hat Tage voll {G}Hester {E}J{m}onas' {A}S{m}chrein.\nUnd {A}u{m}nterschrieb die Schuld mit {G}G der verkr\u00fcmmten Hand\nUnd {A}s{m}chrie noch lange Tr\u00e4ume, bis {G}sie das {E}F{m}euer {A}f{m}and.\n"
+        }
+    },
+    "Hotel California": {
         "scheme": [
             "s1",
             "r",
@@ -467,7 +508,28 @@
             "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     },
-    "Riptide":{"scheme": ["s1", "pc", "r", "s1", "pc", "r", "b", "r", "r", "o"], "txt": {"s1": "{a}I was scared of{G} dentists and the{C} dark\n{a}I was scared of{G} pretty girls and{C} starting conversations\nOh, {a}all my fri{G}ends are turning{C} green\nYou're the {a}magician's {G}assistant in their{C} dreams\n", "s2": "{a}There's this movie{G} that I think you'll{C} like\nThis {a}guy decides to{G} quit his job and{C} heads to New York City\nThis {a}cowboy's{G} running from{C} himself\nAnd {a}she's been living{G} on the highest s{C}helf\n", "b": "{a}I just wanna, I just wanna{G} know\n{C}If you're gonna, if you're gonna st{F}a{m}y{a}{j}{7}\n{a}I just gotta, I just gotta kno{G}w\n{C}I can't have it, I can't have it {F}a{m}n{a}y{j} {7}other way\n", "pc": "I {a}swear she's{G} destined for the{C} screen\n{a}Closest thing to{G} Michelle Pfeiffer{C} that you've ever seen, oh\n", "r": "{a}Lady,{G} running down to the{C} riptide, taken away\nTo the {a}dark side,{G} I wanna be your{C} left hand man\nI {a}love you{G} when you're singing that{C} song, and I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the w{C}ords wrong\n", "o": "{a}Lady,{G} running down to the{C} riptide, taken away\nTo the {a}dark side,{G} I wanna be your{C} left hand man\nI {a}love you{G} when you're singing that{C} song, and I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the words{C} wrong yeah, I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the words{C} wrong\n"}},
+    "Riptide": {
+        "scheme": [
+            "s1",
+            "pc",
+            "r",
+            "s1",
+            "pc",
+            "r",
+            "b",
+            "r",
+            "r",
+            "o"
+        ],
+        "txt": {
+            "s1": "{a}I was scared of{G} dentists and the{C} dark\n{a}I was scared of{G} pretty girls and{C} starting conversations\nOh, {a}all my fri{G}ends are turning{C} green\nYou're the {a}magician's {G}assistant in their{C} dreams\n",
+            "s2": "{a}There's this movie{G} that I think you'll{C} like\nThis {a}guy decides to{G} quit his job and{C} heads to New York City\nThis {a}cowboy's{G} running from{C} himself\nAnd {a}she's been living{G} on the highest s{C}helf\n",
+            "b": "{a}I just wanna, I just wanna{G} know\n{C}If you're gonna, if you're gonna st{F}a{m}y{a}{j}{7}\n{a}I just gotta, I just gotta kno{G}w\n{C}I can't have it, I can't have it {F}a{m}n{a}y{j} {7}other way\n",
+            "pc": "I {a}swear she's{G} destined for the{C} screen\n{a}Closest thing to{G} Michelle Pfeiffer{C} that you've ever seen, oh\n",
+            "r": "{a}Lady,{G} running down to the{C} riptide, taken away\nTo the {a}dark side,{G} I wanna be your{C} left hand man\nI {a}love you{G} when you're singing that{C} song, and I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the w{C}ords wrong\n",
+            "o": "{a}Lady,{G} running down to the{C} riptide, taken away\nTo the {a}dark side,{G} I wanna be your{C} left hand man\nI {a}love you{G} when you're singing that{C} song, and I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the words{C} wrong yeah, I got a lump\nIn my {a}throat, 'cause{G} you're gonna sing the words{C} wrong\n"
+        }
+    },
     "Schlaflied": {
         "scheme": [
             "s1",
@@ -609,4 +671,4 @@
             "r": "//: N{e}ur dein l{C}iebes Ges{G}icht, macht mich zuh{D}ause auf der W{e}elt. ://"
         }
     }
-    }
+}

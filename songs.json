@@ -5,35 +5,37 @@
             "Am Westermanns Lönstief",
             "An den sechs vergangnen Tagen",
             "And're, die das Land",
-            "Auf vielen Straßen dieser Welt",
-            "Coming Home",
-            "Country Roads",
-            "Hauch mich mal an",
-            "Lemon Tree",
-            "Viva la feria"
-        ],
-        "testing": [
             "An Land",
+            "Auf vielen Straßen dieser Welt",
             "Behind Blue Eyes",
             "Braune Pfeifen",
+            "Coming Home",
+            "Country Roads",
             "Die freie Republik",
             "Ein Hotdog unten am Hafen",
             "Ein Lied Das Nicht Vergisst",
+            "Hauch mich mal an",
             "Hotel California",
             "Hyazinten",
             "Küstenkind",
+            "Lemon Tree",
             "Let It Be",
-            "Luka",
             "Lord of the Dance",
-            "Riptide",
+            "Luka",
+            "Papst und Sultan",
             "Schlaflied",
             "Streets of London",
             "The Road",
             "Über meiner Heimat Frühling",
+            "Viva la feria",
             "Wenn ich des Morgensfrüh aufsteh'",
             "Youre Somebody Else",
             "Zombie",
             "Zu Hause"
+        ],
+        "testing": [
+            "Riptide",
+            "Wir Drei Wir Gehn Jetzt Auf Die Walze"
         ],
         "all with testing": [
             "Abends treten Elche",
@@ -57,6 +59,7 @@
             "Let It Be",
             "Lord of the Dance",
             "Luka",
+            "Papst und Sultan",
             "Riptide",
             "Schlaflied",
             "Streets of London",
@@ -64,6 +67,7 @@
             "Über meiner Heimat Frühling",
             "Viva la feria",
             "Wenn ich des Morgensfrüh aufsteh'",
+            "Wir Drei Wir Gehn Jetzt Auf Die Walze",
             "Youre Somebody Else",
             "Zombie",
             "Zu Hause"
@@ -81,11 +85,13 @@
             "Let It Be",
             "Lord of the Dance",
             "Luka",
+            "Papst und Sultan",
             "Riptide",
             "Schlaflied",
             "Streets of London",
             "The Road",
             "Wenn ich des Morgens früh aufsteh'",
+            "Wir Drei Wir Gehn Jetzt Auf Die Walze",
             "Youre Somebody Else",
             "Zombie"
         ]
@@ -508,6 +514,19 @@
             "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
         }
     },
+    "Papst und Sultan": {
+        "scheme": [
+            "s1",
+            "s2",
+            "s3"
+        ],
+        "txt": {
+            "s1": "Der {G}Papst lebt herrlich in der {C}Welt, es {D}fehlt ihm nie an Abla\u00df{G}geld.%//: Er trinkt vom{G} alle{D}rbesten{e} Wein,%drum m\u00f6cht auch{C} ich der{D} Papst wohl{G} sein! ://%Doch {G}nein, er ist ein armer {C}Wicht!%Ein {D}holdes M\u00e4dchen k\u00fcsst ihn {G}nicht.%//: Er schl\u00e4ft in{G} seinem{D} Bett a{e}llein,%drum m\u00f6cht auch{C} ich der{D} Papst nicht{G} sein! ://",
+            "s2": "Der {G}Sultan lebt in Saus und {C}Braus, er {D}wohnt in einem Freuden{G}haus.%//: Voll wunde{G}rsch\u00f6ner{D} M\u00e4gd{e}elein,%drum m\u00f6cht auch{C} ich der{D} Sultan{G} sein! ://%Doch {G}nein, er ist ein armer {C}Mann! Er {D}lebt nach seinem Alko{G}ran.%//: So trinkt er{G} keinen{D} Tropfen{e} Wein,%drum m\u00f6cht auch{C} ich nicht{D} Sultan{G} sein! ://",
+            "s3": "Ge{G}teilt veracht ich beider {C}Gl\u00fcck und {D}kehr in meine Stadt zu{G}r\u00fcck.%//: Doch das geh{G} ich mit{D} Freuden{e} ein,%halb Sultan{C} und halb{D} Papst zu{G} sein! ://%Drum {G}M\u00e4dchen geb mir einen {C}Kuss, denn {D}jetzt bin ich der Sulta{G}nus.%//: Ihr trauten{G} Br\u00fcder{D} schenket{e} ein,%damit auch{C} ich der{D} Papst kann{G} sein! ://"
+        }
+    },
+
     "Riptide": {
         "scheme": [
             "s1",
@@ -522,6 +541,7 @@
             "o"
         ],
         "txt": {
+
             "s1": "{a}I was scared of{G} dentists and the{C} dark\n{a}I was scared of{G} pretty girls and{C} starting conversations\nOh, {a}all my fri{G}ends are turning{C} green\nYou're the {a}magician's {G}assistant in their{C} dreams\n",
             "s2": "{a}There's this movie{G} that I think you'll{C} like\nThis {a}guy decides to{G} quit his job and{C} heads to New York City\nThis {a}cowboy's{G} running from{C} himself\nAnd {a}she's been living{G} on the highest s{C}helf\n",
             "b": "{a}I just wanna, I just wanna{G} know\n{C}If you're gonna, if you're gonna st{F}a{m}y{a}{j}{7}\n{a}I just gotta, I just gotta kno{G}w\n{C}I can't have it, I can't have it {F}a{m}n{a}y{j} {7}other way\n",
@@ -625,6 +645,25 @@
             "s5": "Und steh ich d{G}ann vorm H{D7}immelst{G}or, dann wird mich P{C}etrus fr{D7}ag{G}en,%\"was willst du - Schnaps, Wein oder Bier?\" So tät ich Br{C}antwein s{D7}ag{G}en",
             "r": "//: Ich muss ein Schn{G}äpschen ham', ist das nicht fein%N{C}ur noch F{D7}euerwasser, Brantewein, nur noch Schn{G}aps ://",
             "r1": "//: Denn erst nach Se{G}chsundsechzig Litern Brandwein%Schl{C}af ich s{D7}eelich ein selich ein schlaf ich {G}ein ://"
+        }
+    },
+    "Wir Drei Wir Gehn Jetzt Auf Die Walze": {
+        "scheme": [
+            "s1",
+            "c",
+            "s2",
+            "c",
+            "s3",
+            "c",
+            "s4",
+            "c"
+        ],
+        "txt": {
+            "s1": "W{G}ir drei, wir g{C}ehn jetzt auf die W{G}alze, heijo, wohl i{D}n die weite {G}Welt%Die Tippele{C}i, ja Gott, erh{G}alt' se, weil {D}uns das W{A}andern so gef{D}\u00e4llt%Ein S{D}chuster und ein Sc{G}hneider und a{D}uch ein Stadtratss{G}chreiber%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+            "s2": "{G}Und kommen w{C}ir an einen F{G}lecken, heijo, dann f{D}\u00e4ngt das Fechten{G} an%Schnell schultern {C}wir den Wanders{G}tecken und kl{D}opfen {A}an bei jederm{D}ann%Denn {D}hier steh'n drei Ver{G}bannte, drei {D}abgebaute Staatsbe{G}amte%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+            "s3": "A{G}m Rhein, am M{C}ain, und auch am Ne{G}ckar, da sieht uns {D}auch mal ein Gen{G}darm%Schnell krauchen {C}wir in einen Sc{G}hober, sonst g{D}reift er {A}uns wohl noch am {D}Arm%Denn {D}er schwor stets aufs {G}Neue, dem S{D}taate seine T{G}reue%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+            "s4": "U{G}nd bl\u00fch'n am H{C}ain die wilden Schl{G}ehen, dann klopft auch {D}mal die Liebe {G}an%F\u00fcr die, die {C}ungern weiterzi{G}ehen steht h{D}ie und {A}da ein Fenster {D}an%Und s{D}chlagen fr\u00fch die F{G}inken, dann t{D}un wir auch mal Wi{G}nken%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+            "c": "{G}Falscher Schritt, falscher Tritt, die {D}ganze Kompanie!%{D}Falscher Schritt, falscher Tritt, die g{D}anze Kompanie!%Bekan{C}ntlich sind die St{G}erne am {C}aller-allersch\u00f6nsten aus der F{G}erne%Gute {G}Nacht, auf Wi{D}ederseh'n Mar{G}ie, {C}gute {G}Nacht, auf {D}Wiederseh'n Ma{G}rie"
         }
     },
     "Youre Somebody Else": {

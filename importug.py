@@ -34,3 +34,5 @@ with open("tmp", 'r') as f:
             print(f"{Fore.GREEN}✓ checked {i}{Style.RESET_ALL}")
     with open("tmp.json", "a") as file:
         json.dump(song, file)
+        print(song["txt"]["s1"])
+

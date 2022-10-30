@@ -1,4 +1,4 @@
-from songbook import SONGBOOK
+from songbook import SONGBOOK,import_song
 import json
 
 

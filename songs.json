@@ -1,90 +1,23 @@
 {
     "index": {
-        "all": [
-            "Abends treten Elche",
-            "Am Westermanns Lönstief",
-            "An den sechs vergangnen Tagen",
-            "And're, die das Land",
-            "An Land",
-            "Auf vielen Straßen dieser Welt",
-            "Behind Blue Eyes",
-            "Braune Pfeifen",
-            "Coming Home",
-            "Country Roads",
-            "Die freie Republik",
-            "Ein Hotdog unten am Hafen",
-            "Ein Lied Das Nicht Vergisst",
-            "Hauch mich mal an",
-            "Hotel California",
-            "Hyazinten",
-            "Küstenkind",
-            "Lemon Tree",
-            "Let It Be",
-            "Lord of the Dance",
-            "Luka",
-            "Papst und Sultan",
-            "Schlaflied",
-            "Streets of London",
-            "The Road",
-            "Über meiner Heimat Frühling",
-            "Viva la feria",
-            "Wenn ich des Morgensfrüh aufsteh'",
-            "Youre Somebody Else",
-            "Zombie",
-            "Zu Hause"
-        ],
-        "testing": [
-            "Riptide",
-            "Wir Drei Wir Gehn Jetzt Auf Die Walze"
-        ],
-        "all with testing": [
-            "Abends treten Elche",
-            "Am Westermanns Lönstief",
-            "An den sechs vergangnen Tagen",
-            "And're, die das Land",
-            "An Land",
-            "Auf vielen Straßen dieser Welt",
-            "Behind Blue Eyes",
-            "Braune Pfeifen",
-            "Coming Home",
-            "Country Roads",
-            "Die freie Republik",
-            "Ein Hotdog unten am Hafen",
-            "Ein Lied Das Nicht Vergisst",
-            "Hauch mich mal an",
-            "Hotel California",
-            "Hyazinten",
-            "Küstenkind",
-            "Lemon Tree",
-            "Let It Be",
-            "Lord of the Dance",
-            "Luka",
-            "Papst und Sultan",
-            "Riptide",
-            "Schlaflied",
-            "Streets of London",
-            "The Road",
-            "Über meiner Heimat Frühling",
-            "Viva la feria",
-            "Wenn ich des Morgensfrüh aufsteh'",
-            "Wir Drei Wir Gehn Jetzt Auf Die Walze",
-            "Youre Somebody Else",
-            "Zombie",
-            "Zu Hause"
-        ],
         "Ameisen-Liederbuch": [
+            "Augen Auf Und Durch",
             "Behind Blue Eyes",
             "Braune Pfeifen",
             "Coming Home",
             "Country Roads",
             "Ein Lied Das Nicht Vergisst",
+            "Father And Son",
             "Hauch mich mal an",
+            "Haut Mir Kein Stein",
             "Hotel California",
+            "Ich Und Ein Fass Voller Wein",
             "Küstenkind",
             "Lemon Tree",
             "Let It Be",
             "Lord of the Dance",
             "Luka",
+            "Mondlicht",
             "Papst und Sultan",
             "Riptide",
             "Schlaflied",
@@ -94,620 +27,797 @@
             "Wir Drei Wir Gehn Jetzt Auf Die Walze",
             "Youre Somebody Else",
             "Zombie"
+        ],
+        "all": [
+            "Abends treten Elche",
+            "Am Westermanns Lönstief",
+            "An den sechs vergangnen Tagen",
+            "And're, die das Land",
+            "An Land",
+            "Auf vielen Straßen dieser Welt",
+            "Augen auf und Durch",
+            "Behind Blue Eyes",
+            "Braune Pfeifen",
+            "Coming Home",
+            "Country Roads",
+            "Die freie Republik",
+            "Ein Hotdog unten am Hafen",
+            "Ein Lied Das Nicht Vergisst",
+            "Father And Son",
+            "Hauch mich mal an",
+            "Haut Mir Kein Stein",
+            "Hotel California",
+            "Hyazinten",
+            "Ich Und Ein Fass Voller Wein",
+            "Küstenkind",
+            "Lemon Tree",
+            "Let It Be",
+            "Lord of the Dance",
+            "Luka",
+            "Mondlicht",
+            "Papst und Sultan",
+            "Schlaflied",
+            "Streets of London",
+            "The Road",
+            "Über meiner Heimat Frühling",
+            "Viva la feria",
+            "Wenn ich des Morgensfrüh aufsteh'",
+            "Youre Somebody Else",
+            "Zombie",
+            "Zu Hause"
+        ],
+        "all with testing": [
+            "Abends treten Elche",
+            "Am Westermanns Lönstief",
+            "An den sechs vergangnen Tagen",
+            "And're, die das Land",
+            "An Land",
+            "Auf vielen Straßen dieser Welt",
+            "Augen Auf Und Durch",
+            "Behind Blue Eyes",
+            "Braune Pfeifen",
+            "Coming Home",
+            "Country Roads",
+            "Die freie Republik",
+            "Ein Hotdog unten am Hafen",
+            "Ein Lied Das Nicht Vergisst",
+            "Father And Son",
+            "Hauch mich mal an",
+            "Haut Mir Kein Stein",
+            "Hotel California",
+            "Hyazinten",
+            "Ich Und Ein Fass Voller Wein",
+            "Küstenkind",
+            "Lemon Tree",
+            "Let It Be",
+            "Lord of the Dance",
+            "Luka",
+            "Mondlicht",
+            "Papst und Sultan",
+            "Riptide",
+            "Schlaflied",
+            "Streets of London",
+            "The Road",
+            "Über meiner Heimat Frühling",
+            "Viva la feria",
+            "Wenn ich des Morgensfrüh aufsteh'",
+            "Wir Drei Wir Gehn Jetzt Auf Die Walze",
+            "Youre Somebody Else",
+            "Zombie",
+            "Zu Hause"
+        ],
+        "testing": [
+            "Riptide",
+            "Wir Drei Wir Gehn Jetzt Auf Die Walze"
         ]
     },
-    "Abends treten Elche": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3"
-        ],
-        "txt": {
-            "s1": "{a}Abends treten El{d}che aus den Dü{a}nen%ziehen von der P{E}ave an den Stra{a}nd.%//: w{d}enn die N{a}acht, wie {d}eine gut {a}Mutter,%leise deckt ihr T{E}uch auf Haff und L{a}and ://",
-            "s2": "R{a}uhig trinken s{d}ie vom großen W{a}asser,%darin Sterne w{E}ie am Himmel st{a}ehn.%//: {d}Und sie h{a}eben {d}ihre starken K{a}öpfe%lautlos in des S{E}ommerwindes W{a}eh'n://",
-            "s3": "L{a}angsam schreiten s{d}ie wieder von d{a}annen,%Tiere einer l{E}ängst vergang'nen Z{a}eit.%//: {d}Und sie schw{a}inden {d}in der Ferne N{a}ebel%wie ins hohen T{E}or der Ewigk{a}eit. ://"
-        }
-    },
-    "Am Westermanns Lönstief": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "s4",
-            "r"
-        ],
-        "txt": {
-            "s1": "Am W{a}estermanns Lönstief pfeift e{g}isiger W{d}ind,%uns sch{e}aukelt die S{d}ee wie die M{A7}utter ihr K{d}ind.%{C}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,%Wir {g}fangen den {d}Hering, den {A7}Kabel{d}jau",
-            "r": "//:Tschir{g}ee macht die S{d}ee. Tschir{A}a, Tschir{d}ee://%Tschir{A}ahahaha Tschir{d}ee",
-            "s2": "Durch T{a}age und Nächte wir k{g}urven im N{d}ord%und h{e}ieven die z{d}appelnde B{A7}eute an B{d}ord.%W{C}ir k{F}ehlen den H{C}ering und s{F}alzen ihn {C}ein.%Sind v{g}oll unsere K{d}antjes, wir f{A7}ahren H{d}eim.",
-            "s3": "Südw{a}ester, das Ölzeug und {g}Isländer W{d}ams,%was n{e}ützen die Pl{d}ünnen im Schn{A7}eeflockent{d}anz.%{C}Ein d{F}aumenbreit Schl{C}uck aus der B{F}uddel mit R{C}um,%das kr{g}empelt uns w{d}ider 'ne W{A7}eile {d}um.",
-            "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
-        }
-    },
-    "An den sechs vergangnen Tagen": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3",
-            "s4"
-        ],
-        "txt": {
-            "s1": "{a}An den s{d}echs verg{a}ang'n{E}en T{a}agen%mussten w{d}ir uns l{a}aus{E}ig pl{a}agen:%//: W{C}enig Fr{F}eude, L{G}uft und L{C}icht,%Dr{a}eck an H{d}änden {E}und Ges{a}icht. ://",
-            "s2": "H{a}eute h{d}at die W{a}elt {E}uns w{a}ieder,%Klampfensp{d}iel und h{a}und{E}ert L{a}ieder%//: w{C}andern d{F}urch die W{G}älder m{C}it,%z{a}u dem S{d}iebenm{E}eilenschr{a}itt. ://",
-            "s3": "{a}Und so g{d}eht es {a}imm{E}er m{a}unter%Berg r{d}auf und w{a}ied{E}er r{a}unter,%//: {C}alle {F}uns're M{G}üdigk{C}eit,%st{a}eckt zu H{d}aus im {E}Arbeitskl{a}eid. ://",
-            "s4": "S{a}ieben T{d}age h{a}at d{E}ie W{a}oche,%sechse s{d}ind wir r{a}umg{E}ekr{a}ochen,%//: d{C}och am s{F}iebten l{G}ebt sich's fl{C}ott.%{a}Also w{d}ill's der l{E}iebe G{a}ott. ://"
-        }
-    },
-    "And're, die das Land": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3",
-            "s4",
-            "s1"
-        ],
-        "txt": {
-            "s1": "{G}And're, die das Land so sehr nicht l{D}iebten,%{e}war'n von Anfang {C}an gewillt zu g{G}ehn;{D}%{e}Ihnen - manche {C}sind schon fort - ist b{G}esser,%ich doch müsste mit dem eigenen M{D}esser%m{e}eine Wurzeln {C}aus der {D}Erde dr{G}eh'n.",
-            "s2": "K{G}eine Nacht hab' ich seither geschl{D}afen,%{e}und es ist mir m{C}ehr als weh zum{G}ut;{D}%V{e}iele Wochen s{C}ind seither verstr{G}ichen,%alle Kraft ist längst aus mir gew{D}ichen%{e}und ich fühl', dass {C}ich dar{D}an verbl{G}ut'",
-            "s3": "{G}Und doch müsst' ich mich von innen h{D}eben,%s{e}ei's auch nur, zu bl{C}eiben, was ich w{G}ar.{D}%N{e}immer kann ich, w{C}o ich bin, ged{G}eihen;%Draußen braucht' ich wahrlich nicht zu schr{D}eien,%d{e}enn mein leises W{C}ort war {D}immer w{G}ahr.",
-            "s4": "S{G}einer wär' ich, wie in alten T{D}agen,%s{e}icher; schluchzend w{C}ider mich gew{G}andt,{D}%h{e}ätt' ich Tag und N{C}acht mich nur zu h{G}eißen,%mich samt meiner Wurzeln auszur{D}eißen%{e}und zu setzen {C}in ein {D}and'res L{G}and."
-        }
-    },
-    "An Land": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3",
-            "s4"
-        ],
-        "txt": {
-            "s1": "H{C}eute wird wohl kein Sch{a}iff mehr geh'n und k{d}einer geht vor die T{G}ür.%{C}Alle sind heute versch{a}üchtert,%nur {d}ich bin es nicht und d{G}as liegt an dir.%Am F{E}ester fliegt eine K{a}uh vorbei, da kommt j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf die K{G}uh und eins auf die S{C}ee.{adG}",
-            "s2": "Ich l{C}iebe die See und die S{a}ee liebt mich auch,%h{d}örst du, wie sie nach mir br{G}üllt?%Ich h{C}ätte sie niemals verl{a}assen soll'n,%d{d}as ist's, was sie mir kl{a}armachen%Wenn h{E}inter uns nicht der D{a}eich wär', käm' j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf den D{G}eich und eins auf die S{C}ee.{adG}",
-            "s3": "Hi{C}er wurd' ich an L{a}and gespült, h{d}ier setz' ich mich f{G}est.%Von d{C}ir weht mich kein St{a}urm mehr fort,%Sbei d{d}ir will ich bleiben, sol{G}ang du mich lässt.%D{E}eine Hand kommt in m{a}eine und j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}uns und eins auf die S{C}ee.{adG}",
-            "s4": "Vor'm F{C}enster da wütet der St{a}urm so wild, macht {d}einsame Herzen b{G}ang.%Hier dr{C}in' mit euch Freunden am F{a}euer,%bei Gesch{d}ichten, Wein und Ges{G}ang.%Ein L{E}eben ohne euch Fr{a}eunde, da käm j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}euch und eins auf die S{C}ee.{adG}%{C}Ein Glas auf {G}uns und eins auf die S{C}ee."
-        }
-    },
-    "Auf vielen Straßen dieser Welt": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3"
-        ],
-        "txt": {
-            "s1": "Auf vielen Str{a}aßen dieser W{E}elt%habt ihr euch sorglos 'rumgetr{a}ieben,%//: so ohne Z{d}elt und ohne G{a}eld%der Tippel{E}ei verschr{a}ieben. ://",
-            "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
-            "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
-        }
-    },
-    "Behind Blue Eyes": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes%N{E}o one knows what it's l{G}ike to be h{D}ated,%To be fa{C}ted, to telling {A}only lies",
-            "s2": "N{e}o one knows what it's l{G}ike to feel these f{D}eelings%Like I d{C}o, and I blame y{A}ou%N{e}o one bites back as h{G}ard on their {D}anger%None of my p{C}ain and woe, can show thr{A}ough",
-            "s3": "N{e}o one knows what its l{G}ike%To be mistr{D}eated, to be def{C}eated%Beh{A}ind blue eyes%N{e}o one knows how to s{G}ay%That they're s{D}orry and don't w{C}orry%I'm not t{A}elling lies",
-            "r": "But my dr{C}e{D}ams, they aren't as {G}empty, As my c{C}onscience s{D}eems to b{E}e%I have h{h7}ours, only l{C}onely. My love is v{D}engeance that's never fr{A}ee",
-            "o": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes"
-        }
-    },
-    "Braune Pfeifen": {
-        "scheme": [
-            "s1",
-            "pc",
-            "r",
-            "s2",
-            "pc",
-            "r",
-            "b",
-            "r"
-        ],
-        "txt": {
-            "s1": "T{e}anzt zusammen, tanzt allein{c}%Im Reigen {D}oder im Du{e}ett%T{e}obt herum, macht euch fein{c}%{c}Und dreht 'ne R{D}unde beim Ball{e}ett%W{e}eg das Hirn, aus dem Kopf{c}%Holt euren b{D}esten Standard r{e}aus%B{e}ildet einen wilden Mob{c}%Und rastet {D}aus",
-            "s2": "T{e}anz aus dir raus, tanz in dich rein{c}%Von mir aus t{D}anz deinen Namen%T{e}anz auch mal aus den Reihen{c}%Und falle {D}aus dem Rahmen",
-            "b": "D{e}ie Köpfe leer, die Hosen voll%{e}Immer dieselbe Leier%{e}Ein Rückgratloses Pauken%{e}Und Trompeten rumgeeier%D{e}ie reinste H{D}ass-Kackophonie{G}%Und zwar in {A}Endlosschleife{e}%Doch wir tanzen, t{D}anzen, tanzen nie{G}%Nach {D}euren braunen Pf{e}eifen!{DcDe}",
-            "pc": "{C}Ist uns ganz egal, viel Spaß beim {D}Eskal{e}ier'n%Doch eine Sache sollten wir nie aus den Ohren verlier'n{h}%Nie aus den Ohren verl{D}ier'n",
-            "r": "Auch wenn die Schr{e}eihälse auf d{G}ieser Welt%Das Orch{D}ester dirig{a}ieren%Auch wenn sie sch{e}ief und taktlos, w{G}ie sie sind%In eure K{D}öpfe einmarsch{C}ieren%Lasst sie {A}i{m}hre f{h}alschen L{C}ieder schr{G}eien und k{D}eifen%Wir tanzen nicht nach braunen Pfeifen!{e}"
-        }
-    },
-    "Coming Home": {
-        "scheme": [
-            "s1",
-            "pc",
-            "r",
-            "s2",
-            "pc",
-            "r",
-            "b",
-            "r"
-        ],
-        "txt": {
-            "s1": "{C} Tell me who you {e}are,  Your father has fors{C}aken you%Left you with those sc{e}ars, My hope is that you'll m{C}ake it through%Hate must never w{e}in,  Even when we're w{C}orlds apart%Your love is not a s{e}in, Even if it's h{F}ard",
-            "s2": "{C}  Transmission from the st{e}ars, A message from the {C}atmosphere%Etched into my h{e}eart, Your purpose there is st{C}ill unclear%The ghost of you lives {e}on, Through everything I s{C}ee and touch%Even when you're g{e}one, Even if it's h{F}ard",
-            "pc": "Even when I'm f{G}ar, I will always be there  {C}",
-            "r": "Hold {a}on my d{e}ear, I'm c{G}oming h{C}ome, Don't l{a}et your f{e}ears%T{G}ake c{C}ontrol, I can f{a}inally h{e}ear%Her m{G}essage loud and cl{C}ear, Hold {a}on my d{e}ear, I'm c{G}oming h{C}ome",
-            "b": "A fallen angel is what you {e}are, Your father has fors{C}aken you%Left you with those sc{G}ars, My hope is that you m{C}ake it through%Hate must never w{e}in, Even when we're w{C}orlds apart%Your love is not a s{G}in, Even if it's h{C}ard"
-        }
-    },
-    "Country Roads": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "b",
-            "o"
-        ],
-        "txt": {
-            "s1": "{G} Almost Heaven;{e} West Virginia,%{D} Blue Ridge Mountains, Sh{C}enandoah R{G}iver.%Life is old there,{e} older than the trees,%y{D}ounger than the mountains, bl{C}owin' like a br{G}eeze.",
-            "r": "Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.",
-            "s2": "{G} All my memories{e} gather round her,{D}%miner's lady, str{C}anger to blue w{G}ater.%Dark and dusty, p{e}ainted on the sky,%m{D}isty taste of moonshine, T{C}eardrop in my {G}eye.",
-            "b": "{e} I hear her v{D}oice in the m{G}orning hour she calls me,%The r{C}adio rem{G}inds me of my h{D}ome far away.%Dr{e}iving down the r{F}oad I get a f{C}eeling%That I sh{G}ould have been home y{D}esterday, yesterday.",
-            "o": "//:Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.://%//:take me h{D}ome, down country r{G}oads. ://"
-        }
-    },
-    "Die freie Republik": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3",
-            "s4",
-            "s5"
-        ],
-        "txt": {
-            "s1": "{D}In dem Kerker saßen zu Fr{A7}ankfurt an dem M{D}ain%schon seit vielen Jaren s{A7}echs Studenten {D}ein,%die f{G}ür die Freiheit fochten und für das Bürgergl{D}ück%und für die Menschenrechte der fr{A7}eien Republ{D}ik. ",
-            "s2": "Und der Kerkermeister spr{A7}ach es täglich {D}aus:%Sie Herr Bürgermeister, es r{A7}eißt mir keiner {D}aus!%Aber d{G}och sind sie verschwunden abends aus dem T{D}urm,%um die zwölfte Stunde, b{A7}ei dem großen St{D}urm.",
-            "s3": "Und am nächsten Morgen h{A7}ört man den Al{D}arm.%Oh, es war entsetzlich, d{A7}er Soldatenschw{D}arm!%Sie s{G}uchten auf und nieder, sie suchten hin und h{D}er,%sie suchten sechs Studenten und f{A7}anden sie nicht m{D}ehr.",
-            "s4": "Doch sie kamen wider mit Schw{A7}ertern in der H{D}and.%Auf auf ihr deutschen Brüder, jetzt g{A7}eht's fürs Vaterl{D}and!%Jetzt g{G}eht's für Menschenrechte und für das Bürgergl{D}ück,%wir sind doch keine Knechte der fr{A7}eien Republ{D}ik!",
-            "s5": "Wenn euch die Leute fragen: W{A7}o ist Absal{D}om?%So dürft ihr wohl sagen: {A7}Oh, der hänget sch{D}on%Er h{G}ängt an keinem Baume, er hängt an keinem Str{D}ick,%sondern an dem Glauben der fr{A7}eien Republ{D}ik."
-        }
-    },
-    "Ein Hotdog unten am Hafen": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "Ein H{a}otdog unten am H{C}afen%und vorm E{E}inschlafen schnell noch ein B{F}ier.%Dem F{C}eind einen Tritt in die R{F}ippen%und ein paar K{G}ippen für hinterh{C}er.%Ein D{a}ate mit dem Dalai L{C}ama%und ein {E}Apfelsaft morgens um zw{F}ei,%eine h{C}albautomatische W{G}affe ist immer dab{C}ei.",
-            "s2": "R{a}äucherstäbchen und W{C}ildreis und {E}Abende auf dem B{F}alkon,%in {C}Eppendorf ist morgen Fl{F}ohmarkt und j{G}eder nach seiner Fac{C}on.%Ein D{a}ate mit dem Dalai L{C}ama und ein Gr{E}iff ins Kosmetikreg{F}al%und wenn's im R{C}ücken mal weh tut wird j{G}ede Bewegung zur Q{C}ual.",
-            "s3": "Eine P{a}arkbank in Planten un Bl{C}omen und der M{E}ond über Alton{F}a,%ein S{C}ohn, der bald mal ins B{F}ett muss, und tr{G}ockene Blumen im H{C}aar%Ein D{a}ate mit dem Dalai L{C}ama und ein Kl{E}impern auf dem Klav{F}ier%und zum {C}Abschied ein bisschen Gef{G}ummel hinter der T{C}ür",
-            "r": "Sch{a}ön, wenn man liebt, was M{e}utter Natur einem gibt.%Was kann {F}ich dafür, dass d{G}u mich nicht verg{C}isst?%Ein g{F}eselliges Tier ist das Schw{G}ein%und das St{C}achelschwein lieber all{F}ein.%{C}Ohne dich will ich nicht, m{G}it dir kann ich nicht s{C}ein.",
-            "o": "{C}Ohne dich will ich nicht, m{G}it dir kann ich nicht s{C}ein."
-        }
-    },
-    "Ein Lied Das Nicht Vergisst": {
-        "scheme": [
-            "s1",
-            "pc",
-            "r",
-            "s2",
-            "pc",
-            "r",
-            "b",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "B{G}ilder, die ich in mir tr{D}age, V{e}erlier'n ihre Kraft{C}%{G}Alle Sicherheit verschw{D}indet, W{e}orauf ist noch Verlass?{C}%L{G}angsam spür' ich mich zerfl{D}ießen, {e}Unter deinem Blick{C}%S{G}elten kann man noch gen{D}ießen, Uns're {C}Inseln voller Gl{G}ück",
-            "s2": "L{G}achend seh' ich mich und w{D}einend, L{e}ebensfroh und -müd'{C}%G{G}efühle werden langsam schw{D}ächer, Die B{e}ilder werden trüb{C}%Ich sp{G}ür noch, wie du k{D}ämpfst um mich, Und n{e}och tut es weh{C}%Bew{G}ahren will ich meine R{D}ührung, W{C}enn ich dich so s{G}eh'",
-            "pc": "Und so tr{h}eib' ich auf den {e}Abgrund zu, Auf {C}einem trägen Fl{G}oß%Und ich s{h}inge dir im {e}Untergehen, Ein L{C}ied zu deinem Tr{D}ost",
-            "r": "Damit du m{C}ich nicht so verm{G}isst%Schreib' ich ein L{D}ied, das nicht verg{e}isst%Und wenn die Z{C}eit mein Leben n{G}immt, Erinner' d{D}ich, wenn es erkl{C}ingt%Damit du m{C}ich nicht so verm{G}isst%Schreib' ich ein L{H}ied, das nicht verg{e}isst%Wenn mich das d{C}unkle M{D}eer verschl{e}ingt%Erinner' d{D}ich, wenn es erkl{C}ingt, Erinner' dich{D} an m{G}ich",
-            "b": "Ich w{G}eiß, du wirst mich in dir f{D}inden, Auch w{e}enn ich mich verlier'{C}%{G}Und wohin mein Geist auch w{D}andert, Mein H{C}erz bleibt hier bei d{G}ir",
-            "o": "Er{C}inner' dich {D}an m{G}ich"
-        }
-    },
-    "Funkenflug": {
-        "scheme": [
-            "s1",
-            "c",
-            "s2",
-            "c",
-            "b",
-            "c",
-            "o"
-        ],
-        "txt": {
-            "s1": "{G}Nur ein Funke sagen sie, im endlos weiten Sternen{C}zelt.%Ein Glimmen nur, doch irgendw{D}ie; ein kleines Zeichen auf der {G}Welt,%dass irgendwo ein Feuer brennt hier im Licht- und Schatten{C}spiel,%das irgendwo und im {D}Moment ein Stern auf Erden viel.%",
-            "s2": "{G}Nur ein Funke sagen sie;%eine Idee am Sternen{C}zelt;%zuerst nur blo\u00dfe Fanta{D}sie%vielleicht ver\u00e4ndert sie die {G}Welt.%Mit einem S{l}chimmer in der Nacht%Mit einer Glut am Horiz{C}ont,%die irgendwo ein Licht {D}entfacht,%{D}indem sich jemand sonnt.%",
-            "b": "{G}Das Feuer knistert, lacht und {C}singt,%{D}bis hinauf zum Firmam{G}ent,%bis der Funke \u00fcbers{C}pringt%{D}und dein Herz f\u00fcr etwas brennt.%",
-            "c": "{C}Macht die Feuer {D}an!%Lass' sie {G}lodern bis zum Himmel!%Macht die {C}Nacht zum Tag und {D}dann,%{D}ist es {e}vielleicht hell {D}genug%{C}Macht die Feuer {D}an!%Der Spa\u00df ist {G}lange nicht vorbei!%Wir drehen {C}auf; wir drehen {D}frei%{D}und tanzen {e}durch den Funkenf{D}lug.%",
-            "o": "{C}Macht die Feuer {D}an!{G}%Lass' sie {C}lodern bis zum {D}Himmel{e}!{D}%{C}Macht die Feuer {D}an!{G}%Wir drehen {C}auf; Wir drehen {D}frei%und tanzen {e}durch den Funken{D}flug.{G}%"
-        }
-    },
-    "Hauch mich mal an": {
-        "scheme": [
-            "s1",
-            "pc1",
-            "r1",
-            "s2",
-            "pc2",
-            "r2",
-            "b",
-            "s3",
-            "r3"
-        ],
-        "txt": {
-            "s1": "Der Wind treibt Bl{a}ätter vor sich h{d}er und seine W{E}orte an mein {a}Ohr%und er steht schon länger h{d}ier und trägt Vorb{E}eieilenden v{a}or%Was die da oben sich erl{d}auben! Was sich {E}im Verborgenen t{a}ut%Man lässt den Steuerzahler gl{d}auben der F{E}ortschritt tut uns g{a}ut%Deutschland ist ne F{d}irma und {E}Impfen ist tab{a}u%Merkel ist kein M{d}ensch weiß er von X{E}avier Naid{a}oo",
-            "pc1": "Ich stand zw{F}ischen all den anderen und l{a}auschte%Er war g{F}ut darin, Passanten anzuz{a}iehen%nach z{F}ehn Minuten Predigt eine P{a}ause%da st{E}ellte ich mich sehr dicht vor ihn hin Und sagte:",
-            "r1": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, ich wäre wirklich überr{F}ascht;%hättest du nicht vom Schnaps gen{C}ascht%Ich r{G}iech es bis hierh{F}e{E}r:%Du stinkst nach Haschisch und Lik{a}ör",
-            "s2": "Der R{a}egen schlägt ans F{d}enster und s{E}ie mir ins Ges{a}icht%Sie saß hier wohl schon l{d}änger und sie w{E}artete auf m{a}ich%Doch ich kam ja zu sp{d}ät und sie d{E}eshalb zum Entschl{a}uss%Dass wenn ich heute g{d}eh es für {E}immer sein m{a}uss%Die Sachen schon gep{d}ackt, da v{E}orne ist die T{a}ür%bevor du sie gleich z{d}uziehst lass d{E}eine Schlüssel h{a}ier",
-            "pc2": "Ich stand {F}aufgelöst im Hausflur und ich l{a}auschte%sie h{F}atte sich schon immer gut gestr{a}itten%Nach z{F}ehn Minuten Heulkrampf eine P{a}ause%da l{E}egt' ich ihr den Finger auf die Lippen Und sagte:",
-            "r2": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, So wie du hier grade z{F}eterst,%Merkt man, dass du einen im T{C}ee hast {G}%Ich riech es wie noch n{F}ie:%{E}//:Du stinkst nach Gras und Mon Chér{F}i{a}i{E}i{a}i://",
-            "b": "Die Welt dreht sich um m{F}ich nur der Schl{E}üssel nicht im Schl{a}oss%Ich wundere mich k{F}urz, da brennt noch L{E}icht im Erdgesch{a}oss%Da ist dann schon ein Sch{F}atten und schon {E}öffnet sich die T{a}ür%Nachts halb drei in D{F}eutschland und M{E}ama steht vor m{a}ir",
-            "s3": "In dieser Situati{d}on greif meine S{E}uperfähigk{a}eit%die Gute-Nacht-zu-M{d}ama-sagen-M{E}ini-Nüchternh{a}eit%Gut artikul{d}iert und ohne St{E}ottern vorgebr{a}acht%Sie fragt: Wo kommst du h{d}er? Und {E}ich sag: Gute N{a}acht.%Trotzdem riecht sie L{d}unte in ihren {E}Augen blitzt der Z{a}orn%Mir bleibt kein anderer {d}Ausweg: n{E}ur die Flucht nach f{a}orn",
-            "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir"
-        }
-    },
-    "Hesta Jonas": {
-        "scheme": [
-            "s1",
-            "pc",
-            "r",
-            "s1",
-            "pc",
-            "r",
-            "b",
-            "r",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "{A}U{m}nten im Gnadental ge{G}schah eine Geschicht,%Die {A}h{m}at sch\u00f6n angefangen und {G}ende{E}t{m}e so {A}n{m}icht.%Die Hester Jonas war des {G}Peter Meurer Weib,%Sie {A}h{m}atte grobe H\u00e4nde und {G}einen {E}j{m}ungen {A}L{m}eib.%",
-            "s2": "Die {A}T{m}age waren Arbeit, die {G}N\u00e4chte waren leer%Und {A}H{m}ester hatte Tr\u00e4ume und {G}tr\u00e4umte {E}i{m}mmer {A}m{m}ehr.%Und {A}A{m}m morgens an der Erft, wenn {G}sie die W\u00e4sche rieb,%Er{A}z{m}\u00e4hlte sie den Frauen, was {G}von den {E}T{m}r\u00e4umen {A}b{m}lieb.%",
-            "r1": "Da {C}war aus Wein der {G}G Fluss, die {F}B\u00e4ume trugen {E}B{m}rot.%Im {C}Hamfeld bl\u00fchten {G}Kirschen, die {F}war'n im Winter {E}r{m}ot.%Kein {A}K{m}r{7}\u00e4mer fuhr den {D}K{m}arrn, kein {F}Geld brauchte ein {E}K{4}leid.%Kein {C}Mensch brauchte zu {G}darben, kein {F}Weg war mehr zu {E}E{4}4 weit{E}.%",
-            "s3": "Die {A}F{m}rauen h\u00f6rten sie mit {G}lachendem Gesicht%Sch\u00f6n {A}w{m}aren Hesters Tr\u00e4ume und {G}schade{E}t{m}en doch {A}n{m}icht.%Und {A}m{m}ittags auf dem Markt, wo {G}mancher H\u00e4ndler rief,%Ge{A}s{m}chah's, dass um die Jonas mehr {G}Volk zu{E}s{m}ammen{A}l{m}ief:%",
-            "r2": "Die {C}St\u00e4dte werden {G}fallen, wo {F}reich nur wenig {E}s{m}ind%Die {C}armen Leute {G}steigen zum {F}Reichtum ohne {E}S{m}\u00fcnd%Und {A}g{m}i{7}bt nicht mehr den {D}F{m}\u00fcrst, nicht {F}Bischof und nich {E}Z{4}ar%Und {C}wird nicht sein am {G}Morgen, wie {F}es am Abend {E}w{4}ar{E}%",
-            "s4": "Die {A}M{m}\u00e4nner zeigten ihr oft {G}einen schiefen Mund,%Die {A}b{m}essern sagten Hester, du {G}richtest {E}d{m}ich zu{A}g{m}rund.%Des {A}N{m}achts zum k\u00fchlen Gras ka{G}men sie hungrig doch%Und {A}w{m}ollten Hesters Tr\u00e4ume und {G}baten: {E}h{m}eute {A}n{m}och!%",
-            "s5": "Da k{A}a{m}men in der Fr\u00fch zwei {G}M\u00e4nner aus der Stadt%Und {A}s{m}chleppten Hester Jonas vor {G}G einen {E}M{m}agis{A}t{m}rat.%Da {A}w{m}ar die Red' von Gott, da {G}war die Red' von ihr%Da {A}A{m}m war die Red' von Tr\u00e4umen, die {G}kr\u00e4nken {E}M{m}ensch und {A}T{m}ier.%",
-            "s6": "Und {A}q{m}uetschten ihr den Hals und {G}brachen ihr Gebein,%Die {A}g{m}anze Stadt hat Tage voll {G}Hester {E}J{m}onas' {A}S{m}chrein.%Und {A}u{m}nterschrieb die Schuld mit {G}G der verkr\u00fcmmten Hand%Und {A}s{m}chrie noch lange Tr\u00e4ume, bis {G}sie das {E}F{m}euer {A}f{m}and.%"
-        }
-    },
-    "Hotel California": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3"
-        ],
-        "txt": {
-            "s1": "{a} On a dark desert highway,{E7} cool wind in my hair%{G} Warm smell of colitas{D} rising up through the air%{F} Up ahead in the distance,{C} I saw a shimmering light%{d} My head grew heavy and my sight grew dim%I{E7} had to stop for the night%{a}  There she stood in the doorway;{E7} I heard the mission bell%{G} And I was thinking to myself%This could be h{D}eaven or this could be hell%{F} Then she lit up a candle, {C}and she showed me the way%{d} There were voices down the corridor,%{E7} I thought I heard them say...",
-            "s2": "{a} Her mind is Tiffany-twisted,{E7} She got the Mercedes bends%{G} She got a lot of pretty pretty boys{D} she calls friends%{F} How they danced in the courtyard,{C} sweet summer sweat%{d} Some dance to remember,{E7} some dance to forget%{a} So I called up the captain;{E7} Please bring me my wine (he said)%{G} We haven't had that spirit here since{D} 1969%{F} and still those voices are calling from f{C}ar away%{d} Wake you up in the middle of the night%{E7} Just to hear them say...",
-            "s3": "{a} Mirrors on the ceiling;{E7} the pink champagne on ice (and she said)%{G}  We are all just prisoners here,{D} of our own device%{F} and in the master's chambers,{C} they gathered for the feast%{d} They stab it with their steely knives but they%j{E7}ust can't kill the beast%{a} Last thing I remember, I was{E7} running for the door%{G} I had to find the passage back to the pl{D}ace I was before%{F} \"Relax\" said the night man; we are{C} programmed to receive%{d} You can check out any time you like%{E7} But you can never leave.",
-            "r": "{F} Welcome to the Hotel Cali{C}fornia.%Such a l{E7}ovely place, (such a lovely place), such a l{a}ovely face%They're l{F}ivin' it up at the Hotel Calif{C}ornia%What a n{d}ice surprise, (what a nice surprise) Bring your {E7}alibis"
-        }
-    },
-    "Hyazinten": {
-        "scheme": [
-            "s1",
-            "pc1",
-            "r",
-            "s2",
-            "pc2",
-            "r",
-            "s3",
-            "pc3",
-            "r",
-            "s4",
-            "pc1",
-            "r"
-        ],
-        "txt": {
-            "s1": "F{a}ern hallt Musik, doch hier ist stille Nacht,%mit Schl{e}ummerduft anhauchen mich die Pflanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber du musst tanzen.",
-            "s2": "Es hört nicht {a}auf, es rast ohn' Unterlass.%Die Kerzen br{e}ennen und die Geigen schreien,%es teilen {d}und es schließen sich die Reihen,%und alle gl{E}ühen, aber du bist blass,",
-            "s3": "Und du must t{a}anzen; fremde Arme schmiegen%sich an dein H{e}erz, oh leide nicht Gewalt.%Ich seh dein w{d}eißes Kleid vorüber fliegen%und deine l{E}eichte, zärtliche Gestalt!",
-            "s4": "Und süßer str{a}ömend quillt der Duft der Nacht%und träumerisch{e}er aus dem Kelch der Pfanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber Du musst tanzen!",
-            "pc1": "aber du musst t{a}anzen, aber du musst t{F}anzen,%aber du musst t{E}anzen, aber du musst t{a}anzen",
-            "pc2": "aber du bist bl{a}ass, aber du bist bl{F}ass,%aber du bist bl{E}ass, aber du bist bl{a}ass",
-            "pc3": "und du musst t{a}anzen, und du musst t{F}anzen,%und du musst t{E}anzen, und du musst t{a}anzen",
-            "r": "//: Le-la-la-lei le-la-la-la-l{F}ei%le-la-la-l{E}ei le-la-la-la-l{a}ei ://"
-        }
-    },
-    "Küstenkind": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r"
-        ],
-        "txt": {
-            "s1": "D{C}as Wasser reicht zum Horiz{e}ont, die Sonne glitzert schwach dar{a}auf.%Blick auf's wunderschöne M{F}eer, Und ich weiß, ich bin Z{C}uhaus'.%Ich spür' den kalten, nassen S{e}and, und ich spür' meine Nat{a}ur.%Stehe barfuß hier am Str{F}and, und sehe meine Sp{G}ur.",
-            "s2": "D{C}ie Wellen singen mir ihr L{e}ied, mit dem Wind zur Melod{a}ie.%Und die Möwen stimmen {F}ein, zu meiner Symphon{C}ie.%Das ist mein Moment am M{e}eer, den ich tief in mir gen{a}ieß'.%Den ich in mir seh' und f{F}ühl', Wenn ich die Augen schl{G}ieß'.",
-            "r": "{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt, wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir, ich bin ein Küstenk{C}ind.",
-            "o": "//:{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt, wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir, ich bin ein Küstenk{C}ind.://"
-        }
-    },
-    "Lemon Tree": {
-        "scheme": [
-            "s1",
-            "s2",
-            "r",
-            "s3",
-            "b",
-            "s4",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "I'm s{a}itting here in a b{e}oring room,%It's j{a}ust another rainy Sunday {e}afternoon.%I'm w{a}asting my time, I got n{e}othing to do.%I'm h{a}anging around, I'm w{e}aiting for you,%But n{d}othing ever happens {e}- and I w{a}onder.",
-            "s2": "I'm dr{a}iving around - {e}in my car,%I'm dr{a}iving too fast, I'm dr{e}iving too far.%I'd l{a}ike to change my p{e}oint of view%I f{a}eel so lonely, I'm w{e}aiting for you%But n{d}othing ever happens {e}- and I w{a}onder.",
-            "s3": "I'm s{a}itting here, I m{e}iss the power.%I'd l{a}ike to go out, t{e}ake in a shower,%But th{a}ere's a heavy cloud ins{e}ide my head.%I f{a}eel so tired, put mys{e}elf into bed,%Where n{d}othing ever happens {e}- and I w{a}onder.",
-            "s4": "I'm st{a}epping around in a d{e}esert of joy%B{a}aby anyhow I'll get an{e}other toy%And {d}everything will happen {e}- and you w{a}onder.",
-            "b": "{E} Isolation - {a}Is not good for me,%{G} Isolation - {C}I don't want to{E} sit on a lemon tree.",
-            "r": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%And {F}all that I can s{G}ee is just a yellow l{C}emon tree.{G7}%I'm t{C}urning my head - {G}up and down,%I'm t{a}urning turning turning turning t{e}urning around%And {F}all that I can s{G}ee is just another l{C}emon tree.{G7}",
-            "o": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%3x //: And {F}all that I can s{G}ee :// is just a yellow l{C}emon tree."
-        }
-    },
-    "Let It Be": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "r",
-            "s3",
-            "o"
-        ],
-        "txt": {
-            "s1": "When I f{C}ind myself in t{G}imes of trouble, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}%And {C}in my hour of d{G}arkness, She is st{a}anding right in fr{F}ont of me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
-            "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e {C}%But th{C}ough they may be p{G}arted,%There is st{a}ill a chance that th{F}ey will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
-            "s3": "And wh{C}en the night is cl{G}oudy,%there is st{a}ill a light that sh{F}ines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e {C}%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
-            "r": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}",
-            "o": "//:Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}://"
-        }
-    },
-    "Lord of the Dance": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "s4",
-            "r",
-            "s5",
-            "r",
-            "r"
-        ],
-        "txt": {
-            "s1": "I d{G}anced in the morning when the w{e}orld was beg{G}un.%I d{D}anced in the Moon and the St{C}ars and the S{D}un.%I c{G}ame down from Heaven and I d{D}anced on E{e}arth..%at B{D}ethlehem I h{C}ad my b{G}irth.",
-            "s2": "I d{G}anced for the scribes and the ph{e}ar..is{G}ees.%But they w{D}ould not dance and they w{C}ouldn't follow m{D}e.%I d{G}anced for fishermen, for J{D}ames and J{e}ohn..%they c{D}ame with me and the D{C}ance went {G}on.",
-            "s3": "I d{G}anced on the Sabbath and I c{e}ured the l{G}ame.%The h{D}oly people thought it w{C}as a sh{D}ame.%They c{G}ut and they stripped and they h{e}ung me h{G}igh..%and they l{D}eft me there on a cr{C}oss to d{G}ie.",
-            "s4": "I d{G}anced on a Friday when the sk{e}y turned bl{G}ack.%It's h{D}ard to dance with the d{C}evil on your b{D}ack.%They b{G}uried my body, b{e}ut I'd g{G}one..%but {D}I am the Dance and I st{C}ill go {G}on.",
-            "s5": "They c{G}ut me down but I l{e}eapt up h{G}igh.%I {D}am the Light that will n{C}ever, never d{D}ie.%I'll l{G}ive in you if you'll l{e}ive in M{G}e..%{D}I am the Lord of the D{C}ance, said H{G}e.",
-            "r": "{G}Dance, dance, wher{e}ever you may{G} be..%{e}I am the Lord of the{D} Dance, said He.%And I'll {G}lead you all, wher{e}ever you may{G} be..%And I'll {D}lead you all in the {G}Dance, said He!"
-        }
-    },
-    "Luka": {
-        "scheme": [
-            "s1",
-            "r1",
-            "s2",
-            "r2",
-            "s3",
-            "r3",
-            "s1",
-            "r1",
-            "r2"
-        ],
-        "txt": {
-            "s1": "{G} My name is L{D}uka,{C} I live on the s{D}econd floor,%{G} I live upst{D}airs from you,{C} Yes, I think you've s{D}een me before",
-            "r1": "{e} If you hear s{D}omething late at night,%{e} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
-            "s2": "{G} I think it's 'c{D}ause I'm clumsy,{C} I try not to t{D}alk too loud,%{G} Maybe it's bec{D}ause I'm crazy,{C} I try not to {D}act too proud,",
-            "r2": "{e} They only h{D}it until you cry, {e} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
-            "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway",
-            "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://"
-        }
-    },
-    "Papst und Sultan": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3"
-        ],
-        "txt": {
-            "s1": "Der {G}Papst lebt herrlich in der {C}Welt, es {D}fehlt ihm nie an Abla\u00df{G}geld.%//: Er trinkt vom{G} alle{D}rbesten{e} Wein,%drum m\u00f6cht auch{C} ich der{D} Papst wohl{G} sein! ://%Doch {G}nein, er ist ein armer {C}Wicht!%Ein {D}holdes M\u00e4dchen k\u00fcsst ihn {G}nicht.%//: Er schl\u00e4ft in{G} seinem{D} Bett a{e}llein,%drum m\u00f6cht auch{C} ich der{D} Papst nicht{G} sein! ://",
-            "s2": "Der {G}Sultan lebt in Saus und {C}Braus, er {D}wohnt in einem Freuden{G}haus.%//: Voll wunde{G}rsch\u00f6ner{D} M\u00e4gd{e}elein,%drum m\u00f6cht auch{C} ich der{D} Sultan{G} sein! ://%Doch {G}nein, er ist ein armer {C}Mann! Er {D}lebt nach seinem Alko{G}ran.%//: So trinkt er{G} keinen{D} Tropfen{e} Wein,%drum m\u00f6cht auch{C} ich nicht{D} Sultan{G} sein! ://",
-            "s3": "Ge{G}teilt veracht ich beider {C}Gl\u00fcck und {D}kehr in meine Stadt zu{G}r\u00fcck.%//: Doch das geh{G} ich mit{D} Freuden{e} ein,%halb Sultan{C} und halb{D} Papst zu{G} sein! ://%Drum {G}M\u00e4dchen geb mir einen {C}Kuss, denn {D}jetzt bin ich der Sulta{G}nus.%//: Ihr trauten{G} Br\u00fcder{D} schenket{e} ein,%damit auch{C} ich der{D} Papst kann{G} sein! ://"
-        }
-    },
-
-    "Riptide": {
-        "scheme": [
-            "s1",
-            "pc",
-            "r",
-            "s1",
-            "pc",
-            "r",
-            "b",
-            "r",
-            "r",
-            "o"
-        ],
-        "txt": {
-
-            "s1": "{a}I was scared of{G} dentists and the{C} dark%{a}I was scared of{G} pretty girls and{C} starting conversations%Oh, {a}all my fri{G}ends are turning{C} green%You're the {a}magician's {G}assistant in their{C} dreams%",
-            "s2": "{a}There's this movie{G} that I think you'll{C} like%This {a}guy decides to{G} quit his job and{C} heads to New York City%This {a}cowboy's{G} running from{C} himself%And {a}she's been living{G} on the highest s{C}helf%",
-            "b": "{a}I just wanna, I just wanna{G} know%{C}If you're gonna, if you're gonna st{F}a{m}y{a}{j}{7}%{a}I just gotta, I just gotta kno{G}w%{C}I can't have it, I can't have it {F}a{m}n{a}y{j} {7}other way%",
-            "pc": "I {a}swear she's{G} destined for the{C} screen%{a}Closest thing to{G} Michelle Pfeiffer{C} that you've ever seen, oh%",
-            "r": "{a}Lady,{G} running down to the{C} riptide, taken away%To the {a}dark side,{G} I wanna be your{C} left hand man%I {a}love you{G} when you're singing that{C} song, and I got a lump%In my {a}throat, 'cause{G} you're gonna sing the w{C}ords wrong%",
-            "o": "{a}Lady,{G} running down to the{C} riptide, taken away%To the {a}dark side,{G} I wanna be your{C} left hand man%I {a}love you{G} when you're singing that{C} song, and I got a lump%In my {a}throat, 'cause{G} you're gonna sing the words{C} wrong yeah, I got a lump%In my {a}throat, 'cause{G} you're gonna sing the words{C} wrong%"
-        }
-    },
-    "Schlaflied": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3",
-            "s4",
-            "s5"
-        ],
-        "txt": {
-            "s1": "Schl{C}af mein K{e}indchen, schl{a}afe {e}ein%Die N{a}acht, die sch{e}aut zum F{G}enster rein%Der r{C}unde M{e}ond der h{a}at dich g{e}erne, {a}Und es l{e}euchten d{G}ir die Sterne%schl{C}af mein kl{e}eines, tr{a}äume s{e}üss, b{a}ald bist d{e}u im P{G}aradies",
-            "s2": "D{C}enn gleich {e}öffnet s{a}ich die T{e}ür, {a}und ein M{e}onster k{G}ommt zu dir%mit s{C}einen elf {e}Augen sch{a}aut es dich {e}an%und schl{a}eicht sich {e}an dein B{G}ettchen ran%du l{C}iegst still d{e}a, bew{a}egst dich n{e}icht%das M{a}onster zerkr{e}atzt dir d{G}ein Gesicht",
-            "s3": "S{C}eine F{e}inger sind l{a}ang und d{e}ünn%w{a}ehr dich n{e}icht, 's hat k{G}einen Sinn%{C}und es k{e}ichert w{a}ie verr{e}ückt, {a}als es d{e}einen H{G}als zudrückt%du schr{C}eist, doch d{e}u bist all{a}ein zu H{e}aus%das M{a}onster st{e}icht dir die {G}Augen aus",
-            "s4": "D{C}ann bist du st{e}ill, und d{a}as ist g{e}ut%es b{a}eisst dir in d{e}en Hals und tr{G}inkt dein Blut%{C}ohne Blut b{e}ist du bl{a}eich wie Kr{e}eide%d{a}ann frisst es d{e}eine {G}Eingeweide%d{C}ein kleines B{e}ettchen vom Bl{a}ut ganz r{e}ot%die S{a}onne geht {e}auf und d{G}u bist tot...",
-            "s5": "Schl{C}af mein K{e}indchen, schl{a}af jetzt {e}ein%am H{a}immel st{e}ehn d{G}ie Sternelein%Schl{C}af mein K{e}indchen, schl{a}afe schn{e}ell%Dein B{a}ettchen {e}ist ein K{G}arussell%Schl{C}af mein K{e}indchen, schl{a}af jetzt {e}ein%Sonst k{a}ann das M{e}onster n{G}icht hinein!"
-        }
-    },
-    "Streets of London": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "s4",
-            "r"
-        ],
-        "txt": {
-            "s1": "H{C}ave you seen the {G}old man in the cl{a}osed-down m{e}arket%K{F}icking up the p{C}aper with his w{d}orn-out sh{G}oes?%{C}In his eyes you s{G}ee no pride, {a}and held loosely {e}at his side%{F}Yesterday's p{C}aper telling y{G7}esterday's n{C}ews",
-            "s2": "H{C}ave you seen the {G}old girl who w{a}alks the str{e}eets of London%D{F}irt in her h{C}air and her cl{d}othes in r{G}ags?%Sh{C}e's no time for t{G}alking, she j{a}ust keeps right on w{e}alking%C{F}arrying her h{C}ome in tw{G7}o carrier b{C}ags",
-            "s3": "{C}In the all-night c{G}afe at a qu{a}arter past el{e}even%S{F}ame old m{C}an sitting th{d}ere on his {G}own%L{C}ooking at the w{G}orld over the r{a}im of his t{e}ea-cup%{F}Each tea lasts an h{C}our, and he w{G7}anders home al{C}one",
-            "s4": "H{C}ave you seen the {G}old man outs{a}ide the seaman's m{e}ission?%M{F}emory fading w{C}ith the medal r{d}ibbons that he w{G}ears%{C}In our winter c{G}ity the rain cr{a}ies a little p{e}ity%For one m{F}ore forgotten h{C}ero and a w{G7}orld that doesn't c{C}are",
-            "r": "So h{F}ow can you t{e}ell me you're l{CG}ooonel{a}y%{D7}and say for you that the sun don't sh{G}ine?{G7}%L{C}et me take you b{G}y the hand%and l{a}ead you through the str{e}eets of London,%{F}I'll show you s{C}omething to m{G7}ake you change your m{C}ind"
-        }
-    },
-    "The Road": {
-        "scheme": [
-            "s1",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "{C}I've been kept inside s{F}o long{f}%{C}I've lost sight of right and wr{F}ong{f}%{e}When you left an open d{a}oor, I couldn't h{F}elp but expl{f}ore",
-            "s2": "{C}So I took off with no pl{F}an{f}%{C}Thinking I could find a fri{F}end{f}%{e}Saying hi and shaking h{a}ands, I hope this m{F}oment never {f}ends",
-            "s3": "{C}That's what it feels like to be fr{F}ee{f}%{C}Chasing butterflies and fl{F}oating on the br{f}eeze%{e}I got no doors, I need no k{a}eys%Another w{F}orld to be s{f}een",
-            "r": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}",
-            "o": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{C}ow the r{G}oad is my h{a}ome%The r{F}oad {f}is my h{C}ome"
-        }
-    },
-    "Über meiner Heimat Frühling": {
-        "scheme": [
-            "s1",
-            "s2",
-            "s3",
-            "s4"
-        ],
-        "txt": {
-            "s1": "{C}Über meiner H{G}eimat Frühling s{C}eh ich Schwäne n{G}ordwärts fliegen.%{a}Ach, mein Herz möcht' s{E}ich auf grauen {a}Eismeerw{E}ogen w{a}ieg{G}en.",
-            "s2": "Schw{C}an, im Singsang d{G}einer Lieder, gr{C}üß' die grünen B{G}irkenhaine.%{a}Alle Rosen g{E}äb ich gerne, g{a}egen N{E}ordlands St{a}ein{G}e.",
-            "s3": "Gr{C}üß mir Schweden, w{G}eißer Vogel, s{C}etz an meiner St{G}att die Füße%{a}an den kalten St{E}ein der Ostsee, s{a}ag ihr m{E}eine Gr{a}üß{G}e.",
-            "s4": "Gr{C}üß das Eismeer, gr{G}üß das Nordkap, r{C}uf den Schären z{G}u, den Fjorden,%w{a}ie ein Schwan, sei m{E}eine Seele {a}auf dem W{E}eg nach N{a}orden."
-        }
-    },
-    "Viva la feria": {
-        "scheme": [
-            "r"
-        ],
-        "txt": {
-            "r": "V{a}iva la feria, viva la plaza, v{F}iva la ilusi{a}on!%V{F}iva los ceros p{a}intarrajeardos d{E}e mi comarc{a}a.%//: Vi{F}ene la canci{a}on. V{F}iva la ilusi{a}on.%V{F}iva la vida {a}y los amores d{E}e mi comarc{a}a. ://%{//:GCEaEa      ://}"
-        }
-    },
-    "Wenn ich des Morgensfrüh aufsteh'": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r",
-            "s4",
-            "r1",
-            "s5",
-            "r"
-        ],
-        "txt": {
-            "s1": "Wenn ich m{G}orgens fr{D7}üh aufst{G}eh' - und zur {C}Arbeit g{D7}e-e-h{G}en,%Dann kocht mir m{G}eine M{D7}utti T{G}ee, von dem ich k{C}einen n{D7}e-eh-m{G}e",
-            "s2": "Und wenn ich kr{G}ank gew{D7}orden b{G}in, werd ich zum D{C}oktor l{D7}auf{G}en%der verschreibt mir {G}eine M{D7}ediz{G}in, die kann er s{C}elber s{D7}auf{G}en",
-            "s3": "Und steh ich d{G}ann vor'm Tr{D7}aualt{G}ar und alle k{C}erzen br{D7}enn{G}en%sagt meine fr{G}au schon fr{D7}eudig J{G}A!, dann fang ich {C}an zu fl{D7}enn{G}en",
-            "s4": "Wenn ich d{G}ann gest{D7}orben b{G}in, dann soll man m{C}ich begr{D7}ab{G}en%In einem F{G}ass voll Br{D7}anntew{G}ein, daran werd {C}ich mich l{D7}ab{G}en",
-            "s5": "Und steh ich d{G}ann vorm H{D7}immelst{G}or, dann wird mich P{C}etrus fr{D7}ag{G}en,%\"was willst du - Schnaps, Wein oder Bier?\" So tät ich Br{C}antwein s{D7}ag{G}en",
-            "r": "//: Ich muss ein Schn{G}äpschen ham', ist das nicht fein%N{C}ur noch F{D7}euerwasser, Brantewein, nur noch Schn{G}aps ://",
-            "r1": "//: Denn erst nach Se{G}chsundsechzig Litern Brandwein%Schl{C}af ich s{D7}eelich ein selich ein schlaf ich {G}ein ://"
-        }
-    },
-    "Wir Drei Wir Gehn Jetzt Auf Die Walze": {
-        "scheme": [
-            "s1",
-            "c",
-            "s2",
-            "c",
-            "s3",
-            "c",
-            "s4",
-            "c"
-        ],
-        "txt": {
-            "s1": "W{G}ir drei, wir g{C}ehn jetzt auf die W{G}alze, heijo, wohl i{D}n die weite {G}Welt%Die Tippele{C}i, ja Gott, erh{G}alt' se, weil {D}uns das W{A}andern so gef{D}\u00e4llt%Ein S{D}chuster und ein Sc{G}hneider und a{D}uch ein Stadtratss{G}chreiber%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
-            "s2": "{G}Und kommen w{C}ir an einen F{G}lecken, heijo, dann f{D}\u00e4ngt das Fechten{G} an%Schnell schultern {C}wir den Wanders{G}tecken und kl{D}opfen {A}an bei jederm{D}ann%Denn {D}hier steh'n drei Ver{G}bannte, drei {D}abgebaute Staatsbe{G}amte%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
-            "s3": "A{G}m Rhein, am M{C}ain, und auch am Ne{G}ckar, da sieht uns {D}auch mal ein Gen{G}darm%Schnell krauchen {C}wir in einen Sc{G}hober, sonst g{D}reift er {A}uns wohl noch am {D}Arm%Denn {D}er schwor stets aufs {G}Neue, dem S{D}taate seine T{G}reue%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
-            "s4": "U{G}nd bl\u00fch'n am H{C}ain die wilden Schl{G}ehen, dann klopft auch {D}mal die Liebe {G}an%F\u00fcr die, die {C}ungern weiterzi{G}ehen steht h{D}ie und {A}da ein Fenster {D}an%Und s{D}chlagen fr\u00fch die F{G}inken, dann t{D}un wir auch mal Wi{G}nken%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
-            "c": "{G}Falscher Schritt, falscher Tritt, die {D}ganze Kompanie!%{D}Falscher Schritt, falscher Tritt, die g{D}anze Kompanie!%Bekan{C}ntlich sind die St{G}erne am {C}aller-allersch\u00f6nsten aus der F{G}erne%Gute {G}Nacht, auf Wi{D}ederseh'n Mar{G}ie, {C}gute {G}Nacht, auf {D}Wiederseh'n Ma{G}rie"
-        }
-    },
-    "Youre Somebody Else": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "o"
-        ],
-        "txt": {
-            "s1": "{a}I saw the part of you%That {F}only when you're older you will s{C}ee too%You will s{G}ee too%{a}I held the better cards%But {F}every stroke of luck has got a bl{C}eed through%It's got a bl{G}eed through%{a}You held the balance of the t{F}ime%That only blindly I could r{C}ead you%But I could r{G}ead you%{a}It's like you told me{F}%Go forward slowly{C}%It's not a race to the {G}end",
-            "s2": "{a}You were the better part%Of {F}every bit of beating heart that {C}I had%Whatever {G}I had%{a}I finally sat alone%{F}Pitch black flesh and bone%Couldn't bel{C}ieve that you were gone{G}",
-            "r": "{a}Well you look like yourself{F}, But you're somebody {C}else%Only it ain't on the s{G}urface, {a}Well you talk like yourself{F}%No, I hear someone {C}else though, Now you're m{G}aking me nervous",
-            "o": "{a}I saw the part of you that {F}only when you're older%You will s{C}ee too, you will s{G}ee too"
-        }
-    },
-    "Zombie": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r"
-        ],
-        "txt": {
-            "s1": "{e}Another h{C}ead hangs lowly, ch{G}ild is slowly t{D}aken%{e}And the violence c{C}aused such silence, wh{G}o are we mist{D}aken %But you s{e}ee it's not me, it's not m{C}y family%In your h{G}ead, in your head, they are fight{D}ing %With their t{e}anks and their bombs and their b{C}ombs and their guns %in your h{G}ead, in your head, they are cry{D}ing",
-            "s2": "{e}Another m{C}other's breaking h{G}eart is taking {D}over%{e}When the violence c{C}auses silence, w{G}e must be mist{D}aken%It's the s{e}ame old theme since {C}1916%In your h{G}ead, in your head, they're still fight{D}ing%With their t{e}anks and their bombs and their b{C}ombs and their guns%In your h{G}ead, in your head, they're dy{D}ing",
-            "r": "In your h{e}ead, in your h{C}ead, zombie,{G} zombi{D}e, zombie%What's in your h{e}ead, in your h{C}ead, zombie,{G} zombie, zombi{D}e"
-        }
-    },
-    "Zu Hause": {
-        "scheme": [
-            "s1",
-            "r",
-            "s2",
-            "r",
-            "s3",
-            "r"
-        ],
-        "txt": {
-            "s1": "Wir t{e}anzen mit Tarnkappen%{C}und wir geh'n trinken mit{G} falschen B{D}ärten.%Bis der H{e}immel brennt, auf dem Nachh{C}auseweg,%stehlen {G}Obst us verbotenen G{D}ärten.%Mein H{e}erz ist ein Campmobil%{C}und ich will segeln geh'n {G}und jeden Tag {D}ist alles neu.%Und {e}alles ist gut, n{C}ichts macht mir Angst%und {G}ich bin dir immer noch tr{D}eu.",
-            "s2": "Daf{e}ür bleib' ich hier und daf{C}ür komm' ich wieder%und d{G}afür könnt ihr mir {D}alle gestohlen sein.%{e} Ich hab verl{C}orenes Gep{G}äck,%es ist irgendwo, aber {D}immer noch mein - und",
-            "s3": "Ein R{e}undfunkmast funkt rund%und {C}ich hab' meinen Rak{G}etenrucksack {D}auf.%Ich m{e}uss wieder fort,%ich muss g{C}anz hoch hinauf.%Ich g{G}eb' mir viel Mühe%all{D}ein zufrieden zu s{e}ein und vielleicht sieht es so {C}aus.%Dann b{G}in ich am Ende zufr{D}ieden,%aber{e} eben nicht zuh{C}aus' - denn",
-            "r": "//: N{e}ur dein l{C}iebes Ges{G}icht, macht mich zuh{D}ause auf der W{e}elt. ://"
+    "songs": {
+        "": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+            ],
+            "txt": {
+                "s1": "It's not {G}time to make a {D}change, just{C} relax and take {a}i{7}t easy%You're still {G}young,%that's your {e}fault, there's so{a} much yo{a}u{7} have{D} to know%Find a {G}girl, settle {D}down, if y{C}ou want to, you c{a}a{7}n marry%Look at {G}me, I a o{e}ld, but I'm {a}happy {a} {7} {D}%I was {G}once like you are {D}now, and I {C}know that it's not {a}e{7}asy%To be {G}calm when you've {e}found something going{a} on {a} {7} {D}%But take your {G}time, think a {D}lot,%why think of {C}everything you've {a}g{7}ot%For you will {G}still be here tomo{e}rrow, but your{D} dreas may {G}not{C}%",
+                "s2": "How can {G}I try to ex{h}plain? 'cause when I{C} do he turns {a}a{7}way again%It's {G}always been the {e}sae, sae old s{a}t{7}ory{D}%From the {G}moment I could {h}talk I was{C} ordered to{a} {7}listen%Now there's a {G}way, and I {e}know that I{D} have to{G} go away%I {D}know I {C}have to {G}go {C} %",
+                "s3": "It's not {G}time to make a {D}change, just{C} relax and take {a}i{7}t easy%You're still {G}young,%that's your {e}fault, there's so{a} much yo{a}u{7} have{D} to know%Find a {G}girl, settle {D}down, if y{C}ou want to, you c{a}a{7}n marry%Look at {G}me, I a o{e}ld, but I'm {a}happy{a}{7}{D}%",
+                "s4": "All the {G}times that I've {h}cried, keeping {C}all the things I {a}k{7}new inside%It's {G}hard, but it's {e}harder to i{a}gnore it{a}{7}{D}%If they were {G}right, I'd a{h}gree, but it's {C}them they know, not {a}m{7}e%Now there's a {G}way, and I {e}know that I {D}have to {G}go away%I {D}know I {C}have to {G}go%"
+            }
+        },
+        "Abends treten Elche": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3"
+            ],
+            "txt": {
+                "s1": "{a}Abends treten El{d}che aus den Dü{a}nen%ziehen von der P{E}ave an den Stra{a}nd.%//: w{d}enn die N{a}acht, wie {d}eine gut {a}Mutter,%leise deckt ihr T{E}uch auf Haff und L{a}and ://",
+                "s2": "R{a}uhig trinken s{d}ie vom großen W{a}asser,%darin Sterne w{E}ie am Himmel st{a}ehn.%//: {d}Und sie h{a}eben {d}ihre starken K{a}öpfe%lautlos in des S{E}ommerwindes W{a}eh'n://",
+                "s3": "L{a}angsam schreiten s{d}ie wieder von d{a}annen,%Tiere einer l{E}ängst vergang'nen Z{a}eit.%//: {d}Und sie schw{a}inden {d}in der Ferne N{a}ebel%wie ins hohen T{E}or der Ewigk{a}eit. ://"
+            }
+        },
+        "Am Westermanns Lönstief": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "s4",
+                "r"
+            ],
+            "txt": {
+                "r": "//:Tschir{g}ee macht die S{d}ee. Tschir{A}a, Tschir{d}ee://%Tschir{A}ahahaha Tschir{d}ee",
+                "s1": "Am W{a}estermanns Lönstief pfeift e{g}isiger W{d}ind,%uns sch{e}aukelt die S{d}ee wie die M{A7}utter ihr K{d}ind.%{C}Am {F}Westermanns {C}Lönstief ist {F}alles so {C}grau,%Wir {g}fangen den {d}Hering, den {A7}Kabel{d}jau",
+                "s2": "Durch T{a}age und Nächte wir k{g}urven im N{d}ord%und h{e}ieven die z{d}appelnde B{A7}eute an B{d}ord.%W{C}ir k{F}ehlen den H{C}ering und s{F}alzen ihn {C}ein.%Sind v{g}oll unsere K{d}antjes, wir f{A7}ahren H{d}eim.",
+                "s3": "Südw{a}ester, das Ölzeug und {g}Isländer W{d}ams,%was n{e}ützen die Pl{d}ünnen im Schn{A7}eeflockent{d}anz.%{C}Ein d{F}aumenbreit Schl{C}uck aus der B{F}uddel mit R{C}um,%das kr{g}empelt uns w{d}ider 'ne W{A7}eile {d}um.",
+                "s4": "Springt {a}über die Reling Jan R{g}asmus, tschir{d}ee-%fass' T{e}aue, halt f{d}est dich, sonst f{A7}ährst du zur S{d}ee.%S{C}o m{F}ancher fuhr t{C}ief in den M{F}eerkeller w{C}eg.%Der T{g}eufel soll h{d}olen den H{A7}öllendr{d}eck"
+            }
+        },
+        "An Land": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+            ],
+            "txt": {
+                "s1": "H{C}eute wird wohl kein Sch{a}iff mehr geh'n und k{d}einer geht vor die T{G}ür.%{C}Alle sind heute versch{a}üchtert,%nur {d}ich bin es nicht und d{G}as liegt an dir.%Am F{E}ester fliegt eine K{a}uh vorbei, da kommt j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf die K{G}uh und eins auf die S{C}ee.{adG}",
+                "s2": "Ich l{C}iebe die See und die S{a}ee liebt mich auch,%h{d}örst du, wie sie nach mir br{G}üllt?%Ich h{C}ätte sie niemals verl{a}assen soll'n,%d{d}as ist's, was sie mir kl{a}armachen%Wenn h{E}inter uns nicht der D{a}eich wär', käm' j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf den D{G}eich und eins auf die S{C}ee.{adG}",
+                "s3": "Hi{C}er wurd' ich an L{a}and gespült, h{d}ier setz' ich mich f{G}est.%Von d{C}ir weht mich kein St{a}urm mehr fort,%Sbei d{d}ir will ich bleiben, sol{G}ang du mich lässt.%D{E}eine Hand kommt in m{a}eine und j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}uns und eins auf die S{C}ee.{adG}",
+                "s4": "Vor'm F{C}enster da wütet der St{a}urm so wild, macht {d}einsame Herzen b{G}ang.%Hier dr{C}in' mit euch Freunden am F{a}euer,%bei Gesch{d}ichten, Wein und Ges{G}ang.%Ein L{E}eben ohne euch Fr{a}eunde, da käm j{F}ede Hilfe zu sp{C}ä{G}t.%{C}Ein Glas auf {G}euch und eins auf die S{C}ee.{adG}%{C}Ein Glas auf {G}uns und eins auf die S{C}ee."
+            }
+        },
+        "An den sechs vergangnen Tagen": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+            ],
+            "txt": {
+                "s1": "{a}An den s{d}echs verg{a}ang'n{E}en T{a}agen%mussten w{d}ir uns l{a}aus{E}ig pl{a}agen:%//: W{C}enig Fr{F}eude, L{G}uft und L{C}icht,%Dr{a}eck an H{d}änden {E}und Ges{a}icht. ://",
+                "s2": "H{a}eute h{d}at die W{a}elt {E}uns w{a}ieder,%Klampfensp{d}iel und h{a}und{E}ert L{a}ieder%//: w{C}andern d{F}urch die W{G}älder m{C}it,%z{a}u dem S{d}iebenm{E}eilenschr{a}itt. ://",
+                "s3": "{a}Und so g{d}eht es {a}imm{E}er m{a}unter%Berg r{d}auf und w{a}ied{E}er r{a}unter,%//: {C}alle {F}uns're M{G}üdigk{C}eit,%st{a}eckt zu H{d}aus im {E}Arbeitskl{a}eid. ://",
+                "s4": "S{a}ieben T{d}age h{a}at d{E}ie W{a}oche,%sechse s{d}ind wir r{a}umg{E}ekr{a}ochen,%//: d{C}och am s{F}iebten l{G}ebt sich's fl{C}ott.%{a}Also w{d}ill's der l{E}iebe G{a}ott. ://"
+            }
+        },
+        "And're, die das Land": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s1"
+            ],
+            "txt": {
+                "s1": "{G}And're, die das Land so sehr nicht l{D}iebten,%{e}war'n von Anfang {C}an gewillt zu g{G}ehn;{D}%{e}Ihnen - manche {C}sind schon fort - ist b{G}esser,%ich doch müsste mit dem eigenen M{D}esser%m{e}eine Wurzeln {C}aus der {D}Erde dr{G}eh'n.",
+                "s2": "K{G}eine Nacht hab' ich seither geschl{D}afen,%{e}und es ist mir m{C}ehr als weh zum{G}ut;{D}%V{e}iele Wochen s{C}ind seither verstr{G}ichen,%alle Kraft ist längst aus mir gew{D}ichen%{e}und ich fühl', dass {C}ich dar{D}an verbl{G}ut'",
+                "s3": "{G}Und doch müsst' ich mich von innen h{D}eben,%s{e}ei's auch nur, zu bl{C}eiben, was ich w{G}ar.{D}%N{e}immer kann ich, w{C}o ich bin, ged{G}eihen;%Draußen braucht' ich wahrlich nicht zu schr{D}eien,%d{e}enn mein leises W{C}ort war {D}immer w{G}ahr.",
+                "s4": "S{G}einer wär' ich, wie in alten T{D}agen,%s{e}icher; schluchzend w{C}ider mich gew{G}andt,{D}%h{e}ätt' ich Tag und N{C}acht mich nur zu h{G}eißen,%mich samt meiner Wurzeln auszur{D}eißen%{e}und zu setzen {C}in ein {D}and'res L{G}and."
+            }
+        },
+        "Auf vielen Straßen dieser Welt": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3"
+            ],
+            "txt": {
+                "s1": "Auf vielen Str{a}aßen dieser W{E}elt%habt ihr euch sorglos 'rumgetr{a}ieben,%//: so ohne Z{d}elt und ohne G{a}eld%der Tippel{E}ei verschr{a}ieben. ://",
+                "s2": "Was galt euch Armut, was Gef{E}ahr?%Ihr habt, verachtet und zersch{a}unden,%//: da draußen tr{d}eibend J{a}ahr für J{E}ahr%doch euer Glück gef{a}unden. ://",
+                "s3": "Habt manches Lied der Einsamk{E}eit%wohl in die Nacht hinaus ges{a}ungen.%//: Auf fremden M{d}eeren, fern der Z{a}eit,%ist euer S{E}ang verkl{a}ungen. ://"
+            }
+        },
+        "Augen auf und Durch": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "b",
+                "r"
+            ],
+            "txt": {
+                "b": "{e}Komm, Augen auf und d{C}urch.%Ist die Zeit auch {D}schwer, du bist ni{a}cht allein.%{e}Komm, Augen auf und d{C}urch,%Nur wer Angst hat, {D}kann auch mu{a}tig sein.",
+                "r": "{G}Gib nicht auf!%{e}   Irgen{C}dwo%{G}   brennt ein {D}Feuer tief in dir.%{e}   Irgen{C}dwo%{G}   wirst du ni{D}e den Mut verlier'n.%{e}   Niemand{C} hat jemals gesagt,%{G}   Es wär' {D}leicht, ein Mensch zu sein.%{e}   Irgen{C}dwo%{G}   brennt ein {D}Feuer, lass es scheinen,%{e}  {C} Für dich{G} scheinen{D}",
+                "s1": "{e}   Manchmal hab ich Angst, was{C} zu ve{G}rpassen,{D}%{e}   Manchmal Angst, genauer{C} hinzuse{G}hen.{D}%{a}   Manchmal würd ich's sogar{D} lieber la{e}ssen,{D}%{C}   Überhau{D}pt nur aufzusteh{G}en%{C}   Und ins L{D}eben rauszugeh{G}en.",
+                "s2": "{e}   Manchmal hab ich Angst vor{C} meinen F{G}ehlern{D}%{e}   Und dass du sie mir{C} übel n{G}immst.{D}%{a}   Manchmal Angst, dass all die{D} andern{e} sehe{D}n,%{C}   Wir kapu{D}tt ich manchmal bi{G}n."
+            }
+        },
+        "Behind Blue Eyes": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "o": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes",
+                "r": "But my dr{C}e{D}ams, they aren't as {G}empty, As my c{C}onscience s{D}eems to b{E}e%I have h{h7}ours, only l{C}onely. My love is v{D}engeance that's never fr{A}ee",
+                "s1": "N{E}o one knows what it's l{G}ike, to be the b{D}ad man,%To be the s{C}ad man, beh{A}ind blue eyes%N{E}o one knows what it's l{G}ike to be h{D}ated,%To be fa{C}ted, to telling {A}only lies",
+                "s2": "N{e}o one knows what it's l{G}ike to feel these f{D}eelings%Like I d{C}o, and I blame y{A}ou%N{e}o one bites back as h{G}ard on their {D}anger%None of my p{C}ain and woe, can show thr{A}ough",
+                "s3": "N{e}o one knows what its l{G}ike%To be mistr{D}eated, to be def{C}eated%Beh{A}ind blue eyes%N{e}o one knows how to s{G}ay%That they're s{D}orry and don't w{C}orry%I'm not t{A}elling lies"
+            }
+        },
+        "Braune Pfeifen": {
+            "scheme": [
+                "s1",
+                "pc",
+                "r",
+                "s2",
+                "pc",
+                "r",
+                "b",
+                "r"
+            ],
+            "txt": {
+                "b": "D{e}ie Köpfe leer, die Hosen voll%{e}Immer dieselbe Leier%{e}Ein Rückgratloses Pauken%{e}Und Trompeten rumgeeier%D{e}ie reinste H{D}ass-Kackophonie{G}%Und zwar in {A}Endlosschleife{e}%Doch wir tanzen, t{D}anzen, tanzen nie{G}%Nach {D}euren braunen Pf{e}eifen!{DcDe}",
+                "pc": "{C}Ist uns ganz egal, viel Spaß beim {D}Eskal{e}ier'n%Doch eine Sache sollten wir nie aus den Ohren verlier'n{h}%Nie aus den Ohren verl{D}ier'n",
+                "r": "Auch wenn die Schr{e}eihälse auf d{G}ieser Welt%Das Orch{D}ester dirig{a}ieren%Auch wenn sie sch{e}ief und taktlos, w{G}ie sie sind%In eure K{D}öpfe einmarsch{C}ieren%Lasst sie {A}i{m}hre f{h}alschen L{C}ieder schr{G}eien und k{D}eifen%Wir tanzen nicht nach braunen Pfeifen!{e}",
+                "s1": "T{e}anzt zusammen, tanzt allein{c}%Im Reigen {D}oder im Du{e}ett%T{e}obt herum, macht euch fein{c}%{c}Und dreht 'ne R{D}unde beim Ball{e}ett%W{e}eg das Hirn, aus dem Kopf{c}%Holt euren b{D}esten Standard r{e}aus%B{e}ildet einen wilden Mob{c}%Und rastet {D}aus",
+                "s2": "T{e}anz aus dir raus, tanz in dich rein{c}%Von mir aus t{D}anz deinen Namen%T{e}anz auch mal aus den Reihen{c}%Und falle {D}aus dem Rahmen"
+            }
+        },
+        "Coming Home": {
+            "scheme": [
+                "s1",
+                "pc",
+                "r",
+                "s2",
+                "pc",
+                "r",
+                "b",
+                "r"
+            ],
+            "txt": {
+                "b": "A fallen angel is what you {e}are, Your father has fors{C}aken you%Left you with those sc{G}ars, My hope is that you m{C}ake it through%Hate must never w{e}in, Even when we're w{C}orlds apart%Your love is not a s{G}in, Even if it's h{C}ard",
+                "pc": "Even when I'm f{G}ar, I will always be there  {C}",
+                "r": "Hold {a}on my d{e}ear, I'm c{G}oming h{C}ome, Don't l{a}et your f{e}ears%T{G}ake c{C}ontrol, I can f{a}inally h{e}ear%Her m{G}essage loud and cl{C}ear, Hold {a}on my d{e}ear, I'm c{G}oming h{C}ome",
+                "s1": "{C} Tell me who you {e}are,  Your father has fors{C}aken you%Left you with those sc{e}ars, My hope is that you'll m{C}ake it through%Hate must never w{e}in,  Even when we're w{C}orlds apart%Your love is not a s{e}in, Even if it's h{F}ard",
+                "s2": "{C}  Transmission from the st{e}ars, A message from the {C}atmosphere%Etched into my h{e}eart, Your purpose there is st{C}ill unclear%The ghost of you lives {e}on, Through everything I s{C}ee and touch%Even when you're g{e}one, Even if it's h{F}ard"
+            }
+        },
+        "Country Roads": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "b",
+                "o"
+            ],
+            "txt": {
+                "b": "{e} I hear her v{D}oice in the m{G}orning hour she calls me,%The r{C}adio rem{G}inds me of my h{D}ome far away.%Dr{e}iving down the r{F}oad I get a f{C}eeling%That I sh{G}ould have been home y{D}esterday, yesterday.",
+                "o": "//:Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.://%//:take me h{D}ome, down country r{G}oads. ://",
+                "r": "Country R{G}oads, take me h{D}ome, to the pl{e}ace, I bel{C}ong,%West Virg{G}inia, mountain m{D}ama, take me h{C}ome, country r{G}oads.",
+                "s1": "{G} Almost Heaven;{e} West Virginia,%{D} Blue Ridge Mountains, Sh{C}enandoah R{G}iver.%Life is old there,{e} older than the trees,%y{D}ounger than the mountains, bl{C}owin' like a br{G}eeze.",
+                "s2": "{G} All my memories{e} gather round her,{D}%miner's lady, str{C}anger to blue w{G}ater.%Dark and dusty, p{e}ainted on the sky,%m{D}isty taste of moonshine, T{C}eardrop in my {G}eye."
+            }
+        },
+        "Die freie Republik": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+            ],
+            "txt": {
+                "s1": "{D}In dem Kerker saßen zu Fr{A7}ankfurt an dem M{D}ain%schon seit vielen Jaren s{A7}echs Studenten {D}ein,%die f{G}ür die Freiheit fochten und für das Bürgergl{D}ück%und für die Menschenrechte der fr{A7}eien Republ{D}ik. ",
+                "s2": "Und der Kerkermeister spr{A7}ach es täglich {D}aus:%Sie Herr Bürgermeister, es r{A7}eißt mir keiner {D}aus!%Aber d{G}och sind sie verschwunden abends aus dem T{D}urm,%um die zwölfte Stunde, b{A7}ei dem großen St{D}urm.",
+                "s3": "Und am nächsten Morgen h{A7}ört man den Al{D}arm.%Oh, es war entsetzlich, d{A7}er Soldatenschw{D}arm!%Sie s{G}uchten auf und nieder, sie suchten hin und h{D}er,%sie suchten sechs Studenten und f{A7}anden sie nicht m{D}ehr.",
+                "s4": "Doch sie kamen wider mit Schw{A7}ertern in der H{D}and.%Auf auf ihr deutschen Brüder, jetzt g{A7}eht's fürs Vaterl{D}and!%Jetzt g{G}eht's für Menschenrechte und für das Bürgergl{D}ück,%wir sind doch keine Knechte der fr{A7}eien Republ{D}ik!",
+                "s5": "Wenn euch die Leute fragen: W{A7}o ist Absal{D}om?%So dürft ihr wohl sagen: {A7}Oh, der hänget sch{D}on%Er h{G}ängt an keinem Baume, er hängt an keinem Str{D}ick,%sondern an dem Glauben der fr{A7}eien Republ{D}ik."
+            }
+        },
+        "Ein Hotdog unten am Hafen": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "o": "{C}Ohne dich will ich nicht, m{G}it dir kann ich nicht s{C}ein.",
+                "r": "Sch{a}ön, wenn man liebt, was M{e}utter Natur einem gibt.%Was kann {F}ich dafür, dass d{G}u mich nicht verg{C}isst?%Ein g{F}eselliges Tier ist das Schw{G}ein%und das St{C}achelschwein lieber all{F}ein.%{C}Ohne dich will ich nicht, m{G}it dir kann ich nicht s{C}ein.",
+                "s1": "Ein H{a}otdog unten am H{C}afen%und vorm E{E}inschlafen schnell noch ein B{F}ier.%Dem F{C}eind einen Tritt in die R{F}ippen%und ein paar K{G}ippen für hinterh{C}er.%Ein D{a}ate mit dem Dalai L{C}ama%und ein {E}Apfelsaft morgens um zw{F}ei,%eine h{C}albautomatische W{G}affe ist immer dab{C}ei.",
+                "s2": "R{a}äucherstäbchen und W{C}ildreis und {E}Abende auf dem B{F}alkon,%in {C}Eppendorf ist morgen Fl{F}ohmarkt und j{G}eder nach seiner Fac{C}on.%Ein D{a}ate mit dem Dalai L{C}ama und ein Gr{E}iff ins Kosmetikreg{F}al%und wenn's im R{C}ücken mal weh tut wird j{G}ede Bewegung zur Q{C}ual.",
+                "s3": "Eine P{a}arkbank in Planten un Bl{C}omen und der M{E}ond über Alton{F}a,%ein S{C}ohn, der bald mal ins B{F}ett muss, und tr{G}ockene Blumen im H{C}aar%Ein D{a}ate mit dem Dalai L{C}ama und ein Kl{E}impern auf dem Klav{F}ier%und zum {C}Abschied ein bisschen Gef{G}ummel hinter der T{C}ür"
+            }
+        },
+        "Ein Lied Das Nicht Vergisst": {
+            "scheme": [
+                "s1",
+                "pc",
+                "r",
+                "s2",
+                "pc",
+                "r",
+                "b",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "b": "Ich w{G}eiß, du wirst mich in dir f{D}inden, Auch w{e}enn ich mich verlier'{C}%{G}Und wohin mein Geist auch w{D}andert, Mein H{C}erz bleibt hier bei d{G}ir",
+                "o": "Er{C}inner' dich {D}an m{G}ich",
+                "pc": "Und so tr{h}eib' ich auf den {e}Abgrund zu, Auf {C}einem trägen Fl{G}oß%Und ich s{h}inge dir im {e}Untergehen, Ein L{C}ied zu deinem Tr{D}ost",
+                "r": "Damit du m{C}ich nicht so verm{G}isst%Schreib' ich ein L{D}ied, das nicht verg{e}isst%Und wenn die Z{C}eit mein Leben n{G}immt, Erinner' d{D}ich, wenn es erkl{C}ingt%Damit du m{C}ich nicht so verm{G}isst%Schreib' ich ein L{H}ied, das nicht verg{e}isst%Wenn mich das d{C}unkle M{D}eer verschl{e}ingt%Erinner' d{D}ich, wenn es erkl{C}ingt, Erinner' dich{D} an m{G}ich",
+                "s1": "B{G}ilder, die ich in mir tr{D}age, V{e}erlier'n ihre Kraft{C}%{G}Alle Sicherheit verschw{D}indet, W{e}orauf ist noch Verlass?{C}%L{G}angsam spür' ich mich zerfl{D}ießen, {e}Unter deinem Blick{C}%S{G}elten kann man noch gen{D}ießen, Uns're {C}Inseln voller Gl{G}ück",
+                "s2": "L{G}achend seh' ich mich und w{D}einend, L{e}ebensfroh und -müd'{C}%G{G}efühle werden langsam schw{D}ächer, Die B{e}ilder werden trüb{C}%Ich sp{G}ür noch, wie du k{D}ämpfst um mich, Und n{e}och tut es weh{C}%Bew{G}ahren will ich meine R{D}ührung, W{C}enn ich dich so s{G}eh'"
+            }
+        },
+        "Father And Son": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s1",
+                "s2"
+            ],
+            "txt": {
+                "s1": "It's not {G}time to make a {D}change, just{C} relax and take {a7}it easy%You're still {G}young,%that's your {e}fault, there's so{a} much yo{a7}u have{D} to know%Find a {G}girl, settle {D}down, if y{C}ou want to, you c{a7}an marry%Look at {G}me, I am {e}old, but I'm{a} hap{a}py{a7}{D}%I was {G}once like you are {D}now, and I {C}know that it's not {a7}easy%To be {G}calm when you've {e}found something going{a} o{a}n {a7}  {D}%But take your {G}time, think a {D}lot,%why think of {C}everything you've {a7}got%For you will {G}still be here tomo{e}rrow, but your{D} dreams may{G} not{C}",
+                "s2": "How can {G}I try to ex{h}plain? 'cause when I{C} do he turns {a7}away again%It's {G}always been the {e}same, same old{a7} sto{D}ry%From the {G}moment I could {h}talk I was{C} ordered to{a7} listen%Now there's a {G}way, and I {e}know that I{D} have to{G} go away%I {D}know I {C}have to {G}go {C} "
+            }
+        },
+        "Funkenflug": {
+            "scheme": [
+                "s1",
+                "c",
+                "s2",
+                "c",
+                "b",
+                "c",
+                "o"
+            ],
+            "txt": {
+                "b": "{G}Das Feuer knistert, lacht und {C}singt,%{D}bis hinauf zum Firmam{G}ent,%bis der Funke übers{C}pringt%{D}und dein Herz für etwas brennt.",
+                "c": "{C}Macht die Feuer {D}an!%Lass' sie {G}lodern bis zum Himmel!%Macht die {C}Nacht zum Tag und {D}dann,%{D}ist es {e}vielleicht hell {D}genug%{C}Macht die Feuer {D}an!%Der Spaß ist {G}lange nicht vorbei!%Wir drehen {C}auf; wir drehen {D}frei%{D}und tanzen {e}durch den Funkenf{D}lug.",
+                "o": "{C}Macht die Feuer {D}an!{G}%Lass' sie {C}lodern bis zum {D}Himmel{e}!{D}%{C}Macht die Feuer {D}an!{G}%Wir drehen {C}auf; Wir drehen {D}frei%und tanzen {e}durch den Funken{D}flug.{G}",
+                "s1": "{G}Nur ein Funke sagen sie, im endlos weiten Sternen{C}zelt.%Ein Glimmen nur, doch irgendw{D}ie; ein kleines Zeichen auf der {G}Welt,%dass irgendwo ein Feuer brennt hier im Licht- und Schatten{C}spiel,%das irgendwo und im {D}Moment ein Stern auf Erden viel.",
+                "s2": "{G}Nur ein Funke sagen sie;%eine Idee am Sternen{C}zelt;%zuerst nur bloße Fanta{D}sie%vielleicht verändert sie die {G}Welt.%Mit einem S{l}chimmer in der Nacht%Mit einer Glut am Horiz{C}ont,%die irgendwo ein Licht {D}entfacht,%{D}indem sich jemand sonnt."
+            }
+        },
+        "Hauch mich mal an": {
+            "scheme": [
+                "s1",
+                "pc1",
+                "r1",
+                "s2",
+                "pc2",
+                "r2",
+                "b",
+                "s3",
+                "r3"
+            ],
+            "txt": {
+                "b": "Die Welt dreht sich um m{F}ich nur der Schl{E}üssel nicht im Schl{a}oss%Ich wundere mich k{F}urz, da brennt noch L{E}icht im Erdgesch{a}oss%Da ist dann schon ein Sch{F}atten und schon {E}öffnet sich die T{a}ür%Nachts halb drei in D{F}eutschland und M{E}ama steht vor m{a}ir",
+                "pc1": "Ich stand zw{F}ischen all den anderen und l{a}auschte%Er war g{F}ut darin, Passanten anzuz{a}iehen%nach z{F}ehn Minuten Predigt eine P{a}ause%da st{E}ellte ich mich sehr dicht vor ihn hin Und sagte:",
+                "pc2": "Ich stand {F}aufgelöst im Hausflur und ich l{a}auschte%sie h{F}atte sich schon immer gut gestr{a}itten%Nach z{F}ehn Minuten Heulkrampf eine P{a}ause%da l{E}egt' ich ihr den Finger auf die Lippen Und sagte:",
+                "r1": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, ich wäre wirklich überr{F}ascht;%hättest du nicht vom Schnaps gen{C}ascht%Ich r{G}iech es bis hierh{F}e{E}r:%Du stinkst nach Haschisch und Lik{a}ör",
+                "r2": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, So wie du hier grade z{F}eterst,%Merkt man, dass du einen im T{C}ee hast {G}%Ich riech es wie noch n{F}ie:%{E}//:Du stinkst nach Gras und Mon Chér{F}i{a}i{E}i{a}i://",
+                "r3": "H{a}auch m{E}ich mal {a}an, das kann doch nicht dein {F}Ernst sein,%das kann doch keiner {C}Ernst meinen!{G}%H{a}auch m{E}ich mal {a}an, Du denkst wohl das m{F}acht nix,%dass du so spät noch w{C}ach bist!%Ich r{G}iech es doch bis h{F}i{E}er:%Ich glaub die Fahne kommt von m{a}ir",
+                "s1": "Der Wind treibt Bl{a}ätter vor sich h{d}er und seine W{E}orte an mein {a}Ohr%und er steht schon länger h{d}ier und trägt Vorb{E}eieilenden v{a}or%Was die da oben sich erl{d}auben! Was sich {E}im Verborgenen t{a}ut%Man lässt den Steuerzahler gl{d}auben der F{E}ortschritt tut uns g{a}ut%Deutschland ist ne F{d}irma und {E}Impfen ist tab{a}u%Merkel ist kein M{d}ensch weiß er von X{E}avier Naid{a}oo",
+                "s2": "Der R{a}egen schlägt ans F{d}enster und s{E}ie mir ins Ges{a}icht%Sie saß hier wohl schon l{d}änger und sie w{E}artete auf m{a}ich%Doch ich kam ja zu sp{d}ät und sie d{E}eshalb zum Entschl{a}uss%Dass wenn ich heute g{d}eh es für {E}immer sein m{a}uss%Die Sachen schon gep{d}ackt, da v{E}orne ist die T{a}ür%bevor du sie gleich z{d}uziehst lass d{E}eine Schlüssel h{a}ier",
+                "s3": "In dieser Situati{d}on greif meine S{E}uperfähigk{a}eit%die Gute-Nacht-zu-M{d}ama-sagen-M{E}ini-Nüchternh{a}eit%Gut artikul{d}iert und ohne St{E}ottern vorgebr{a}acht%Sie fragt: Wo kommst du h{d}er? Und {E}ich sag: Gute N{a}acht.%Trotzdem riecht sie L{d}unte in ihren {E}Augen blitzt der Z{a}orn%Mir bleibt kein anderer {d}Ausweg: n{E}ur die Flucht nach f{a}orn"
+            }
+        },
+        "Haut Mir Kein Stein": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "b",
+                "r"
+            ],
+            "txt": {
+                "b": "Pflanzt mir kein' B{C}aum! Ölt mich nicht {E}ein! %Lasst keinen Priester {a}an mich rann{F}!%Brennt mich l{C}ichterloh zu Asche, %streut mich {E}in den Wind und dann legt mir b{a}itte%bitte keine toten Bl{F}umen auf mein Grab, ihr w{C}isst doch, %dass ich tote Bl{G}umen nicht m{C}ag.",
+                "r": " Haut mir kein' St{C}ein, schlagt mir kein' Kr{E}euz % und macht mir keine K{a}erzen an{F}.% Brennt mich l{C}ichterloh zu Asche, % trinkt ein B{E}ier auf mich und dann,% lest mir b{a}itte keine Messe, legt kein' K{F}ranz wohin ich starb,% sondern b{C}aut mir dort ein Schankhaus{G} und tanzt auf meinem Gr{C}ab",
+                "s1": "{C} Ich hoff' es ist noch lange hin, bis der Vorhang f{E}ür mich fällt. % Bis mich {F}unsere Mutter Erde{G}, wieder in den Schoß bes{C}tell{G}t. {C}    % Doch wenn es dann soweit ist, dass ich nicht mehr b{E}ei euch bin.% Hab' ich {F}eine große Bitte,{G} denn nur das macht für mich S{C}inn.",
+                "s2": "{C} So ein Abschied ist ein Trauerspiel, das ist mir ja auch kl{E}ar.%Doch w{F}ir sind nunmal alle dran,{G} scheiße, aber w{C}ahr.{G}   {C}   %Also lebt die Zeit die ihr noch habt, ich gönne sie euch {E}all'n.%Wischt die Tr{F}änen weg{G} und tut mir den Gef{C}all'n.",
+                "s3": "{C} Baut mir ein schönes Haus, indem jeder f{E}eiern geht {F}{G}%und auf d{F}essen Türe{G}, in großen Zeilen st{C}eht: %Er hat geraucht, er getrunken, er hat getanzt solang es ging{G}.%Er zog durch Kneipen und Spelunken, bis das Licht am Himmel h{F}ing.%Er hat gelacht, wann immer m{G}öglich und die Frauenwelt gel{C}iebt.%Er lebte alle seine Träume, wenn es wirklich sowas gibt.%Er hatte die beste Familie, die ein Mensch sich wünschen k{E}ann %und echte Freunde{F} und die flehe ich jetzt {G}an."
+            }
+        },
+        "Hesta Jonas": {
+            "scheme": [
+                "s1",
+                "pc",
+                "r",
+                "s1",
+                "pc",
+                "r",
+                "b",
+                "r",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "r1": "Da {C}war aus Wein der {G}G Fluss, die {F}Bäume trugen {E}B{m}rot.%Im {C}Hamfeld blühten {G}Kirschen, die {F}war'n im Winter {E}r{m}ot.%Kein {A}K{m}r{7}ämer fuhr den {D}K{m}arrn, kein {F}Geld brauchte ein {E}K{4}leid.%Kein {C}Mensch brauchte zu {G}darben, kein {F}Weg war mehr zu {E}E{4}4 weit{E}.",
+                "r2": "Die {C}Städte werden {G}fallen, wo {F}reich nur wenig {E}s{m}ind%Die {C}armen Leute {G}steigen zum {F}Reichtum ohne {E}S{m}ünd%Und {A}g{m}i{7}bt nicht mehr den {D}F{m}ürst, nicht {F}Bischof und nich {E}Z{4}ar%Und {C}wird nicht sein am {G}Morgen, wie {F}es am Abend {E}w{4}ar{E}",
+                "s1": "{A}U{m}nten im Gnadental ge{G}schah eine Geschicht,%Die {A}h{m}at schön angefangen und {G}ende{E}t{m}e so {A}n{m}icht.%Die Hester Jonas war des {G}Peter Meurer Weib,%Sie {A}h{m}atte grobe Hände und {G}einen {E}j{m}ungen {A}L{m}eib.",
+                "s2": "Die {A}T{m}age waren Arbeit, die {G}Nächte waren leer%Und {A}H{m}ester hatte Träume und {G}träumte {E}i{m}mmer {A}m{m}ehr.%Und {A}A{m}m morgens an der Erft, wenn {G}sie die Wäsche rieb,%Er{A}z{m}ählte sie den Frauen, was {G}von den {E}T{m}räumen {A}b{m}lieb.",
+                "s3": "Die {A}F{m}rauen hörten sie mit {G}lachendem Gesicht%Schön {A}w{m}aren Hesters Träume und {G}schade{E}t{m}en doch {A}n{m}icht.%Und {A}m{m}ittags auf dem Markt, wo {G}mancher Händler rief,%Ge{A}s{m}chah's, dass um die Jonas mehr {G}Volk zu{E}s{m}ammen{A}l{m}ief:",
+                "s4": "Die {A}M{m}änner zeigten ihr oft {G}einen schiefen Mund,%Die {A}b{m}essern sagten Hester, du {G}richtest {E}d{m}ich zu{A}g{m}rund.%Des {A}N{m}achts zum kühlen Gras ka{G}men sie hungrig doch%Und {A}w{m}ollten Hesters Träume und {G}baten: {E}h{m}eute {A}n{m}och!",
+                "s5": "Da k{A}a{m}men in der Früh zwei {G}Männer aus der Stadt%Und {A}s{m}chleppten Hester Jonas vor {G}G einen {E}M{m}agis{A}t{m}rat.%Da {A}w{m}ar die Red' von Gott, da {G}war die Red' von ihr%Da {A}A{m}m war die Red' von Träumen, die {G}kränken {E}M{m}ensch und {A}T{m}ier.",
+                "s6": "Und {A}q{m}uetschten ihr den Hals und {G}brachen ihr Gebein,%Die {A}g{m}anze Stadt hat Tage voll {G}Hester {E}J{m}onas' {A}S{m}chrein.%Und {A}u{m}nterschrieb die Schuld mit {G}G der verkrümmten Hand%Und {A}s{m}chrie noch lange Träume, bis {G}sie das {E}F{m}euer {A}f{m}and."
+            }
+        },
+        "Hotel California": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3"
+            ],
+            "txt": {
+                "r": "{F} Welcome to the Hotel Cali{C}fornia.%Such a l{E7}ovely place, (such a lovely place), such a l{a}ovely face%They're l{F}ivin' it up at the Hotel Calif{C}ornia%What a n{d}ice surprise, (what a nice surprise) Bring your {E7}alibis",
+                "s1": "{a} On a dark desert highway,{E7} cool wind in my hair%{G} Warm smell of colitas{D} rising up through the air%{F} Up ahead in the distance,{C} I saw a shimmering light%{d} My head grew heavy and my sight grew dim%I{E7} had to stop for the night%{a}  There she stood in the doorway;{E7} I heard the mission bell%{G} And I was thinking to myself%This could be h{D}eaven or this could be hell%{F} Then she lit up a candle, {C}and she showed me the way%{d} There were voices down the corridor,%{E7} I thought I heard them say...",
+                "s2": "{a} Her mind is Tiffany-twisted,{E7} She got the Mercedes bends%{G} She got a lot of pretty pretty boys{D} she calls friends%{F} How they danced in the courtyard,{C} sweet summer sweat%{d} Some dance to remember,{E7} some dance to forget%{a} So I called up the captain;{E7} Please bring me my wine (he said)%{G} We haven't had that spirit here since{D} 1969%{F} and still those voices are calling from f{C}ar away%{d} Wake you up in the middle of the night%{E7} Just to hear them say...",
+                "s3": "{a} Mirrors on the ceiling;{E7} the pink champagne on ice (and she said)%{G}  We are all just prisoners here,{D} of our own device%{F} and in the master's chambers,{C} they gathered for the feast%{d} They stab it with their steely knives but they%j{E7}ust can't kill the beast%{a} Last thing I remember, I was{E7} running for the door%{G} I had to find the passage back to the pl{D}ace I was before%{F} \"Relax\" said the night man; we are{C} programmed to receive%{d} You can check out any time you like%{E7} But you can never leave."
+            }
+        },
+        "Hyazinten": {
+            "scheme": [
+                "s1",
+                "pc1",
+                "r",
+                "s2",
+                "pc2",
+                "r",
+                "s3",
+                "pc3",
+                "r",
+                "s4",
+                "pc1",
+                "r"
+            ],
+            "txt": {
+                "pc1": "aber du musst t{a}anzen, aber du musst t{F}anzen,%aber du musst t{E}anzen, aber du musst t{a}anzen",
+                "pc2": "aber du bist bl{a}ass, aber du bist bl{F}ass,%aber du bist bl{E}ass, aber du bist bl{a}ass",
+                "pc3": "und du musst t{a}anzen, und du musst t{F}anzen,%und du musst t{E}anzen, und du musst t{a}anzen",
+                "r": "//: Le-la-la-lei le-la-la-la-l{F}ei%le-la-la-l{E}ei le-la-la-la-l{a}ei ://",
+                "s1": "F{a}ern hallt Musik, doch hier ist stille Nacht,%mit Schl{e}ummerduft anhauchen mich die Pflanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber du musst tanzen.",
+                "s2": "Es hört nicht {a}auf, es rast ohn' Unterlass.%Die Kerzen br{e}ennen und die Geigen schreien,%es teilen {d}und es schließen sich die Reihen,%und alle gl{E}ühen, aber du bist blass,",
+                "s3": "Und du must t{a}anzen; fremde Arme schmiegen%sich an dein H{e}erz, oh leide nicht Gewalt.%Ich seh dein w{d}eißes Kleid vorüber fliegen%und deine l{E}eichte, zärtliche Gestalt!",
+                "s4": "Und süßer str{a}ömend quillt der Duft der Nacht%und träumerisch{e}er aus dem Kelch der Pfanzen.%Ich habe {d}immer, immer dein gedacht,%ich möchte schl{E}afen, aber Du musst tanzen!"
+            }
+        },
+        "Ich Und Ein Fass Voller Wein": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "s4",
+                "o"
+            ],
+            "txt": {
+                "o": "//:{A}Ich und ein Fass voller {D}Wein,%und nur {A}morsches Holz zwischen {E}mir und den Fischen.%{A}Ich und ein Fass nur {D}allein,%dem {A}Himmel entrissen, {E}oh drauf geschissen.%Es {D}könnte noch {E}viel schlimmer {A}sein.://",
+                "r": "{A}Ich und ein Fass voller {D}Wein,%und nur {A}morsches Holz zwischen {E}mir und den Fischen.%{A}Ich und ein Fass nur {D}allein,%dem {A}Himmel entrissen, {E}oh drauf geschissen.%Es {D}könnte noch {E}viel schlimmer {A}sein. ",
+                "s1": "Wir {A}fuhren mal wieder der {E}Freiheit entgegen,%zu {D}kunden den {E7}Seewind auf{A} meerweiten{E} Wegen.%Be{A}laden mit gerade er{E}rungener Fracht,%hat {D}uns doch For{E7}tuna mit{A} Segen b{E}edacht.%So {A}hatten wir ein Dutzend {E}Fass Wein an Bord.%Zu {D}tief war der {E7}Seegang, so{A} voll war der{E} Hort.%Da {A}wies uns der Kaptain, den {E}Frachtraum zu leeren,%und {D}uns zu {E7}füllen, den{A} freudigen{E} Launen zu{A} mehr'n.",
+                "s2": "Lang {A}war die Nacht und der {E}Durst war so groß,%und {D}bald war denn {E7}jedermann{A} Trunkenheit{E} bloß.%Elf {A}Fässer wir löschten in {E}Seemannsmanier.%{D}Voll war der {E7}Mond - und noch{A} voller war'n{E} wir.%Der {A}Kaptain war wieder der {E}Strammste von allen.%Beim {D}Pissen ist {E7}er von der{A} Reling g{E}efallen.%Zu {A}retten ihn sprangen noch {E}viele in See,%doch bei {D}unser'n zwölf {E7}Knoten war das{A} keine so{E} gute I{A}dee.",
+                "s3": "Wer {A}später dann noch nicht von {E}Bord war gegangen,%der {D}kroch noch im {E7}Suff auf der{A} Reling en{E}tlang.%Und {A}ich habe mich still in den {E}Frachtraum gestohlen,%das {D}zwölfte Fass {E7}Wein für uns{A} Zecher zu{E} holen.%Das {A}war dann die Zeit heitren {E}Himmels hernach,%der {D}Sturm über {E7}unsere{A} Köpfe rei{E}nbrach.%Das {A}Ruder barst, kurz nachdem {E}unser Mast fiel,%und nach {D}wenig der {E7}Weil hatten{A} Felsen wir{E} unter dem{A} Kiel.",
+                "s4": "So {A}sind allesamt in der {E}Sturmflut ertrunken,%und {D}mit unser'm {E7}Kahn in die{A} Tiefe g{E}esunken.%Nur {A}ich überlebte im {E}Frachtraum geschlossen,%und {D}hab unser {E7}Schicksal in{A} Ehren b{E}egossen.%So {A}sitze ich hier zwischen {E}Gold, Schmuck und Tuch,%hab {D}Umtrunk und {E7}Luft und auch{A} Ratten g{E}enug.%Ich {A}würd' mich wohl fürchten, wär {E}ich hier allein,%doch{D} hab ic{E7}h ein' Krug{A} und ein v{E}olles Fass{A} lieblichen Wein."
+            }
+        },
+        "Küstenkind": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r"
+            ],
+            "txt": {
+                "o": "//:{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt, wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir, ich bin ein Küstenk{C}ind.://",
+                "r": "{F}Ja mein Herz ist aus der S{C}ee gemacht.%{e}Fleisch und Blut aus Salz und{a} Wind.%{F}Du musst mir nur in die {C}Augen schauen,%{e}und schon weißt du, dass es st{a}immt.%{F}Wohin das Leben mich auch f{C}ührt, wo immer {e}ich auch bin.%{a}Ich trag' den Norden tief in m{F}ir, ich bin ein Küstenk{C}ind.",
+                "s1": "D{C}as Wasser reicht zum Horiz{e}ont, die Sonne glitzert schwach dar{a}auf.%Blick auf's wunderschöne M{F}eer, Und ich weiß, ich bin Z{C}uhaus'.%Ich spür' den kalten, nassen S{e}and, und ich spür' meine Nat{a}ur.%Stehe barfuß hier am Str{F}and, und sehe meine Sp{G}ur.",
+                "s2": "D{C}ie Wellen singen mir ihr L{e}ied, mit dem Wind zur Melod{a}ie.%Und die Möwen stimmen {F}ein, zu meiner Symphon{C}ie.%Das ist mein Moment am M{e}eer, den ich tief in mir gen{a}ieß'.%Den ich in mir seh' und f{F}ühl', Wenn ich die Augen schl{G}ieß'."
+            }
+        },
+        "Lemon Tree": {
+            "scheme": [
+                "s1",
+                "s2",
+                "r",
+                "s3",
+                "b",
+                "s4",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "b": "{E} Isolation - {a}Is not good for me,%{G} Isolation - {C}I don't want to{E} sit on a lemon tree.",
+                "o": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%3x //: And {F}all that I can s{G}ee :// is just a yellow l{C}emon tree.",
+                "r": "I w{C}onder how, I w{G}onder why%Y{a}esterday you told me 'bout the bl{e}ue blue sky%And {F}all that I can s{G}ee is just a yellow l{C}emon tree.{G7}%I'm t{C}urning my head - {G}up and down,%I'm t{a}urning turning turning turning t{e}urning around%And {F}all that I can s{G}ee is just another l{C}emon tree.{G7}",
+                "s1": "I'm s{a}itting here in a b{e}oring room,%It's j{a}ust another rainy Sunday {e}afternoon.%I'm w{a}asting my time, I got n{e}othing to do.%I'm h{a}anging around, I'm w{e}aiting for you,%But n{d}othing ever happens {e}- and I w{a}onder.",
+                "s2": "I'm dr{a}iving around - {e}in my car,%I'm dr{a}iving too fast, I'm dr{e}iving too far.%I'd l{a}ike to change my p{e}oint of view%I f{a}eel so lonely, I'm w{e}aiting for you%But n{d}othing ever happens {e}- and I w{a}onder.",
+                "s3": "I'm s{a}itting here, I m{e}iss the power.%I'd l{a}ike to go out, t{e}ake in a shower,%But th{a}ere's a heavy cloud ins{e}ide my head.%I f{a}eel so tired, put mys{e}elf into bed,%Where n{d}othing ever happens {e}- and I w{a}onder.",
+                "s4": "I'm st{a}epping around in a d{e}esert of joy%B{a}aby anyhow I'll get an{e}other toy%And {d}everything will happen {e}- and you w{a}onder."
+            }
+        },
+        "Let It Be": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "r",
+                "s3",
+                "o"
+            ],
+            "txt": {
+                "o": "//:Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}://",
+                "r": "Let it b{a}e, let it b{G}e, let it b{F}e, let it b{C}e%Whisper words of w{G}isdom, let it b{F}e {C}",
+                "s1": "When I f{C}ind myself in t{G}imes of trouble, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}%And {C}in my hour of d{G}arkness, She is st{a}anding right in fr{F}ont of me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}",
+                "s2": "And wh{C}en the broken h{G}earted people, L{a}iving in the w{F}orld agree%Th{C}ere will be an {G}answer, let it b{F}e {C}%But th{C}ough they may be p{G}arted,%There is st{a}ill a chance that th{F}ey will see%Th{C}ere will be an {G}answer, let it b{F}e {C}",
+                "s3": "And wh{C}en the night is cl{G}oudy,%there is st{a}ill a light that sh{F}ines on me%Sh{C}ine on till tom{G}orrow, let it b{F}e {C}%I w{C}ake up to the s{G}ound of music, M{a}other Mary c{F}omes to me%Sp{C}eaking words of w{G}isdom, let it b{F}e {C}"
+            }
+        },
+        "Lord of the Dance": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "s4",
+                "r",
+                "s5",
+                "r",
+                "r"
+            ],
+            "txt": {
+                "r": "{G}Dance, dance, wher{e}ever you may{G} be..%{e}I am the Lord of the{D} Dance, said He.%And I'll {G}lead you all, wher{e}ever you may{G} be..%And I'll {D}lead you all in the {G}Dance, said He!",
+                "s1": "I d{G}anced in the morning when the w{e}orld was beg{G}un.%I d{D}anced in the Moon and the St{C}ars and the S{D}un.%I c{G}ame down from Heaven and I d{D}anced on E{e}arth..%at B{D}ethlehem I h{C}ad my b{G}irth.",
+                "s2": "I d{G}anced for the scribes and the ph{e}ar..is{G}ees.%But they w{D}ould not dance and they w{C}ouldn't follow m{D}e.%I d{G}anced for fishermen, for J{D}ames and J{e}ohn..%they c{D}ame with me and the D{C}ance went {G}on.",
+                "s3": "I d{G}anced on the Sabbath and I c{e}ured the l{G}ame.%The h{D}oly people thought it w{C}as a sh{D}ame.%They c{G}ut and they stripped and they h{e}ung me h{G}igh..%and they l{D}eft me there on a cr{C}oss to d{G}ie.",
+                "s4": "I d{G}anced on a Friday when the sk{e}y turned bl{G}ack.%It's h{D}ard to dance with the d{C}evil on your b{D}ack.%They b{G}uried my body, b{e}ut I'd g{G}one..%but {D}I am the Dance and I st{C}ill go {G}on.",
+                "s5": "They c{G}ut me down but I l{e}eapt up h{G}igh.%I {D}am the Light that will n{C}ever, never d{D}ie.%I'll l{G}ive in you if you'll l{e}ive in M{G}e..%{D}I am the Lord of the D{C}ance, said H{G}e."
+            }
+        },
+        "Luka": {
+            "scheme": [
+                "s1",
+                "r1",
+                "s2",
+                "r2",
+                "s3",
+                "r3",
+                "s1",
+                "r1",
+                "r2"
+            ],
+            "txt": {
+                "r1": "{e} If you hear s{D}omething late at night,%{e} Some kind of tr{D}ouble, some kind of f{C}ight,%3x //:{C} Just don't {D}ask me what it was ://",
+                "r2": "{e} They only h{D}it until you cry, {e} And after th{D}at you don't ask wh{C}y,%3x //:{C} You just don't {D}argue anymore://",
+                "r3": "{e} I guess I'd l{D}ike to be alone, {e} Nothing br{D}oken, nothing thr{C}own%3x //:{C} Just don't {D}ask me how I am://",
+                "s1": "{G} My name is L{D}uka,{C} I live on the s{D}econd floor,%{G} I live upst{D}airs from you,{C} Yes, I think you've s{D}een me before",
+                "s2": "{G} I think it's 'c{D}ause I'm clumsy,{C} I try not to t{D}alk too loud,%{G} Maybe it's bec{D}ause I'm crazy,{C} I try not to {D}act too proud,",
+                "s3": "{G} Yes, I th{D}ink I'm okay,{C} Walked into the d{D}oor again%{G} If you {D}ask that's what I'll say,%{C} And it's not your b{D}usiness anyway"
+            }
+        },
+        "Mondlicht": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "o": "Und ich {C}weiß, wo immer du {G}bist, dass der%{F}Mond über {C}uns ders{C}elbe {G}ist,%und vi{A}e{m}lleicht schaust du grad wie {G}ich%zu ihm {F}hoch und dann d{G}e{7}nkst du an {C}mich",
+                "r": "Und ich {C}weiß, wo immer du {G}bist, dass der%{F}Mond über {C}uns ders{C}elbe {G}ist,%und vi{A}e{m}lleicht schaust du grad wie {G}ich%zu ihm {F}hoch und dann d{G}e{7}nkst du an {C}uns",
+                "s1": "{C}Unter mir die Erde, {G}über mit der Himmel und%{A}d{m}azwischen träumt mein Herz sich fort zu {F}dir%{C}Der Nachtwind trägt meine Ge{G}danken zu den Sternen und sie%{A}k{m}reisen geisterhaft weit über {F}mir%{E}I{m}ch habe nie gelernt wie {F}all die Bilder heißen die dort%{C}oben in dem Sternenozean {G}stehn%{E}D{m}och wenn ich lang genug zu {F}diesem Wunder aufschau kann ich in%{C}jedem Bild ein Schimmer von dir {G}sehn",
+                "s2": "{C}Ich liege hier im Gras in {G}Nächten so wie diesen und ich%{A}s{m}pür wie deine Hand in meiner {F}liegt%{C}Um mich herum hör ich ein {G}Flüstern in den Wiesen das%{A}e{m}rzählt dass manche Sehnsucht nie ver{F}siegt%{E}I{m}ch habe nie gelernt wie {F}all die Bilder heißen die dort%{C}oben in dem Sternenozean {G}stehn%{E}D{m}och wenn ein heller Schweif kurz z{F}wischen ihnen aufglimmt, kann ich das%{C}leuchten deiner Augen wieder s{G}ehn"
+            }
+        },
+        "Papst und Sultan": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3"
+            ],
+            "txt": {
+                "s1": "Der {G}Papst lebt herrlich in der {C}Welt, es {D}fehlt ihm nie an Ablaß{G}geld.%//: Er trinkt vom{G} alle{D}rbesten{e} Wein,%drum möcht auch{C} ich der{D} Papst wohl{G} sein! ://%Doch {G}nein, er ist ein armer {C}Wicht!%Ein {D}holdes Mädchen küsst ihn {G}nicht.%//: Er schläft in{G} seinem{D} Bett a{e}llein,%drum möcht auch{C} ich der{D} Papst nicht{G} sein! ://",
+                "s2": "Der {G}Sultan lebt in Saus und {C}Braus, er {D}wohnt in einem Freuden{G}haus.%//: Voll wunde{G}rschöner{D} Mägd{e}elein,%drum möcht auch{C} ich der{D} Sultan{G} sein! ://%Doch {G}nein, er ist ein armer {C}Mann! Er {D}lebt nach seinem Alko{G}ran.%//: So trinkt er{G} keinen{D} Tropfen{e} Wein,%drum möcht auch{C} ich nicht{D} Sultan{G} sein! ://",
+                "s3": "Ge{G}teilt veracht ich beider {C}Glück und {D}kehr in meine Stadt zu{G}rück.%//: Doch das geh{G} ich mit{D} Freuden{e} ein,%halb Sultan{C} und halb{D} Papst zu{G} sein! ://%Drum {G}Mädchen geb mir einen {C}Kuss, denn {D}jetzt bin ich der Sulta{G}nus.%//: Ihr trauten{G} Brüder{D} schenket{e} ein,%damit auch{C} ich der{D} Papst kann{G} sein! ://"
+            }
+        },
+        "Riptide": {
+            "scheme": [
+                "s1",
+                "pc",
+                "r",
+                "s1",
+                "pc",
+                "r",
+                "b",
+                "r",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "b": "{a}I just wanna, I just wanna{G} know%{C}If you're gonna, if you're gonna st{F}a{m}y{a}{j}{7}%{a}I just gotta, I just gotta kno{G}w%{C}I can't have it, I can't have it {F}a{m}n{a}y{j} {7}other way",
+                "o": "{a}Lady,{G} running down to the{C} riptide, taken away%To the {a}dark side,{G} I wanna be your{C} left hand man%I {a}love you{G} when you're singing that{C} song, and I got a lump%In my {a}throat, 'cause{G} you're gonna sing the words{C} wrong yeah, I got a lump%In my {a}throat, 'cause{G} you're gonna sing the words{C} wrong",
+                "pc": "I {a}swear she's{G} destined for the{C} screen%{a}Closest thing to{G} Michelle Pfeiffer{C} that you've ever seen, oh",
+                "r": "{a}Lady,{G} running down to the{C} riptide, taken away%To the {a}dark side,{G} I wanna be your{C} left hand man%I {a}love you{G} when you're singing that{C} song, and I got a lump%In my {a}throat, 'cause{G} you're gonna sing the w{C}ords wrong",
+                "s1": "{a}I was scared of{G} dentists and the{C} dark%{a}I was scared of{G} pretty girls and{C} starting conversations%Oh, {a}all my fri{G}ends are turning{C} green%You're the {a}magician's {G}assistant in their{C} dreams",
+                "s2": "{a}There's this movie{G} that I think you'll{C} like%This {a}guy decides to{G} quit his job and{C} heads to New York City%This {a}cowboy's{G} running from{C} himself%And {a}she's been living{G} on the highest s{C}helf"
+            }
+        },
+        "Schlaflied": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4",
+                "s5"
+            ],
+            "txt": {
+                "s1": "Schl{C}af mein K{e}indchen, schl{a}afe {e}ein%Die N{a}acht, die sch{e}aut zum F{G}enster rein%Der r{C}unde M{e}ond der h{a}at dich g{e}erne, {a}Und es l{e}euchten d{G}ir die Sterne%schl{C}af mein kl{e}eines, tr{a}äume s{e}üss, b{a}ald bist d{e}u im P{G}aradies",
+                "s2": "D{C}enn gleich {e}öffnet s{a}ich die T{e}ür, {a}und ein M{e}onster k{G}ommt zu dir%mit s{C}einen elf {e}Augen sch{a}aut es dich {e}an%und schl{a}eicht sich {e}an dein B{G}ettchen ran%du l{C}iegst still d{e}a, bew{a}egst dich n{e}icht%das M{a}onster zerkr{e}atzt dir d{G}ein Gesicht",
+                "s3": "S{C}eine F{e}inger sind l{a}ang und d{e}ünn%w{a}ehr dich n{e}icht, 's hat k{G}einen Sinn%{C}und es k{e}ichert w{a}ie verr{e}ückt, {a}als es d{e}einen H{G}als zudrückt%du schr{C}eist, doch d{e}u bist all{a}ein zu H{e}aus%das M{a}onster st{e}icht dir die {G}Augen aus",
+                "s4": "D{C}ann bist du st{e}ill, und d{a}as ist g{e}ut%es b{a}eisst dir in d{e}en Hals und tr{G}inkt dein Blut%{C}ohne Blut b{e}ist du bl{a}eich wie Kr{e}eide%d{a}ann frisst es d{e}eine {G}Eingeweide%d{C}ein kleines B{e}ettchen vom Bl{a}ut ganz r{e}ot%die S{a}onne geht {e}auf und d{G}u bist tot...",
+                "s5": "Schl{C}af mein K{e}indchen, schl{a}af jetzt {e}ein%am H{a}immel st{e}ehn d{G}ie Sternelein%Schl{C}af mein K{e}indchen, schl{a}afe schn{e}ell%Dein B{a}ettchen {e}ist ein K{G}arussell%Schl{C}af mein K{e}indchen, schl{a}af jetzt {e}ein%Sonst k{a}ann das M{e}onster n{G}icht hinein!"
+            }
+        },
+        "Streets of London": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "s4",
+                "r"
+            ],
+            "txt": {
+                "r": "So h{F}ow can you t{e}ell me you're l{CG}ooonel{a}y%{D7}and say for you that the sun don't sh{G}ine?{G7}%L{C}et me take you b{G}y the hand%and l{a}ead you through the str{e}eets of London,%{F}I'll show you s{C}omething to m{G7}ake you change your m{C}ind",
+                "s1": "H{C}ave you seen the {G}old man in the cl{a}osed-down m{e}arket%K{F}icking up the p{C}aper with his w{d}orn-out sh{G}oes?%{C}In his eyes you s{G}ee no pride, {a}and held loosely {e}at his side%{F}Yesterday's p{C}aper telling y{G7}esterday's n{C}ews",
+                "s2": "H{C}ave you seen the {G}old girl who w{a}alks the str{e}eets of London%D{F}irt in her h{C}air and her cl{d}othes in r{G}ags?%Sh{C}e's no time for t{G}alking, she j{a}ust keeps right on w{e}alking%C{F}arrying her h{C}ome in tw{G7}o carrier b{C}ags",
+                "s3": "{C}In the all-night c{G}afe at a qu{a}arter past el{e}even%S{F}ame old m{C}an sitting th{d}ere on his {G}own%L{C}ooking at the w{G}orld over the r{a}im of his t{e}ea-cup%{F}Each tea lasts an h{C}our, and he w{G7}anders home al{C}one",
+                "s4": "H{C}ave you seen the {G}old man outs{a}ide the seaman's m{e}ission?%M{F}emory fading w{C}ith the medal r{d}ibbons that he w{G}ears%{C}In our winter c{G}ity the rain cr{a}ies a little p{e}ity%For one m{F}ore forgotten h{C}ero and a w{G7}orld that doesn't c{C}are"
+            }
+        },
+        "The Road": {
+            "scheme": [
+                "s1",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "o": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{C}ow the r{G}oad is my h{a}ome%The r{F}oad {f}is my h{C}ome",
+                "r": "It f{C}eels so good out {G}on the road and on my own%W{a}aking up no str{F}ings attached, no l{G}ooking back%From {C}ocean waves to d{G}esert skies and summer nights%I kn{a}ow the r{F}oad is my h{C}ome {F} {f}",
+                "s1": "{C}I've been kept inside s{F}o long{f}%{C}I've lost sight of right and wr{F}ong{f}%{e}When you left an open d{a}oor, I couldn't h{F}elp but expl{f}ore",
+                "s2": "{C}So I took off with no pl{F}an{f}%{C}Thinking I could find a fri{F}end{f}%{e}Saying hi and shaking h{a}ands, I hope this m{F}oment never {f}ends",
+                "s3": "{C}That's what it feels like to be fr{F}ee{f}%{C}Chasing butterflies and fl{F}oating on the br{f}eeze%{e}I got no doors, I need no k{a}eys%Another w{F}orld to be s{f}een"
+            }
+        },
+        "Viva la feria": {
+            "scheme": [
+                "r"
+            ],
+            "txt": {
+                "r": "V{a}iva la feria, viva la plaza, v{F}iva la ilusi{a}on!%V{F}iva los ceros p{a}intarrajeardos d{E}e mi comarc{a}a.%//: Vi{F}ene la canci{a}on. V{F}iva la ilusi{a}on.%V{F}iva la vida {a}y los amores d{E}e mi comarc{a}a. ://%{//:GCEaEa      ://}"
+            }
+        },
+        "Wenn ich des Morgensfrüh aufsteh'": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r",
+                "s4",
+                "r1",
+                "s5",
+                "r"
+            ],
+            "txt": {
+                "r": "//: Ich muss ein Schn{G}äpschen ham', ist das nicht fein%N{C}ur noch F{D7}euerwasser, Brantewein, nur noch Schn{G}aps ://",
+                "r1": "//: Denn erst nach Se{G}chsundsechzig Litern Brandwein%Schl{C}af ich s{D7}eelich ein selich ein schlaf ich {G}ein ://",
+                "s1": "Wenn ich m{G}orgens fr{D7}üh aufst{G}eh' - und zur {C}Arbeit g{D7}e-e-h{G}en,%Dann kocht mir m{G}eine M{D7}utti T{G}ee, von dem ich k{C}einen n{D7}e-eh-m{G}e",
+                "s2": "Und wenn ich kr{G}ank gew{D7}orden b{G}in, werd ich zum D{C}oktor l{D7}auf{G}en%der verschreibt mir {G}eine M{D7}ediz{G}in, die kann er s{C}elber s{D7}auf{G}en",
+                "s3": "Und steh ich d{G}ann vor'm Tr{D7}aualt{G}ar und alle k{C}erzen br{D7}enn{G}en%sagt meine fr{G}au schon fr{D7}eudig J{G}A!, dann fang ich {C}an zu fl{D7}enn{G}en",
+                "s4": "Wenn ich d{G}ann gest{D7}orben b{G}in, dann soll man m{C}ich begr{D7}ab{G}en%In einem F{G}ass voll Br{D7}anntew{G}ein, daran werd {C}ich mich l{D7}ab{G}en",
+                "s5": "Und steh ich d{G}ann vorm H{D7}immelst{G}or, dann wird mich P{C}etrus fr{D7}ag{G}en,%\"was willst du - Schnaps, Wein oder Bier?\" So tät ich Br{C}antwein s{D7}ag{G}en"
+            }
+        },
+        "Wir Drei Wir Gehn Jetzt Auf Die Walze": {
+            "scheme": [
+                "s1",
+                "c",
+                "s2",
+                "c",
+                "s3",
+                "c",
+                "s4",
+                "c"
+            ],
+            "txt": {
+                "c": "{G}Falscher Schritt, falscher Tritt, die {D}ganze Kompanie!%{D}Falscher Schritt, falscher Tritt, die g{D}anze Kompanie!%Bekan{C}ntlich sind die St{G}erne am {C}aller-allerschönsten aus der F{G}erne%Gute {G}Nacht, auf Wi{D}ederseh'n Mar{G}ie, {C}gute {G}Nacht, auf {D}Wiederseh'n Ma{G}rie",
+                "s1": "W{G}ir drei, wir g{C}ehn jetzt auf die W{G}alze, heijo, wohl i{D}n die weite {G}Welt%Die Tippele{C}i, ja Gott, erh{G}alt' se, weil {D}uns das W{A}andern so gef{D}ällt%Ein S{D}chuster und ein Sc{G}hneider und a{D}uch ein Stadtratss{G}chreiber%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+                "s2": "{G}Und kommen w{C}ir an einen F{G}lecken, heijo, dann f{D}ängt das Fechten{G} an%Schnell schultern {C}wir den Wanders{G}tecken und kl{D}opfen {A}an bei jederm{D}ann%Denn {D}hier steh'n drei Ver{G}bannte, drei {D}abgebaute Staatsbe{G}amte%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+                "s3": "A{G}m Rhein, am M{C}ain, und auch am Ne{G}ckar, da sieht uns {D}auch mal ein Gen{G}darm%Schnell krauchen {C}wir in einen Sc{G}hober, sonst g{D}reift er {A}uns wohl noch am {D}Arm%Denn {D}er schwor stets aufs {G}Neue, dem S{D}taate seine T{G}reue%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie",
+                "s4": "U{G}nd blüh'n am H{C}ain die wilden Schl{G}ehen, dann klopft auch {D}mal die Liebe {G}an%Für die, die {C}ungern weiterzi{G}ehen steht h{D}ie und {A}da ein Fenster {D}an%Und s{D}chlagen früh die F{G}inken, dann t{D}un wir auch mal Wi{G}nken%{D}Gute {G}Nacht, auf {D}Wiederseh'n Mar{G}ie, g{C}ute {G}Nacht, auf W{D}iederseh'n Ma{G}rie"
+            }
+        },
+        "Youre Somebody Else": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "o"
+            ],
+            "txt": {
+                "o": "{a}I saw the part of you that {F}only when you're older%You will s{C}ee too, you will s{G}ee too",
+                "r": "{a}Well you look like yourself{F}, But you're somebody {C}else%Only it ain't on the s{G}urface, {a}Well you talk like yourself{F}%No, I hear someone {C}else though, Now you're m{G}aking me nervous",
+                "s1": "{a}I saw the part of you%That {F}only when you're older you will s{C}ee too%You will s{G}ee too%{a}I held the better cards%But {F}every stroke of luck has got a bl{C}eed through%It's got a bl{G}eed through%{a}You held the balance of the t{F}ime%That only blindly I could r{C}ead you%But I could r{G}ead you%{a}It's like you told me{F}%Go forward slowly{C}%It's not a race to the {G}end",
+                "s2": "{a}You were the better part%Of {F}every bit of beating heart that {C}I had%Whatever {G}I had%{a}I finally sat alone%{F}Pitch black flesh and bone%Couldn't bel{C}ieve that you were gone{G}"
+            }
+        },
+        "Zombie": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r"
+            ],
+            "txt": {
+                "r": "In your h{e}ead, in your h{C}ead, zombie,{G} zombi{D}e, zombie%What's in your h{e}ead, in your h{C}ead, zombie,{G} zombie, zombi{D}e",
+                "s1": "{e}Another h{C}ead hangs lowly, ch{G}ild is slowly t{D}aken%{e}And the violence c{C}aused such silence, wh{G}o are we mist{D}aken %But you s{e}ee it's not me, it's not m{C}y family%In your h{G}ead, in your head, they are fight{D}ing %With their t{e}anks and their bombs and their b{C}ombs and their guns %in your h{G}ead, in your head, they are cry{D}ing",
+                "s2": "{e}Another m{C}other's breaking h{G}eart is taking {D}over%{e}When the violence c{C}auses silence, w{G}e must be mist{D}aken%It's the s{e}ame old theme since {C}1916%In your h{G}ead, in your head, they're still fight{D}ing%With their t{e}anks and their bombs and their b{C}ombs and their guns%In your h{G}ead, in your head, they're dy{D}ing"
+            }
+        },
+        "Zu Hause": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "s3",
+                "r"
+            ],
+            "txt": {
+                "r": "//: N{e}ur dein l{C}iebes Ges{G}icht, macht mich zuh{D}ause auf der W{e}elt. ://",
+                "s1": "Wir t{e}anzen mit Tarnkappen%{C}und wir geh'n trinken mit{G} falschen B{D}ärten.%Bis der H{e}immel brennt, auf dem Nachh{C}auseweg,%stehlen {G}Obst us verbotenen G{D}ärten.%Mein H{e}erz ist ein Campmobil%{C}und ich will segeln geh'n {G}und jeden Tag {D}ist alles neu.%Und {e}alles ist gut, n{C}ichts macht mir Angst%und {G}ich bin dir immer noch tr{D}eu.",
+                "s2": "Daf{e}ür bleib' ich hier und daf{C}ür komm' ich wieder%und d{G}afür könnt ihr mir {D}alle gestohlen sein.%{e} Ich hab verl{C}orenes Gep{G}äck,%es ist irgendwo, aber {D}immer noch mein - und",
+                "s3": "Ein R{e}undfunkmast funkt rund%und {C}ich hab' meinen Rak{G}etenrucksack {D}auf.%Ich m{e}uss wieder fort,%ich muss g{C}anz hoch hinauf.%Ich g{G}eb' mir viel Mühe%all{D}ein zufrieden zu s{e}ein und vielleicht sieht es so {C}aus.%Dann b{G}in ich am Ende zufr{D}ieden,%aber{e} eben nicht zuh{C}aus' - denn"
+            }
+        },
+        "Über meiner Heimat Frühling": {
+            "scheme": [
+                "s1",
+                "s2",
+                "s3",
+                "s4"
+            ],
+            "txt": {
+                "s1": "{C}Über meiner H{G}eimat Frühling s{C}eh ich Schwäne n{G}ordwärts fliegen.%{a}Ach, mein Herz möcht' s{E}ich auf grauen {a}Eismeerw{E}ogen w{a}ieg{G}en.",
+                "s2": "Schw{C}an, im Singsang d{G}einer Lieder, gr{C}üß' die grünen B{G}irkenhaine.%{a}Alle Rosen g{E}äb ich gerne, g{a}egen N{E}ordlands St{a}ein{G}e.",
+                "s3": "Gr{C}üß mir Schweden, w{G}eißer Vogel, s{C}etz an meiner St{G}att die Füße%{a}an den kalten St{E}ein der Ostsee, s{a}ag ihr m{E}eine Gr{a}üß{G}e.",
+                "s4": "Gr{C}üß das Eismeer, gr{G}üß das Nordkap, r{C}uf den Schären z{G}u, den Fjorden,%w{a}ie ein Schwan, sei m{E}eine Seele {a}auf dem W{E}eg nach N{a}orden."
+            }
         }
     }
 }

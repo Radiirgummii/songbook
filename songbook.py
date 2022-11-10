@@ -2,6 +2,36 @@ from fpdf import FPDF  # type: ignore
 import json
 from colorama import Fore, Style  # type: ignore
 from os import rename
+from time import time
+
+
+def render_verse(txt: str, renderchords: bool = True) -> str:
+    lines: list = txt.split("%")
+    splituplines: list[list[str]] = []
+    formatted: str = ""
+    for line in lines:
+        line = line.split("{")
+        splitupline: list[str] = []
+        for segment in line:
+            # if len splitupline[x] = 1 only text if len = 2 first chord then text segment
+            splitupline.append(segment.split("}"))
+        splituplines.append(splitupline)
+    for line in splituplines:
+        chordline: str = ""
+        textline: str = ""
+        for segment in line:
+            if len(segment) <= 1:
+                textline += segment[0]
+                chordline += " " * len(segment[0])
+            else:
+                chordline += segment[0] + " " * \
+                    (len(segment[1])-len(segment[0]))
+                textline += segment[1]
+        if renderchords:
+            formatted += f"{chordline}\n{textline}\n"
+        else:
+            formatted += f"{textline} "
+    return formatted
 
 
 class SONGBOOK(FPDF):
@@ -30,7 +60,7 @@ class SONGBOOK(FPDF):
         self.set_xy(10, self.pagesize*0.5)
         self.set_font("times", "", 60)
         self.cell(0, 10, "Liederbuch", 0, 0, "C")
-    
+
     def accept_page_break(self):
         pass
 
@@ -39,42 +69,15 @@ class SONGBOOK(FPDF):
         self.set_font('Arial', '', self.fontsize)
         if self.page_no() > 1:
             self.cell(0, 10, str(self.page_no()-1), 0, 0, "C")
-
-    def render_verse(txt: str, renderchords: bool = True) -> str:
-        lines: list = txt.split("%")
-        splituplines: list[list[str]] = []
-        formatted: str = ""
-        for line in lines:
-            line = line.split("{")
-            splitupline: list[str] = []
-            for segment in line:
-                splitupline.append(segment.split("}"))#if len splitupline[x] = 1 only text if len = 2 first chord then text segment
-            splituplines.append(splitupline)
-        for line in splituplines:
-            chordline: str = ""
-            textline: str = ""
-            for segment in line:
-                if len(segment) <= 1:
-                    textline += segment[0]
-                    chordline += " " * len(segment[0])
-                else:
-                    chordline += segment[0] + " " * \
-                        (len(segment[1])-len(segment[0]))
-                    textline += segment[1]
-            if renderchords:
-                formatted += f"{chordline}\n{textline}\n"
-            else:
-                formatted += f"{textline} "
-        return formatted
-
+        self.set_font("Courier", "", self.fontsize)
 
     def add_song(self, title):
         global pagenumbers, img, noimg, rimg, form
 
         # add page if song has 2 pages so you would have to scroll
         h = 18
-        for i in self.data[title]["scheme"]:
-            h += (self.data[title]["txt"][i].count("%")+1)*5.75+4
+        for i in self.data["songs"][title]["scheme"]:
+            h += (self.data["songs"][title]["txt"][i].count("%")+1)*5.75+4
         if h > 188 and self.page_no() % 2 == 0 and self.form != "A6":
             self.customfooter()
             self.add_page()
@@ -84,7 +87,7 @@ class SONGBOOK(FPDF):
                     self.img += 1
                 except:
                     self.noimg = True
-        # add Titl
+        # add Titel
         self.customfooter()
         self.add_page()
         self.set_font("times", "b", self.fontsize * 1.2)
@@ -95,22 +98,22 @@ class SONGBOOK(FPDF):
         a = {title: self.page_no()-1}
         self.pagenumbers.update(a)
         h = self.fontsize * 0.9
-        for i in self.data[title]["scheme"]:
-            if self.get_y() + (self.data[title]["txt"][i].count("%") * self.fontsize * 0.65) >= 190 and self.renderchords:
+        for i in self.data["songs"][title]["scheme"]:
+            if self.get_y() + (self.data["songs"][title]["txt"][i].count("%") * self.fontsize * 0.65) >= 190 and self.renderchords:
                 self.customfooter()
                 self.add_page()
-                h = self.data[title]["txt"][i].count(
+                h = self.data["songs"][title]["txt"][i].count(
                     "%") * self.fontsize * 0.6 + self.fontsize * 0.55
-            elif self.get_y() + (len(self.multi_cell(0, 10, self.data[title]['txt'][i], 0, 'J', 0, True)) * self.fontsize * 0.35) > 130 and not self.renderchords:
+            elif self.get_y() + (len(self.multi_cell(0, 10, self.data["songs"][title]['txt'][i], 0, 'J', 0, True)) * self.fontsize * 0.35) > 130 and not self.renderchords:
                 self.customfooter()
                 self.add_page()
-
-            self.render_verse(self.data[title]["txt"][i], self.renderchords)
-            self.multi_cell(0, self.fontsize*0.33, self.render_verse(self.data[title]["txt"][i], self.renderchords))
+            self.multi_cell(
+                0, self.fontsize*0.33, render_verse(self.data["songs"][title]["txt"][i], renderchords=self.renderchords))
             self.ln(self.sbv)
         print(f'sucsessfully added song "{title}" on page {self.page_no()-1}')
 
     def create_index(self):
+        self.customfooter()
         self.add_page()
         self.set_font("times", "b", self.fontsize * 1.2)
         self.cell(40, self.fontsize, "Index")
@@ -128,7 +131,6 @@ class SONGBOOK(FPDF):
     def output(self, name='songbook.pdf', dest='F'):
         self.create_index()
 
-        
         super().output(name, dest)
         if self.noimg:
             print(
@@ -136,7 +138,7 @@ class SONGBOOK(FPDF):
             print('successfully outputted songbook as "songbook.pdf"')
 
 
-def import_song(inputfile: str = "tmp", output_file: str = "tmp.json"):
+def import_song(inputfile: str = "tmp", title=""):
     with open(inputfile, 'r') as file:
         lines: list = file.readlines()
         txt: dict = {}
@@ -164,37 +166,38 @@ def import_song(inputfile: str = "tmp", output_file: str = "tmp.json"):
 
                 song["txt"][g] += h[i+1][:c[0][0]]
                 for line in range(len(c)):
-                    song["txt"][g] += h[i+1][c[line - 1][0]:c[line][0]] + "{" + c[line][1] + "}"
-                song["txt"][g] += h[i+1][c[-1][0]:] + "\n"
+                    song["txt"][g] += h[i+1][c[line - 1][0]
+                        :c[line][0]] + "{" + c[line][1] + "}"
+                song["txt"][g] += h[i+1][c[-1][0]:] + "%"
         for i in song["scheme"]:
             if i in song["txt"].keys():
                 print(f"{Fore.GREEN}✓ checked {i}{Style.RESET_ALL}")
-        rename("tmp.json", "tmp.json.old")
-        with open("songs.json","r") as f:
+        with open("songs.json", "r") as f:
             data = json.load(f)
         if title in data.keys():
             if "y" == input(f"are you sure you want to repace {title} in songs.json [y/N]"):
-                data[title] = song
+                data["songs"][title] = song
             else:
                 exit()
+        else:
+            data["songs"][title] = song
+        rename("songs.json", f"backup/songs_old_{time()}.json")
         with open("songs.json", "a") as file:
-            json.dump(song, file, sort_keys=True)
+            json.dump(data, file, sort_keys=True, ensure_ascii=False, indent=4)
+
 
 def edit_song(song: dict):
-    formatted:str = ""
+    formatted: str = ""
     for verse in song["scheme"]:
         formatted += f"+{verse}\n"
     for verse, txt in song["txt"].items():
-        formatted +=f"#{verse}\n"
-        formatted += SONGBOOK.render_verse(txt=txt)
-    with open("tmp_edit","w") as f:
+        formatted += f"#{verse}\n"
+        formatted += render_verse(txt=txt)
+    with open("tmp_edit", "w") as f:
         f.write(formatted)
     input("please edit the file tmp_edit to your liking and press enter")
     import_song("tmp_edit")
+
+
 def remove_song():
     pass
-
-if __name__ == "__main__":
-    with open("songs.json","r") as file:
-        data = json.load(file)
-    edit_song(data["An Land"])

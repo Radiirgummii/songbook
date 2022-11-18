@@ -146,8 +146,6 @@ def import_song(inputfile: str = "tmp", title=""):
         is_verse: bool = False
         song: dict = {"scheme": [], "txt": {}}
         for i, line in enumerate(lines):
-            if line[0] == "&":
-                title: str = line .replace("&", "").replace("\n", "")
             if line[0] == "+":
                 song["scheme"] += [line .replace("+", "").replace("\n", "")]
             if is_verse is True and line[0] != "#":

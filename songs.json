@@ -625,6 +625,23 @@
                 "s2": "{C}Ich liege hier im Gras in {G}Nächten so wie diesen und ich%{A}s{m}pür wie deine Hand in meiner {F}liegt%{C}Um mich herum hör ich ein {G}Flüstern in den Wiesen das%{A}e{m}rzählt dass manche Sehnsucht nie ver{F}siegt%{E}I{m}ch habe nie gelernt wie {F}all die Bilder heißen die dort%{C}oben in dem Sternenozean {G}stehn%{E}D{m}och wenn ein heller Schweif kurz z{F}wischen ihnen aufglimmt, kann ich das%{C}leuchten deiner Augen wieder s{G}ehn"
             }
         },
+        "Nebelfee": {
+            "scheme": [
+                "s1",
+                "r",
+                "s2",
+                "r",
+                "b",
+                "o"
+            ],
+            "txt": {
+                "b": "{d}Und wenn das Meer sich dann aufb{G}äumt%{G}Und sich ein Sturm entfacht dort o{d}ben%{d}Wenn die Gischt auf Kämmen schä{G}umt%{G}Und dann vor mir die Wellen to{d}ben%{d}Steh' ich manchmal glücklich {G}da%{G}Und spür' die Kraft der See in{a} mir%{a}Und weiß, wie stark sie ist und {B}war%{B}Meine Melancholiebe zu dir%",
+                "c": "{F}Du hast…%Hast mir gezeigt, wie auf den D{C}ünen hier ein Tag am Meer {F}beginnt%Warum die Worte See und S{a}eele sich so ähnlich {F}sind%Du warst die Schönheit meines N{C}ordens und manchmal tut es w{F}eh%Leb' wohl meine N{C}ebelfee%",
+                "o": "{F} Du hast…%Hast mir {a}gezeigt, wie ich {C}Gefühle weiter Freiheit in mir {C}find'%{C}Warum die {F}Worte See und S{a}ehnsucht {C}sich so ähnlich sind%{a}All die Schönheiten des N{C}ordens, die ich jetzt durch dich versteh'%{F}Hab' Dank meine Nebelfee%",
+                "s1": "N{a}ebel liegt {C}auf dem Meer%{F}Märchenhaft, W{C}underlich%{a}Ein Boot treibt einsam {C}hin und her%{F}Ich denk' an dich, ich d{C}enk' an dich%{a}Weiß, dass ich {G}dich hier immer{F} find',%weiß hier noch, {C}wie dein Lachen k{a}lingt%Hör' deine S{G}timme hier i{F}m Wind, wie sie s{C}ingt%",
+                "s2": "{a}Sitze hier am {C}Nordseestrand%{F}Schau' aufs Meer, {C}wie im Bann%{a}Durch meine Finger {C}rinnt der Sand%{F}Erinn're mich, so {C}gut ich kann%{a}Weiß ich, hier {C}bin ich dir noch{F} nah, weiß dass der%{C}Nebel, der hier f{a}ällt%Ein Teil von d{C}einer Liebe wa{F}r und sie noch in {C}sich hält%"
+            }
+        },
         "Papst und Sultan": {
             "scheme": [
                 "s1",

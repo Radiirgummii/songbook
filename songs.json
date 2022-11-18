@@ -106,9 +106,35 @@
             "Zombie",
             "Zu Hause"
         ],
+        "temp": [
+            "And're, die das Land",
+            "An Land",
+            "Augen auf und Durch",
+            "Braune Pfeifen",
+            "Country Roads",
+            "Ein Hotdog unten am Hafen",
+            "Ein Lied Das Nicht Vergisst",
+            "Hauch mich mal an",
+            "Haut Mir Kein Stein",
+            "Hotel California",
+            "Ich Und Ein Fass Voller Wein",
+            "Küstenkind",
+            "Lemon Tree",
+            "Lord of the Dance",
+            "Luka",
+            "Mondlicht",
+            "Schlaflied",
+            "Streets of London",
+            "The Road",
+            "Viva la feria",
+            "Wenn ich des Morgensfrüh aufsteh'",
+            "Zombie",
+            "Zu Hause"
+        ],
         "testing": [
             "Riptide",
-            "Wir Drei Wir Gehn Jetzt Auf Die Walze"
+            "Wir Drei Wir Gehn Jetzt Auf Die Walze",
+            "Tochter Der Weiten"
         ]
     },
     "songs": {
@@ -709,6 +735,23 @@
                 "s1": "{C}I've been kept inside s{F}o long{f}%{C}I've lost sight of right and wr{F}ong{f}%{e}When you left an open d{a}oor, I couldn't h{F}elp but expl{f}ore",
                 "s2": "{C}So I took off with no pl{F}an{f}%{C}Thinking I could find a fri{F}end{f}%{e}Saying hi and shaking h{a}ands, I hope this m{F}oment never {f}ends",
                 "s3": "{C}That's what it feels like to be fr{F}ee{f}%{C}Chasing butterflies and fl{F}oating on the br{f}eeze%{e}I got no doors, I need no k{a}eys%Another w{F}orld to be s{f}een"
+            }
+        },
+        "Tochter Der Weiten": {
+            "scheme": [
+                "s1",
+                "c",
+                "s2",
+                "c",
+                "s3",
+                "o"
+            ],
+            "txt": {
+                "c": "{C}Wind, {G}Wind, {A}W{m}ind%Auf den {G}tosenden Tiefen der {F}See%{A}T{m}anzt {G}ein {C}Kind%Eine {G}Tochter der Weiten%Von {F}Sturm und Gezeiten%Ein Wesen so {G}schön wie der {C}Schnee%",
+                "o": "{C}Wind, {G}Wind, {A}W{m}ind%Auf den {G}tosenden Tiefen der {F}See%{A}T{m}anzt {G}ein {C}Kind%Eine {G}Tochter der Weiten%Von {F}Sturm und Gezeiten%Ein Wesen so {G}schön wie der%{C}Wind, {G}Wind, {A}W{m}ind%Auf den {G}tosenden Tiefen der {F}See%{A}T{m}anzt {G}ein {C}Kind%Eine {G}Tochter der Weiten%Von {F}Sturm und Gezeiten%Ein Wesen so schön und so rein und so {G}kalt wie der {C}Schnee%",
+                "s1": "{F}Lausche den Weiten der {G}Meere%Im Dunkeln der T{A}i{m}efen%Am Grunde der{E} {m}See%{F}Flüstert ein Wesen der {G}Leere%Singt Weisen und {A}V{m}erse von Fern- und Heim{E}w{m}eh%{F}Lausch, ihre Stimme trägt {G}Lieder%Im Wind, über {A}W{m}ellen, und an manches {E}O{m}hr%{F}Klingt in den Brandungen {G}wieder%Und lockt mit der {A}F{m}reiheit die Mancher ver{E}l{m}or%Und {F}wenn sich all die {G}Himmel dann verf{A}i{m}nstern, steigt sie {E}l{m}achend empor%{F}Tanzt im Rausch des {G}Sturmes%So schön und {A}s{m}chrecklich, dass manchem das {E}B{m}lute gefror. Und sie singt%",
+                "s2": "{F}Sieh in der Gischt ihre {G}Hände%Sie greifen nach {A}d{m}enen, die wag'mutig sind{E}{m}%{F}Jene hinab gar zu {G}ziehen%Ins Reich der Er{A}t{m}runknen%Zum Tanze mit {E}W{m}asser und Wind%{F}sieh wen sie mit sich reißt {G}nimmt sie für immer ins {A}D{m}unkeln, ins nachtschwarze {E}M{m}eer%{F}Dort in den Kreissaal der {G}Träumer, Verdammten und {A}R{m}euen ohne Wieder{E}k{m}ehr%Und {F}wenn sich all die {G}Himmel wieder {A}k{m}lären, dann steigt sie {E}l{m}achend hinab%{F}Tanzt dort mit den {G}Seelen der {A}V{m}erlornen, tanzt im {E}S{m}eemannsgrab. Und sie singt%",
+                "s3": "Ihr {F}Anblick, tief und {G}tobend%still, ge{A}w{m}altig, gefährlich und {E}s{m}o wunderschön%Ver{F}heißend und {G}bedrohlich, und {A}b{m}egehrlich, wer kann da schon {E}n{m}och widerstehen. Wenn sie singt%"
             }
         },
         "Viva la feria": {

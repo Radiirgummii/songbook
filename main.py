@@ -58,7 +58,7 @@ def index_menu():
 def generate_songbook_menu() -> None:
     with open("songs.json", 'r') as f:
         data = json.load(f)
-        songbook = SONGBOOK(form="A5", index="all",
+        songbook = SONGBOOK(form="A5", index="testing",
                             fontsize=9, renderimg=False, data=data)
         songbook.build_songbook()
         songbook.output('songbook.pdf', 'F')
